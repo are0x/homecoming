@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2793FB03155D62780028EF15 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2793FB02155D62780028EF15 /* Cocoa.framework */; };
+		2793FB0D155D62780028EF15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2793FB0B155D62780028EF15 /* InfoPlist.strings */; };
+		2793FB0F155D62780028EF15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2793FB0E155D62780028EF15 /* main.m */; };
+		2793FB13155D62780028EF15 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2793FB11155D62780028EF15 /* Credits.rtf */; };
+		2793FB16155D62780028EF15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2793FB15155D62780028EF15 /* AppDelegate.m */; };
+		2793FB19155D62790028EF15 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2793FB17155D62790028EF15 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2793FAFE155D62780028EF15 /* HomeComing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeComing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2793FB02155D62780028EF15 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2793FB05155D62780028EF15 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2793FB06155D62780028EF15 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2793FB07155D62780028EF15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2793FB0A155D62780028EF15 /* HomeComing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeComing-Info.plist"; sourceTree = "<group>"; };
+		2793FB0C155D62780028EF15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2793FB0E155D62780028EF15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2793FB10155D62780028EF15 /* HomeComing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeComing-Prefix.pch"; sourceTree = "<group>"; };
+		2793FB12155D62780028EF15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2793FB14155D62780028EF15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2793FB15155D62780028EF15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2793FB18155D62790028EF15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2793FAFB155D62780028EF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2793FB03155D62780028EF15 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2793FAF3155D62780028EF15 = {
+			isa = PBXGroup;
+			children = (
+				2793FB08155D62780028EF15 /* HomeComing */,
+				2793FB01155D62780028EF15 /* Frameworks */,
+				2793FAFF155D62780028EF15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2793FAFF155D62780028EF15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2793FAFE155D62780028EF15 /* HomeComing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2793FB01155D62780028EF15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2793FB02155D62780028EF15 /* Cocoa.framework */,
+				2793FB04155D62780028EF15 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2793FB04155D62780028EF15 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2793FB05155D62780028EF15 /* AppKit.framework */,
+				2793FB06155D62780028EF15 /* CoreData.framework */,
+				2793FB07155D62780028EF15 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2793FB08155D62780028EF15 /* HomeComing */ = {
+			isa = PBXGroup;
+			children = (
+				2793FB14155D62780028EF15 /* AppDelegate.h */,
+				2793FB15155D62780028EF15 /* AppDelegate.m */,
+				2793FB17155D62790028EF15 /* MainMenu.xib */,
+				2793FB09155D62780028EF15 /* Supporting Files */,
+			);
+			path = HomeComing;
+			sourceTree = "<group>";
+		};
+		2793FB09155D62780028EF15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2793FB0A155D62780028EF15 /* HomeComing-Info.plist */,
+				2793FB0B155D62780028EF15 /* InfoPlist.strings */,
+				2793FB0E155D62780028EF15 /* main.m */,
+				2793FB10155D62780028EF15 /* HomeComing-Prefix.pch */,
+				2793FB11155D62780028EF15 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2793FAFD155D62780028EF15 /* HomeComing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2793FB1C155D62790028EF15 /* Build configuration list for PBXNativeTarget "HomeComing" */;
+			buildPhases = (
+				2793FAFA155D62780028EF15 /* Sources */,
+				2793FAFB155D62780028EF15 /* Frameworks */,
+				2793FAFC155D62780028EF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeComing;
+			productName = HomeComing;
+			productReference = 2793FAFE155D62780028EF15 /* HomeComing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2793FAF5155D62780028EF15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2793FAF8155D62780028EF15 /* Build configuration list for PBXProject "HomeComing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2793FAF3155D62780028EF15;
+			productRefGroup = 2793FAFF155D62780028EF15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2793FAFD155D62780028EF15 /* HomeComing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2793FAFC155D62780028EF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2793FB0D155D62780028EF15 /* InfoPlist.strings in Resources */,
+				2793FB13155D62780028EF15 /* Credits.rtf in Resources */,
+				2793FB19155D62790028EF15 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2793FAFA155D62780028EF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2793FB0F155D62780028EF15 /* main.m in Sources */,
+				2793FB16155D62780028EF15 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2793FB0B155D62780028EF15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2793FB0C155D62780028EF15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2793FB11155D62780028EF15 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2793FB12155D62780028EF15 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2793FB17155D62790028EF15 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2793FB18155D62790028EF15 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2793FB1A155D62790028EF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2793FB1B155D62790028EF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2793FB1D155D62790028EF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeComing/HomeComing-Prefix.pch";
+				INFOPLIST_FILE = "HomeComing/HomeComing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2793FB1E155D62790028EF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeComing/HomeComing-Prefix.pch";
+				INFOPLIST_FILE = "HomeComing/HomeComing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2793FAF8155D62780028EF15 /* Build configuration list for PBXProject "HomeComing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2793FB1A155D62790028EF15 /* Debug */,
+				2793FB1B155D62790028EF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2793FB1C155D62790028EF15 /* Build configuration list for PBXNativeTarget "HomeComing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2793FB1D155D62790028EF15 /* Debug */,
+				2793FB1E155D62790028EF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2793FAF5155D62780028EF15 /* Project object */;
+}
