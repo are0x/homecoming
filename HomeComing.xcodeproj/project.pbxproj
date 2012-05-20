@@ -13,6 +13,7 @@
 		2793FB13155D62780028EF15 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2793FB11155D62780028EF15 /* Credits.rtf */; };
 		2793FB16155D62780028EF15 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2793FB15155D62780028EF15 /* AppDelegate.mm */; };
 		2793FB19155D62790028EF15 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2793FB17155D62790028EF15 /* MainMenu.xib */; };
+		27C1967F156931AA003C4D5F /* CommandMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C1967E156931AA003C4D5F /* CommandMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,11 @@
 		2793FB14155D62780028EF15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2793FB15155D62780028EF15 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		2793FB18155D62790028EF15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		27C1967E156931AA003C4D5F /* CommandMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommandMenu.xib; sourceTree = "<group>"; };
+		27C1968515693A4B003C4D5F /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		27C1968615693A58003C4D5F /* System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System.h; sourceTree = "<group>"; };
+		27C1968915693B71003C4D5F /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		27C1968A15693BB0003C4D5F /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,13 @@
 			isa = PBXGroup;
 			children = (
 				2793FB14155D62780028EF15 /* AppDelegate.h */,
+				27C1968615693A58003C4D5F /* System.h */,
+				27C1968515693A4B003C4D5F /* Hero.h */,
 				2793FB15155D62780028EF15 /* AppDelegate.mm */,
 				2793FB17155D62790028EF15 /* MainMenu.xib */,
+				27C1967E156931AA003C4D5F /* CommandMenu.xib */,
+				27C1968915693B71003C4D5F /* Action.h */,
+				27C1968A15693BB0003C4D5F /* Utility.h */,
 				2793FB09155D62780028EF15 /* Supporting Files */,
 			);
 			path = HomeComing;
@@ -155,6 +166,7 @@
 				2793FB0D155D62780028EF15 /* InfoPlist.strings in Resources */,
 				2793FB13155D62780028EF15 /* Credits.rtf in Resources */,
 				2793FB19155D62790028EF15 /* MainMenu.xib in Resources */,
+				27C1967F156931AA003C4D5F /* CommandMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
