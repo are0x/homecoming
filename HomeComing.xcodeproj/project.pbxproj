@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		2793FB03155D62780028EF15 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2793FB02155D62780028EF15 /* Cocoa.framework */; };
 		2793FB0D155D62780028EF15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2793FB0B155D62780028EF15 /* InfoPlist.strings */; };
-		2793FB0F155D62780028EF15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2793FB0E155D62780028EF15 /* main.m */; };
+		2793FB0F155D62780028EF15 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2793FB0E155D62780028EF15 /* main.mm */; };
 		2793FB13155D62780028EF15 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2793FB11155D62780028EF15 /* Credits.rtf */; };
-		2793FB16155D62780028EF15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2793FB15155D62780028EF15 /* AppDelegate.m */; };
+		2793FB16155D62780028EF15 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2793FB15155D62780028EF15 /* AppDelegate.mm */; };
 		2793FB19155D62790028EF15 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2793FB17155D62790028EF15 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +23,11 @@
 		2793FB07155D62780028EF15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2793FB0A155D62780028EF15 /* HomeComing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeComing-Info.plist"; sourceTree = "<group>"; };
 		2793FB0C155D62780028EF15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2793FB0E155D62780028EF15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2793FB0E155D62780028EF15 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		2793FB10155D62780028EF15 /* HomeComing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeComing-Prefix.pch"; sourceTree = "<group>"; };
 		2793FB12155D62780028EF15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2793FB14155D62780028EF15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2793FB15155D62780028EF15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2793FB15155D62780028EF15 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		2793FB18155D62790028EF15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				2793FB14155D62780028EF15 /* AppDelegate.h */,
-				2793FB15155D62780028EF15 /* AppDelegate.m */,
+				2793FB15155D62780028EF15 /* AppDelegate.mm */,
 				2793FB17155D62790028EF15 /* MainMenu.xib */,
 				2793FB09155D62780028EF15 /* Supporting Files */,
 			);
@@ -95,7 +95,7 @@
 			children = (
 				2793FB0A155D62780028EF15 /* HomeComing-Info.plist */,
 				2793FB0B155D62780028EF15 /* InfoPlist.strings */,
-				2793FB0E155D62780028EF15 /* main.m */,
+				2793FB0E155D62780028EF15 /* main.mm */,
 				2793FB10155D62780028EF15 /* HomeComing-Prefix.pch */,
 				2793FB11155D62780028EF15 /* Credits.rtf */,
 			);
@@ -165,8 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2793FB0F155D62780028EF15 /* main.m in Sources */,
-				2793FB16155D62780028EF15 /* AppDelegate.m in Sources */,
+				2793FB0F155D62780028EF15 /* main.mm in Sources */,
+				2793FB16155D62780028EF15 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +286,7 @@
 				2793FB1E155D62790028EF15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
