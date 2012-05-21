@@ -7,7 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Game.h"
+#import <cstdlib>
+#import "CommandMenuController.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@class CommandMenuController;
+
+@interface AppDelegate : NSObject <NSApplicationDelegate>{
+  Game *game;
+  CommandMenuController *command_menu_controller;
+}
 
 @end

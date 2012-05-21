@@ -12,12 +12,17 @@
 
 - (void)dealloc
 {
-    [super dealloc];
+  [super dealloc];
+  delete game;
 }
 	
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
   // Insert code here to initialize your application
+  srand((unsigned int)time(NULL));
+  game = new Game();
+  command_menu_controller	= [[command_menu_controller alloc] initWithDelegate:self];
+  [command_menu_controller showWindow:self];
 }
 
 @end
