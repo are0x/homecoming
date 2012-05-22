@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27907275156B7AAC00AE1D83 /* LowerGradesOfElementary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27907274156B7AAC00AE1D83 /* LowerGradesOfElementary.cpp */; };
+		2790727C156B873B00AE1D83 /* ActionTableData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2790727B156B873B00AE1D83 /* ActionTableData.mm */; };
+		27907283156B8FEC00AE1D83 /* HeroineTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 27907282156B8FEC00AE1D83 /* HeroineTableData.m */; };
 		2793FB03155D62780028EF15 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2793FB02155D62780028EF15 /* Cocoa.framework */; };
 		2793FB0D155D62780028EF15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2793FB0B155D62780028EF15 /* InfoPlist.strings */; };
 		2793FB0F155D62780028EF15 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2793FB0E155D62780028EF15 /* main.mm */; };
@@ -19,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27907272156B7A2900AE1D83 /* LowerGradesOfElementary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowerGradesOfElementary.h; sourceTree = "<group>"; };
+		27907274156B7AAC00AE1D83 /* LowerGradesOfElementary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LowerGradesOfElementary.cpp; sourceTree = "<group>"; };
+		2790727A156B873A00AE1D83 /* ActionTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionTableData.h; sourceTree = "<group>"; };
+		2790727B156B873B00AE1D83 /* ActionTableData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ActionTableData.mm; sourceTree = "<group>"; };
+		27907281156B8FEB00AE1D83 /* HeroineTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; path = HeroineTableData.h; sourceTree = "<group>"; };
+		27907282156B8FEC00AE1D83 /* HeroineTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroineTableData.m; sourceTree = "<group>"; };
 		2793FAFE155D62780028EF15 /* HomeComing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeComing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2793FB02155D62780028EF15 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2793FB05155D62780028EF15 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -43,7 +52,7 @@
 		27C19693156A3B55003C4D5F /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		27C9A843156A78B90081E9D3 /* CommandMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandMenuController.h; sourceTree = "<group>"; };
 		27C9A844156A78B90081E9D3 /* CommandMenuController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CommandMenuController.mm; sourceTree = "<group>"; };
-		27C9A84E156A7E5D0081E9D3 /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		27C9A84E156A7E5D0081E9D3 /* GameStateAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateAge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +110,18 @@
 				27C1968615693A58003C4D5F /* System.h */,
 				27C1968515693A4B003C4D5F /* Hero.h */,
 				2793FB15155D62780028EF15 /* AppDelegate.mm */,
-				27C9A84E156A7E5D0081E9D3 /* GameState.h */,
+				27C9A84E156A7E5D0081E9D3 /* GameStateAge.h */,
+				27907272156B7A2900AE1D83 /* LowerGradesOfElementary.h */,
+				27907274156B7AAC00AE1D83 /* LowerGradesOfElementary.cpp */,
 				27C19691156A34F5003C4D5F /* Game.h */,
 				27C19693156A3B55003C4D5F /* Game.cpp */,
 				27C1968F156A3372003C4D5F /* Heroine.h */,
 				27C19692156A37C1003C4D5F /* School.h */,
 				27C9A843156A78B90081E9D3 /* CommandMenuController.h */,
+				2790727A156B873A00AE1D83 /* ActionTableData.h */,
+				27907281156B8FEB00AE1D83 /* HeroineTableData.h */,
+				27907282156B8FEC00AE1D83 /* HeroineTableData.m */,
+				2790727B156B873B00AE1D83 /* ActionTableData.mm */,
 				27C9A844156A78B90081E9D3 /* CommandMenuController.mm */,
 				2793FB17155D62790028EF15 /* MainMenu.xib */,
 				27C1967E156931AA003C4D5F /* CommandMenu.xib */,
@@ -197,6 +212,9 @@
 				2793FB16155D62780028EF15 /* AppDelegate.mm in Sources */,
 				27C19694156A3B55003C4D5F /* Game.cpp in Sources */,
 				27C9A845156A78B90081E9D3 /* CommandMenuController.mm in Sources */,
+				27907275156B7AAC00AE1D83 /* LowerGradesOfElementary.cpp in Sources */,
+				2790727C156B873B00AE1D83 /* ActionTableData.mm in Sources */,
+				27907283156B8FEC00AE1D83 /* HeroineTableData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ Game::Game()
   InitHero();
   //ヒロイン生成
   GenerateHeroines();
-  //
+  
 }
 
 Game::~Game()

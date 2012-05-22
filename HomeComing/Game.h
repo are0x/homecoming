@@ -8,6 +8,7 @@
 
 #include "Hero.h"
 #include "Heroine.h"
+#include "LowerGradesOfElementary.h"
 #include <vector>
 
 #ifndef HomeComing_Game_h
@@ -20,6 +21,7 @@ public:
   std::vector<Hero> past_heroes;
   std::vector<Heroine> past_heroines;
   Hero cur_hero;
+  GameStateAge age_of_state;
   std::vector<Heroine> cur_heroines;
   Heroine steady;
   

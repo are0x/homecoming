@@ -17,6 +17,8 @@ public:
   int visual,intel,property,human;
   int actpow,lifepow,mindpow,technicpow,luck;
   int fatalpow;
+  int talent_visual,talent_intel,talent_property,talent_luck;
+  int talent_lifepow,talent_technicpow;
   std::string name;
 };
 
