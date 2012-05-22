@@ -26,7 +26,7 @@
 		27907274156B7AAC00AE1D83 /* LowerGradesOfElementary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LowerGradesOfElementary.cpp; sourceTree = "<group>"; };
 		2790727A156B873A00AE1D83 /* ActionTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionTableData.h; sourceTree = "<group>"; };
 		2790727B156B873B00AE1D83 /* ActionTableData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ActionTableData.mm; sourceTree = "<group>"; };
-		27907281156B8FEB00AE1D83 /* HeroineTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; path = HeroineTableData.h; sourceTree = "<group>"; };
+		27907281156B8FEB00AE1D83 /* HeroineTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroineTableData.h; sourceTree = "<group>"; };
 		27907282156B8FEC00AE1D83 /* HeroineTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroineTableData.m; sourceTree = "<group>"; };
 		2793FAFE155D62780028EF15 /* HomeComing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeComing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2793FB02155D62780028EF15 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -257,6 +257,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -283,6 +284,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;

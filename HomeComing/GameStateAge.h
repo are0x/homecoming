@@ -17,10 +17,11 @@ class Action;
 class GameStateAge
 {
 public:
-  virtual void SetUp();
-  virtual GameStateAge NextAge();
-  virtual std::vector<Heroine> GenerateEnableHeroine();
-  virtual std::vector<Action> GenerateEnableAction();
+  GameStateAge(){}
+  virtual void SetUp() = 0;
+  virtual GameStateAge *NextAge() = 0;
+  virtual std::vector<Heroine> GenerateEnableHeroine() = 0;
+  virtual std::vector<Action> GenerateEnableAction() = 0;
 };
 
 #endif

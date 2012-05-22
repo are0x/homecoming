@@ -11,7 +11,7 @@
 
 @interface HeroineTableData : NSObject{
   Heroine data;
-  NSString display_name;
+  NSString *display_name;
 };
 @property (retain) NSString *display_name;
 -(id)initWithHeroine:(Heroine)heroine;

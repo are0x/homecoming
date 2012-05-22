@@ -20,7 +20,7 @@ Game::Game()
   //ヒロイン生成
   GenerateHeroines();
   //最初は小学校
-  age_of_state = LowerGradesOfElementary();
+  age_of_state = new LowerGradesOfElementary();
 }
 
 Game::~Game()
@@ -62,12 +62,12 @@ void Game::GenerateHeroines()
 }
 vector<Heroine> Game::GenerateEnableHeroine()
 {
- return age_of_state.GenerateEnableHeroine();
+ return age_of_state->GenerateEnableHeroine();
 }
 vector<Action> Game::GenerateEnableAction()
 {
- return age_of_state.GenerateEnableAction(); 
+ return age_of_state->GenerateEnableAction(); 
 }
 void Game::NextState(){
-  age_of_state = age_of_state.NextAge();
+  age_of_state = age_of_state->NextAge();
 }
