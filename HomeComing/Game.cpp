@@ -9,6 +9,7 @@
 #include <iostream>
 #include "Game.h"
 #include <cstdlib>
+#include <vector>
 
 using namespace std;
 
@@ -59,13 +60,13 @@ void Game::GenerateHeroines()
     else t.appearOK = false;
   }
 }
-vector<Heroine> GenerateEnableHeroines()
+vector<Heroine> Game::GenerateEnableHeroine()
 {
-  
+ return age_of_state.GenerateEnableHeroine();
 }
-vector<Action> GenerateEnableAction()
+vector<Action> Game::GenerateEnableAction()
 {
-  
+ return age_of_state.GenerateEnableAction(); 
 }
 void Game::NextState(){
   age_of_state = age_of_state.NextAge();
