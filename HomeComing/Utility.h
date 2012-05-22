@@ -7,6 +7,8 @@
 //
 
 #include <string>
+#include <fstream>
+#include <vector>
 
 #ifndef HomeComing_Utility_h
 #define HomeComing_Utility_h
@@ -22,6 +24,14 @@ static std::string NSStringToString(NSString *str){
 
 static NSString * StringToNSString(std::string str){
   return [[[NSString alloc] initWithCString:str.c_str() encoding:NSUTF8StringEncoding] autorelease];
+}
+
+static std::vector<std::string> loadNameDictionary(const char* path) {
+  std::ifstream ifs(path);
+  std::vector<std::string> res;
+  std::string s;
+  while(getline(ifs, s)) res.push_back(s);
+  return res;
 }
 
 #endif
