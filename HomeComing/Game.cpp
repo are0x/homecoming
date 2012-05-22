@@ -24,21 +24,13 @@ Game::~Game()
 }
 void Game::InitHero(){
   cur_hero.human = rand()%100+1;
-  
   cur_hero.intel = rand()%10+1;
-  
   cur_hero.property = rand()%100+1;
-  
   cur_hero.visual = rand()%10+1;
-  
   cur_hero.actpow = rand()%10+1;
-  
   cur_hero.luck = rand()%100+1;
-  
   cur_hero.lifepow = rand()%10+1;
-  
   cur_hero.technicpow = rand()%10+1;
-  
   cur_hero.fatalpow = 50 + cur_hero.luck/10-5;
 }
 void Game::GenerateHeroines()
