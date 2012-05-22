@@ -12,3 +12,7 @@
 void LowerGradesOfElementary::SetUp(){
   
 }
+GameStateAge LowerGradesOfElementary::NextAge(){
+  GameStateAge ret;
+  return ret;
+}

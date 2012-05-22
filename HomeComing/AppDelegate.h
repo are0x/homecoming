@@ -17,5 +17,8 @@
   Game *game;
   CommandMenuController *command_menu_controller;
 }
-
+-(void)NextState;
+-(void)CalcExecution;
+-(void)RunExecution;
+-(void)DisplayResultEnd;
 @end

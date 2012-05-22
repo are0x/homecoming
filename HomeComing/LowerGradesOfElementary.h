@@ -14,6 +14,7 @@
 class LowerGradesOfElementary : public GameStateAge{
 public:
   void SetUp();
+  GameStateAge NextAge();
 };
 
 

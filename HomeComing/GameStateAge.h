@@ -13,6 +13,7 @@ class GameStateAge
 {
 public:
   virtual void SetUp();
+  virtual GameStateAge NextAge();
 };
 
 #endif

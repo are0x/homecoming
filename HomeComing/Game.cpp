@@ -10,13 +10,16 @@
 #include "Game.h"
 #include <cstdlib>
 
+using namespace std;
+
 Game::Game()
 {
   //主人公初期化
   InitHero();
   //ヒロイン生成
   GenerateHeroines();
-  
+  //最初は小学校
+  age_of_state = LowerGradesOfElementary();
 }
 
 Game::~Game()
@@ -55,4 +58,15 @@ void Game::GenerateHeroines()
     }
     else t.appearOK = false;
   }
+}
+vector<Heroine> GenerateEnableHeroines()
+{
+  
+}
+vector<Action> GenerateEnableAction()
+{
+  
+}
+void Game::NextState(){
+  age_of_state = age_of_state.NextAge();
 }
