@@ -14,8 +14,12 @@
 #ifndef HomeComing_Utility_h
 #define HomeComing_Utility_h
 
+class Action;
+
 struct RangeNumber{
   int low,up;
+  RangeNumber(int lb, int ub): low(lb), up(ub){}
+  RangeNumber() {};
 };
 
 static std::string NSStringToString(NSString *str){
@@ -31,7 +35,7 @@ static std::vector<std::string> loadNameDictionary(const char* path) {
   std::ifstream ifs(path);
   std::vector<std::string> res;
   std::string s;
-  while(getline(ifs, s)) res.push_back(s);   
+  while(getline(ifs, s)) res.push_back(s);
   return res;
 }
 
