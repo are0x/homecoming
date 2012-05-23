@@ -9,16 +9,16 @@
 #import <Cocoa/Cocoa.h>
 #import "StoryView.h"
 
-@class AppDelegate;
+// @class AppDelegate;
 
 @interface StoryWindowController : NSWindowController
 
 {
-  AppDelegate* appdelegate;
+  // AppDelegate* appdelegate;
 }
 
 @property (assign) IBOutlet StoryView *view;
 
-- (id) initWithDelegate:(AppDelegate*)app;
+// - (void) initWithDelegatee: (AppDelegate *)app;
 
 @end

@@ -11,6 +11,8 @@
 @implementation StoryView
 
 @synthesize storyIndex = _storyIndex;
+@synthesize action;
+@synthesize target;
 
 - (id)initWithFrame:(NSRect)frame
 {
@@ -28,16 +30,22 @@
 }
 
 - (void) mouseDown:(NSEvent *)theEvent {
-  [self turnOverPages: theEvent];
+  [self _turnOverPages: theEvent];
 }
 
 - (void) keyDown:(NSEvent *)theEvent {
-  [self turnOverPages: theEvent];
+  [self _turnOverPages: theEvent];
 }
 
-- (void) turnOverPages:(NSEvent *)theEvent {
-  printf("turn over the page!\n");
-  _storyIndex++;
+- (void) _turnOverPages:(NSEvent *)theEvent {
+  
+  if ([theEvent type] == NSKeyDown) {
+    NSLog(@"%d\n", [theEvent keyCode]);
+  }
+  
+  _storyIndex++;  
+  
+  [NSApp sendAction:@selector(turnOverPages:) to:target from:self];
 }
 
 @end

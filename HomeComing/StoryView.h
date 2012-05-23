@@ -22,10 +22,14 @@ class Story;
 {
   int _storyIndex;
   Story* story;
+  id target;
+  SEL action;
 }
 
 @property int storyIndex;
+@property (assign, readwrite) id target;
+@property SEL action;
 
-- (void) turnOverPages:(NSEvent *)theEvent;
+- (void) _turnOverPages:(NSEvent *)theEvent;
 
 @end
