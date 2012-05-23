@@ -1,0 +1,503 @@
+THomeComing
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist HomeComing/HomeComing-Info.plist
+cProcessPCH++ /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch.pth HomeComing/HomeComing-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o /Users/choro3/Projects/HomeComing/HomeComing/main.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o /Users/choro3/Projects/HomeComing/HomeComing/AppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o /Users/choro3/Projects/HomeComing/HomeComing/Game.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o /Users/choro3/Projects/HomeComing/HomeComing/CommandMenuController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o /Users/choro3/Projects/HomeComing/HomeComing/LowerGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o /Users/choro3/Projects/HomeComing/HomeComing/ActionTableData.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o /Users/choro3/Projects/HomeComing/HomeComing/HeroineTableData.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o /Users/choro3/Projects/HomeComing/HomeComing/UpperGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/StoryView.o /Users/choro3/Projects/HomeComing/HomeComing/StoryView.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing normal x86_64
+cCpResource HomeComing/en.lproj/Credits.rtf DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf
+cCopyStringsFile /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/InfoPlist.strings HomeComing/en.lproj/InfoPlist.strings
+cCompileXIB /Users/choro3/Projects/HomeComing/HomeComing/en.lproj/MainMenu.xib
+cCompileXIB /Users/choro3/Projects/HomeComing/HomeComing/CommandMenu.xib
+cCompileXIB /Users/choro3/Projects/HomeComing/HomeComing/StoryView.xib
+cTouch /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F29C61A00000000000000EE
+t1328137754
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004F7DC3850000000000002470
+t1333642117
+s9328
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o
+t1337756361
+s40232
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o
+t1337756361
+s163476
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o
+t1337756361
+s103020
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o
+t1337756548
+s251764
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o
+t1337756361
+s91740
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HomeComing.LinkFileList
+c000000004FBC8EB3000000000000057C
+t1337757363
+s1404
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o
+t1337756361
+s84716
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/StoryView.o
+t1337758483
+s20668
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o
+t1337756362
+s84716
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o
+t1337755476
+s2720
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch.pth
+t1337755476
+s14342904
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app
+t1337758571
+s102
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist
+t1337758571
+s1419
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing
+t1337758483
+s170552
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/PkgInfo
+t1337758571
+s8
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/CommandMenu.nib
+t1337755478
+s15172
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/StoryView.nib
+t1337758484
+s4044
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf
+t1337755477
+s436
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1337755477
+s92
+
+N/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/MainMenu.nib
+t1337755477
+s1146
+
+N/Users/choro3/Projects/HomeComing/HomeComing/Action.h
+c000000004FBBD0FB00000000000001C0
+t1337708795
+s448
+
+N/Users/choro3/Projects/HomeComing/HomeComing/ActionTableData.h
+c000000004FBBD0FB0000000000000173
+t1337708795
+s371
+
+N/Users/choro3/Projects/HomeComing/HomeComing/ActionTableData.mm
+c000000004FBBD0FB0000000000000179
+t1337708795
+s377
+
+N/Users/choro3/Projects/HomeComing/HomeComing/AppDelegate.h
+c000000004FBBD0FB00000000000001E9
+t1337708795
+s489
+
+N/Users/choro3/Projects/HomeComing/HomeComing/AppDelegate.mm
+c000000004FBC867B00000000000003D6
+t1337755259
+s982
+
+N/Users/choro3/Projects/HomeComing/HomeComing/CommandMenu.xib
+c000000004FBBD0FB0000000000013780
+t1337708795
+s79744
+
+N/Users/choro3/Projects/HomeComing/HomeComing/CommandMenuController.h
+c000000004FBBD0FB00000000000002C1
+t1337708795
+s705
+
+N/Users/choro3/Projects/HomeComing/HomeComing/CommandMenuController.mm
+c000000004FBBD0FB00000000000005CF
+t1337708795
+s1487
+
+N/Users/choro3/Projects/HomeComing/HomeComing/Game.cpp
+c000000004FBC8B830000000000000704
+t1337756547
+s1796
+
+N/Users/choro3/Projects/HomeComing/HomeComing/Game.h
+c000000004FBC867B00000000000003AF
+t1337755259
+s943
+
+N/Users/choro3/Projects/HomeComing/HomeComing/GameStateAge.h
+c000000004FBBD0FB00000000000001F5
+t1337708795
+s501
+
+N/Users/choro3/Projects/HomeComing/HomeComing/Hero.h
+c000000004FBBD0FB00000000000001CF
+t1337708795
+s463
+
+N/Users/choro3/Projects/HomeComing/HomeComing/Heroine.h
+c000000004FBC867B000000000000020C
+t1337755259
+s524
+
+N/Users/choro3/Projects/HomeComing/HomeComing/HeroineTableData.h
+c000000004FBBD0FB000000000000017C
+t1337708795
+s380
+
+N/Users/choro3/Projects/HomeComing/HomeComing/HeroineTableData.m
+c000000004FBC867B0000000000000186
+t1337755259
+s390
+
+N/Users/choro3/Projects/HomeComing/HomeComing/HomeComing-Prefix.pch
+c000000004FBBD0FB0000000000000095
+t1337708795
+s149
+
+N/Users/choro3/Projects/HomeComing/HomeComing/LowerGradesOfElementary.cpp
+c000000004FBBD0FB000000000000027F
+t1337708795
+s639
+
+N/Users/choro3/Projects/HomeComing/HomeComing/LowerGradesOfElementary.h
+c000000004FBBD0FB0000000000000240
+t1337708795
+s576
+
+N/Users/choro3/Projects/HomeComing/HomeComing/StoryView.h
+c000000004FBC95120000000000000195
+t1337758994
+s405
+
+N/Users/choro3/Projects/HomeComing/HomeComing/StoryView.m
+c000000004FBC8DAA00000000000001AF
+t1337757098
+s431
+
+N/Users/choro3/Projects/HomeComing/HomeComing/StoryView.mm
+c000000004FBC931300000000000002D4
+t1337758483
+s724
+
+N/Users/choro3/Projects/HomeComing/HomeComing/StoryView.xib
+c000000004FBC93130000000000004284
+t1337758483
+s17028
+
+N/Users/choro3/Projects/HomeComing/HomeComing/UpperGradesOfElementary.cpp
+c000000004FBC867B0000000000000286
+t1337755259
+s646
+
+N/Users/choro3/Projects/HomeComing/HomeComing/UpperGradesOfElementary.h
+c000000004FBC867B0000000000000241
+t1337755259
+s577
+
+N/Users/choro3/Projects/HomeComing/HomeComing/Utility.h
+c000000004FBC8AC8000000000000031E
+t1337756360
+s798
+
+N/Users/choro3/Projects/HomeComing/HomeComing/en.lproj/Credits.rtf
+c000000004FBBD0FB00000000000001B4
+t1337708795
+s436
+
+N/Users/choro3/Projects/HomeComing/HomeComing/en.lproj/InfoPlist.strings
+c000000004FBBD0FB000000000000002D
+t1337708795
+s45
+
+N/Users/choro3/Projects/HomeComing/HomeComing/en.lproj/MainMenu.xib
+c000000004FBBD0FB000000000000139B
+t1337708795
+s5019
+
+N/Users/choro3/Projects/HomeComing/HomeComing/main.mm
+c000000004FBBD0FB0000000000000102
+t1337708795
+s258
+
+NHomeComing/HomeComing-Info.plist
+c000000004FBC9368000000000000044A
+t1337758568
+s1098
+
+CBuild AST from /Users/choro3/Projects/HomeComing/HomeComing/ActionTableData.mm
+r0
+
+CBuild AST from /Users/choro3/Projects/HomeComing/HomeComing/AppDelegate.mm
+r0
+
+CBuild AST from /Users/choro3/Projects/HomeComing/HomeComing/CommandMenuController.mm
+r0
+
+CBuild AST from /Users/choro3/Projects/HomeComing/HomeComing/Game.cpp
+r0
+
+CBuild AST from /Users/choro3/Projects/HomeComing/HomeComing/HeroineTableData.m
+r0
+
+CBuild AST from /Users/choro3/Projects/HomeComing/HomeComing/LowerGradesOfElementary.cpp
+r0
+
+CBuild AST from /Users/choro3/Projects/HomeComing/HomeComing/StoryView.m
+r0
+
+CBuild AST from /Users/choro3/Projects/HomeComing/HomeComing/StoryView.mm
+r0
+
+CBuild AST from /Users/choro3/Projects/HomeComing/HomeComing/UpperGradesOfElementary.cpp
+r0
+
+CBuild AST from /Users/choro3/Projects/HomeComing/HomeComing/main.mm
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies79eaad92cc6cb541^c367c392cc6cb541^---0#1#0#--18"Check dependencies36"B54CDB13-9E78-4CAC-A03D-67C9AEDE6BFF-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o /Users/choro3/Projects/HomeComing/HomeComing/ActionTableData.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359449161.338706
+e359449161.871746
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o
+x/Users/choro3/Projects/HomeComing/HomeComing/ActionTableData.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/choro3/Projects/HomeComing/HomeComing/ActionTableData.mmb9de5649c26cb541^fc37df49c26cb541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/ActionTableData.mm0000000000000000^3344"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o HomeComing/ActionTableData.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/choro3/Projects/HomeComing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug -include /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.d --serialize-diagnostics /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.dia -c /Users/choro3/Projects/HomeComing/HomeComing/ActionTableData.mm -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o36"3B5C9142-76A5-488A-A5A6-92DB54EC196C-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o /Users/choro3/Projects/HomeComing/HomeComing/AppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359449160.723657
+e359449161.450435
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/choro3/Projects/HomeComing/HomeComing/AppDelegate.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/choro3/Projects/HomeComing/HomeComing/AppDelegate.mmefa8b948c26cb541^a54f7349c26cb541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/AppDelegate.mm0000000000000000^3320"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o HomeComing/AppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/choro3/Projects/HomeComing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug -include /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/choro3/Projects/HomeComing/HomeComing/AppDelegate.mm -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o36"B7556645-49E9-4E45-B438-2C2B44DC65C5-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o /Users/choro3/Projects/HomeComing/HomeComing/CommandMenuController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359449160.723955
+e359449161.337245
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o
+x/Users/choro3/Projects/HomeComing/HomeComing/CommandMenuController.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/choro3/Projects/HomeComing/HomeComing/CommandMenuController.mmdca1b948c26cb541^d6545649c26cb541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/CommandMenuController.mm0000000000000000^3380"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o HomeComing/CommandMenuController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/choro3/Projects/HomeComing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug -include /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.d --serialize-diagnostics /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.dia -c /Users/choro3/Projects/HomeComing/HomeComing/CommandMenuController.mm -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o36"9221C516-D42C-471F-9535-CC4349DF56BB-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o /Users/choro3/Projects/HomeComing/HomeComing/Game.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359449347.836295
+e359449348.298740
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o
+x/Users/choro3/Projects/HomeComing/HomeComing/Game.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/choro3/Projects/HomeComing/HomeComing/Game.cppee3fd603c36cb541^f6794c04c36cb541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/Game.cpp0000000000000000^3280"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o HomeComing/Game.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/choro3/Projects/HomeComing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug -include /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.d --serialize-diagnostics /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.dia -c /Users/choro3/Projects/HomeComing/HomeComing/Game.cpp -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o36"F10FBB58-5613-4C58-8C56-F4392368D5C9-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o /Users/choro3/Projects/HomeComing/HomeComing/HeroineTableData.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359449161.372211
+e359449161.943727
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o
+x/Users/choro3/Projects/HomeComing/HomeComing/HeroineTableData.m
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/choro3/Projects/HomeComing/HomeComing/HeroineTableData.me7725f49c26cb541^0798f149c26cb541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/HeroineTableData.m0000000000000000^3348"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o HomeComing/HeroineTableData.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/choro3/Projects/HomeComing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug -include /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.d --serialize-diagnostics /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.dia -c /Users/choro3/Projects/HomeComing/HomeComing/HeroineTableData.m -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o36"F3E5C982-6111-4E85-9175-ADE23B655FDB-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o /Users/choro3/Projects/HomeComing/HomeComing/LowerGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359449160.725226
+e359449161.356640
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o
+x/Users/choro3/Projects/HomeComing/HomeComing/LowerGradesOfElementary.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/choro3/Projects/HomeComing/HomeComing/LowerGradesOfElementary.cppf0dab948c26cb541^897c5b49c26cb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/LowerGradesOfElementary.cpp0000000000000000^3394"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o HomeComing/LowerGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/choro3/Projects/HomeComing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug -include /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.d --serialize-diagnostics /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.dia -c /Users/choro3/Projects/HomeComing/HomeComing/LowerGradesOfElementary.cpp -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o36"37D148E6-2156-4A77-B08C-F3123738CE0E-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/StoryView.o /Users/choro3/Projects/HomeComing/HomeComing/StoryView.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/StoryView.o /Users/choro3/Projects/HomeComing/HomeComing/StoryView.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359451794.787978
+e359451794.935649
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/StoryView.o
+x/Users/choro3/Projects/HomeComing/HomeComing/StoryView.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/choro3/Projects/HomeComing/HomeComing/StoryView.mm3dd5c992cc6cb541^0a86ef92cc6cb541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/StoryView.mm0000000000000000^3308"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/StoryView.o HomeComing/StoryView.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/choro3/Projects/HomeComing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug -include /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/StoryView.d --serialize-diagnostics /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/StoryView.dia -c /Users/choro3/Projects/HomeComing/HomeComing/StoryView.mm -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/StoryView.o36"18AEA9AA-089F-4215-BD59-FC0DEF7066C2-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o /Users/choro3/Projects/HomeComing/HomeComing/UpperGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359449161.451692
+e359449162.005399
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o
+x/Users/choro3/Projects/HomeComing/HomeComing/UpperGradesOfElementary.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/choro3/Projects/HomeComing/HomeComing/UpperGradesOfElementary.cppc2df7349c26cb541^e960014ac26cb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/UpperGradesOfElementary.cpp0000000000000000^3394"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o HomeComing/UpperGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/choro3/Projects/HomeComing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug -include /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.d --serialize-diagnostics /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.dia -c /Users/choro3/Projects/HomeComing/HomeComing/UpperGradesOfElementary.cpp -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o36"B51EB8A7-4FC9-4740-A10B-4FA7F98A1A86-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o /Users/choro3/Projects/HomeComing/HomeComing/main.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359448276.322747
+e359448276.373539
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o
+x/Users/choro3/Projects/HomeComing/HomeComing/main.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/choro3/Projects/HomeComing/HomeComing/main.mmf7cc52d4be6cb541^970060d4be6cb541^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/main.mm0000000000000000^3278"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o HomeComing/main.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/choro3/Projects/HomeComing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug -include /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.dia -c /Users/choro3/Projects/HomeComing/HomeComing/main.mm -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o36"B577F169-4AD0-4F2F-ABB2-5EB246612380-
+
+CCompileXIB /Users/choro3/Projects/HomeComing/HomeComing/CommandMenu.xib
+s359448277.942123
+e359448278.648234
+r1
+xCompileXIB
+x/Users/choro3/Projects/HomeComing/HomeComing/CommandMenu.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Users/choro3/Projects/HomeComing/HomeComing/CommandMenu.xib2a52f1d5be6cb541^7901a6d6be6cb541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/CommandMenu.xib0000000000000000^601"CompileXIB HomeComing/CommandMenu.xib    cd /Users/choro3/Projects/HomeComing    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/CommandMenu.nib /Users/choro3/Projects/HomeComing/HomeComing/CommandMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk36"7AEAF313-93D0-4DCE-9B24-BBA0709F11E2-
+
+CCompileXIB /Users/choro3/Projects/HomeComing/HomeComing/StoryView.xib
+s359451283.697295
+e359451284.435507
+r1
+xCompileXIB
+x/Users/choro3/Projects/HomeComing/HomeComing/StoryView.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compiling /Users/choro3/Projects/HomeComing/HomeComing/StoryView.xib3e96b293ca6cb541^f9856f94ca6cb541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/StoryView.xib0000000000000000^595"CompileXIB HomeComing/StoryView.xib    cd /Users/choro3/Projects/HomeComing    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/StoryView.nib /Users/choro3/Projects/HomeComing/HomeComing/StoryView.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk36"E76381AE-8781-4FDF-B5E1-48AE3AC1075C-
+
+CCompileXIB /Users/choro3/Projects/HomeComing/HomeComing/en.lproj/MainMenu.xib
+s359448277.941840
+e359448277.962563
+r1
+xCompileXIB
+x/Users/choro3/Projects/HomeComing/HomeComing/en.lproj/MainMenu.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compiling /Users/choro3/Projects/HomeComing/HomeComing/en.lproj/MainMenu.xib9b3cf1d5be6cb541^db6af6d5be6cb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/en.lproj/MainMenu.xib0000000000000000^619"CompileXIB HomeComing/en.lproj/MainMenu.xib    cd /Users/choro3/Projects/HomeComing    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/MainMenu.nib /Users/choro3/Projects/HomeComing/HomeComing/en.lproj/MainMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk36"34F85C7D-88FD-4CB1-8CEF-4C573C035039-
+
+CCopyStringsFile /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/InfoPlist.strings HomeComing/en.lproj/InfoPlist.strings
+s359448277.941823
+e359448277.947712
+r1
+xCopyStringsFile
+x/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/InfoPlist.strings
+xHomeComing/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy HomeComing/en.lproj/InfoPlist.strings0c3af1d5be6cb541^48a7f2d5be6cb541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/en.lproj/InfoPlist.strings0000000000000000^452"CopyStringsFile DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/InfoPlist.strings HomeComing/en.lproj/InfoPlist.strings    cd /Users/choro3/Projects/HomeComing    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj -- HomeComing/en.lproj/InfoPlist.strings36"D41AF3A3-7855-4191-A01E-A7340BE5328C-
+
+CCpResource HomeComing/en.lproj/Credits.rtf DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf
+s359448277.941833
+e359448277.946163
+r1
+xCpResource
+xHomeComing/en.lproj/Credits.rtf
+xDerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtfb939f1d5be6cb541^c938f2d5be6cb541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^587"CpResource HomeComing/en.lproj/Credits.rtf DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/choro3/Projects/HomeComing    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/choro3/Projects/HomeComing/HomeComing/en.lproj/Credits.rtf /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj36"B0AC9988-AABC-4A1C-B3FB-C447BB953311-
+
+CLd /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing normal x86_64
+s359451794.942472
+e359451795.048985
+r1
+xLd
+x/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Link /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing5857f192cc6cb541^8b8a0c93cc6cb541^---0#0#0#--903"Ld DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing normal x86_64    cd /Users/choro3/Projects/HomeComing    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug -F/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug -filelist /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HomeComing.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing36"9FE24EBF-8035-4176-B1BB-3A2A101F9703-
+
+CProcessInfoPlistFile /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist HomeComing/HomeComing-Info.plist
+s359451371.295570
+e359451371.303980
+r1
+xProcessInfoPlistFile
+x/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist
+xHomeComing/HomeComing-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process HomeComing/HomeComing-Info.plist39b94bebca6cb541^02d34debca6cb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/HomeComing-Info.plist0000000000000000^512"ProcessInfoPlistFile DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist HomeComing/HomeComing-Info.plist    cd /Users/choro3/Projects/HomeComing    builtin-infoPlistUtility HomeComing/HomeComing-Info.plist -genpkginfo /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist36"7E7AC3DD-3F6C-4D19-8C5D-8C37F634B18C-
+
+CProcessPCH++ /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch.pth HomeComing/HomeComing-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359448274.732496
+e359448276.315900
+r1
+xProcessPCH++
+x/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch.pth
+xHomeComing/HomeComing-Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile HomeComing/HomeComing-Prefix.pch89f0bbd2be6cb541^09de50d4be6cb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/choro3/Projects/HomeComing/HomeComing/HomeComing-Prefix.pch0000000000000000^3231"ProcessPCH++ DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch.pth HomeComing/HomeComing-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/choro3/Projects/HomeComing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug --serialize-diagnostics /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch.dia -c /Users/choro3/Projects/HomeComing/HomeComing/HomeComing-Prefix.pch -o /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch.pth -MMD -MT dependencies -MF /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Intermediates/PrecompiledHeaders/HomeComing-Prefix-fpwidtpqoxeqbhbjhjhvvociacij/HomeComing-Prefix.pch.d36"6E33DE4C-8952-4799-8494-CC73D6AE951F-
+
+CProcessPCH++ /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Index/PrecompiledHeaders/HomeComing-Prefix-bpkjawfeorrscteiaordlbvqepfn_ast/HomeComing-Prefix.pch.pth HomeComing/HomeComing-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app
+s359451795.067536
+e359451795.075316
+r1
+xTouch
+x/Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Touch /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app08561193cc6cb541^3d481393cc6cb541^---0#0#0#--221"Touch DerivedData/HomeComing/Build/Products/Debug/HomeComing.app    cd /Users/choro3/Projects/HomeComing    /usr/bin/touch -c /Users/choro3/Projects/HomeComing/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app36"3710B3AD-7BB6-43A6-86FF-3916FDC079B0-
+
