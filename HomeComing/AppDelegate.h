@@ -10,6 +10,7 @@
 #import "Game.h"
 #import <cstdlib>
 #import "CommandMenuController.h"
+#import "StoryWindowController.h"
 
 @class CommandMenuController;
 

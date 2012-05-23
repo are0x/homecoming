@@ -21,8 +21,9 @@
   // Insert code here to initialize your application
   srand((unsigned int)time(NULL));
   game = new Game();
-  command_menu_controller	= [[CommandMenuController alloc] initWithDelegate:self];
-  [command_menu_controller showWindow:self];
+  // command_menu_controller	= [[CommandMenuController alloc] initWithDelegate:self];
+  // [command_menu_controller showWindow:self];
+  [[[StoryWindowController alloc] initWithDelegate:self] showWindow:self];
 }
 -(void)NextState
 {

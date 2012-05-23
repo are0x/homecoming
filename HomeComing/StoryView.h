@@ -22,7 +22,6 @@ class Story;
 {
   int _storyIndex;
   Story* story;
-  
 }
 
 @property int storyIndex;

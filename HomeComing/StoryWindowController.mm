@@ -8,11 +8,17 @@
 
 #import "StoryWindowController.h"
 
-@interface StoryWindowController ()
-
-@end
-
 @implementation StoryWindowController
+@synthesize view;
+
+-(id)initWithDelegate:(AppDelegate *)app{
+  appdelegate = app;
+  if ( ! (self = [super initWithWindowNibName: @"StoryWindowController"]) ) {
+		return nil;
+	} // end if
+  [[self window] makeFirstResponder:view];
+	return self;
+}
 
 - (id)initWithWindow:(NSWindow *)window
 {
@@ -27,6 +33,8 @@
 - (void)windowDidLoad
 {
     [super windowDidLoad];
+  
+  printf("StoryWindowController windowDidLoad\n");
     
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
 }
