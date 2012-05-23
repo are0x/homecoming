@@ -20,8 +20,9 @@
 		27C1967F156931AA003C4D5F /* CommandMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C1967E156931AA003C4D5F /* CommandMenu.xib */; };
 		27C19694156A3B55003C4D5F /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C19693156A3B55003C4D5F /* Game.cpp */; };
 		27C9A845156A78B90081E9D3 /* CommandMenuController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27C9A844156A78B90081E9D3 /* CommandMenuController.mm */; };
-		88862ECE156CC089004F8BA7 /* StoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88862ECD156CC089004F8BA7 /* StoryView.xib */; };
 		88862ED2156CC52A004F8BA7 /* StoryView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88862ED1156CC52A004F8BA7 /* StoryView.mm */; };
+		88EFC94F156CD79700051D95 /* StoryWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88EFC94D156CD79700051D95 /* StoryWindowController.mm */; };
+		88EFC950156CD79700051D95 /* StoryWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EFC94E156CD79700051D95 /* StoryWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,10 +59,12 @@
 		27C9A843156A78B90081E9D3 /* CommandMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandMenuController.h; sourceTree = "<group>"; };
 		27C9A844156A78B90081E9D3 /* CommandMenuController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CommandMenuController.mm; sourceTree = "<group>"; };
 		27C9A84E156A7E5D0081E9D3 /* GameStateAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateAge.h; sourceTree = "<group>"; };
-		88862ECD156CC089004F8BA7 /* StoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryView.xib; sourceTree = "<group>"; };
 		88862ED0156CC52A004F8BA7 /* StoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryView.h; sourceTree = "<group>"; };
 		88862ED1156CC52A004F8BA7 /* StoryView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StoryView.mm; sourceTree = "<group>"; };
-		88EFC944156CCBEF00051D95 /* Story.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Story.h; sourceTree = "<group>"; };
+		88EFC944156CCBEF00051D95 /* Story.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Story.hpp; sourceTree = "<group>"; };
+		88EFC94C156CD79700051D95 /* StoryWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryWindowController.h; sourceTree = "<group>"; };
+		88EFC94D156CD79700051D95 /* StoryWindowController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StoryWindowController.mm; sourceTree = "<group>"; };
+		88EFC94E156CD79700051D95 /* StoryWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,10 +142,12 @@
 				27C1968915693B71003C4D5F /* Action.h */,
 				27C1968A15693BB0003C4D5F /* Utility.h */,
 				2793FB09155D62780028EF15 /* Supporting Files */,
-				88862ECD156CC089004F8BA7 /* StoryView.xib */,
 				88862ED0156CC52A004F8BA7 /* StoryView.h */,
 				88862ED1156CC52A004F8BA7 /* StoryView.mm */,
-				88EFC944156CCBEF00051D95 /* Story.h */,
+				88EFC944156CCBEF00051D95 /* Story.hpp */,
+				88EFC94C156CD79700051D95 /* StoryWindowController.h */,
+				88EFC94D156CD79700051D95 /* StoryWindowController.mm */,
+				88EFC94E156CD79700051D95 /* StoryWindowController.xib */,
 			);
 			path = HomeComing;
 			sourceTree = "<group>";
@@ -213,7 +218,7 @@
 				2793FB13155D62780028EF15 /* Credits.rtf in Resources */,
 				2793FB19155D62790028EF15 /* MainMenu.xib in Resources */,
 				27C1967F156931AA003C4D5F /* CommandMenu.xib in Resources */,
-				88862ECE156CC089004F8BA7 /* StoryView.xib in Resources */,
+				88EFC950156CD79700051D95 /* StoryWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +238,7 @@
 				27907283156B8FEC00AE1D83 /* HeroineTableData.m in Sources */,
 				27907297156CA5CD00AE1D83 /* UpperGradesOfElementary.cpp in Sources */,
 				88862ED2156CC52A004F8BA7 /* StoryView.mm in Sources */,
+				88EFC94F156CD79700051D95 /* StoryWindowController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
