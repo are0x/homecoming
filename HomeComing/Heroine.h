@@ -21,9 +21,11 @@ class Heroine{
 public:
   std::string name;
   int visual,intel,property,human;
-  int actpow,lifepow,mindpow,technicpow,luck;  
-  std::vector<HeroineAttr> attrs;
+  int actpow,lifepow,mindpow,technicpow,luck;
   
+  std::vector<HeroineAttr> attrs;  
+  int schoolid;
+  int age;
   bool appearOK;
 };
 

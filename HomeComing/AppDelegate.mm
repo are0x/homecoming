@@ -40,8 +40,8 @@
 -(void)DisplayResultEnd
 {
   [self NextState];
-  [command_menu_controller initActionList];
-  [command_menu_controller initMeetList];
+  [command_menu_controller initActionList:game->enable_actions];
+  [command_menu_controller initMeetList:game->enable_heroines];
   [command_menu_controller showWindow:self];
 }
 

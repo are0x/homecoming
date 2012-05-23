@@ -11,8 +11,9 @@
 
 @implementation HeroineTableData
 @synthesize display_name;
--(id)initwithHeroine:(Heroine)heroine{
+-(id)initWithHeroine:(Heroine)heroine{
   data = heroine;
   display_name = StringToNSString(heroine.name);
+  return self;
 }
 @end
