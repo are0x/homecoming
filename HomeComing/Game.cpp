@@ -18,8 +18,8 @@ Game::Game()
 {
   //全行動ロード
   //名前辞書ロード
-  firstname_alldata = loadNameDictionary("dat¥¥firstname.tsv");
-  lastname_alldata = loadNameDictionary("dat¥¥lastname.tsv");
+  firstname_alldata = loadNameDictionary("dat\\firstname.tsv");
+  lastname_alldata = loadNameDictionary("dat\\lastname.tsv");
   for(int i=0;i<(int)firstname_alldata.size();i++){
     printf("%s\n",firstname_alldata[i].c_str());
   }
@@ -48,10 +48,7 @@ void Game::InitHero(){
 void Game::GenerateHeroines()
 {
   cur_heroines.clear();
-  int n = 100000;
-  int cnt = 0;
-  for(int i=0;i<n;i++){
-    double p = rand()*1.0/RAND_MAX;
+  for(int i=0;i<cur_hero.fatalpow;i++){
     Heroine t;
     t.human = rand()%100+1;
     t.intel = rand()%10+1;
@@ -61,11 +58,8 @@ void Game::GenerateHeroines()
     t.luck = rand()%100+1;
     t.lifepow = rand()%10+1;
     t.technicpow = rand()%10+1;
-    if (cnt < cur_hero.fatalpow && p >= 1.0*cur_hero.fatalpow/n){
-      cnt++;
-      t.appearOK = true;
-    }
-    else t.appearOK = false;
+    t.appearOK = true;
+    cur_heroines.push_back(t);
   }
 }
 vector<Heroine> Game::GenerateEnableHeroine()

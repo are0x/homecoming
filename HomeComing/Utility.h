@@ -9,6 +9,7 @@
 #include <string>
 #include <fstream>
 #include <vector>
+#include <iostream>
 
 #ifndef HomeComing_Utility_h
 #define HomeComing_Utility_h
@@ -30,7 +31,7 @@ static std::vector<std::string> loadNameDictionary(const char* path) {
   std::ifstream ifs(path);
   std::vector<std::string> res;
   std::string s;
-  while(getline(ifs, s)) res.push_back(s);
+  while(getline(ifs, s))res.push_back(s);   
   return res;
 }
 
