@@ -10,11 +10,19 @@
 #include "Game.h"
 #include <cstdlib>
 #include <vector>
+#include "Utility.h"
 
 using namespace std;
 
 Game::Game()
 {
+  //全行動ロード
+  //名前辞書ロード
+  firstname_alldata = loadNameDictionary("dat¥¥firstname.tsv");
+  lastname_alldata = loadNameDictionary("dat¥¥lastname.tsv");
+  for(int i=0;i<(int)firstname_alldata.size();i++){
+    printf("%s\n",firstname_alldata[i].c_str());
+  }
   //主人公初期化
   InitHero();
   //ヒロイン生成

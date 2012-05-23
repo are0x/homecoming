@@ -11,6 +11,7 @@
 #include "Action.h"
 #include "LowerGradesOfElementary.h"
 #include <vector>
+#include <string>
 
 #ifndef HomeComing_Game_h
 #define HomeComing_Game_h
@@ -19,6 +20,8 @@ class Action;
 
 class Game{
   std::vector<Action> action_alldata;
+  std::vector<std::string> firstname_alldata;
+  std::vector<std::string> lastname_alldata;
   
   void InitHero();
   void GenerateHeroines();
