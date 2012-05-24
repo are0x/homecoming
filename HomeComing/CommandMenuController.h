@@ -17,6 +17,14 @@
   IBOutlet NSArrayController *execution_array_controller;
   IBOutlet NSArrayController *meet_array_controller;
   IBOutlet NSArrayController *attack_array_controller;
+  
+  IBOutlet NSTextField *meetHeroinrTextfield;
+  
+  IBOutlet NSTextField *attackHeroinTextfield;
+  
+  IBOutlet NSTableView *meetTableView;
+  
+  IBOutlet NSTableView *attackTableView;
   AppDelegate *appdelegate;
 }
 -(id)initWithDelegate:(AppDelegate *)app;

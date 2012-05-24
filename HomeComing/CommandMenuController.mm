@@ -57,8 +57,13 @@ using namespace std;
   [meet_array_controller setSelectionIndex:0];
 }
 -(void)tableViewSelectionDidChange:(NSNotification *)aNotification{
- [aNotification object];
-  NSLog(@"tableViewSelectionDidChange");
+  if([aNotification object] == meetTableView){
+    cout<<"meet"<<endl;
+    //[meetHeroinrTextfield setStringValue:];
+  }
+  else{
+    cout<<"attack"<<endl;
+  }
 }
 -(IBAction)attackButton:(id)sender
 {

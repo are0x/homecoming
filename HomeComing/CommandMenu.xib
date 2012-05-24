@@ -860,7 +860,6 @@
 							<string key="NSFrame">{{537, 19}, {106, 46}}</string>
 							<reference key="NSSuperview" ref="533637080"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="325616829">
 								<int key="NSCellFlags">-2080244224</int>
@@ -1009,6 +1008,54 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
+						<string key="label">meetHeroinrTextfield</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="300727092"/>
+					</object>
+					<int key="connectionID">170</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">attackHeroineTextfield</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="692709712"/>
+					</object>
+					<int key="connectionID">173</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">attackHeroinTextfield</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="249863569"/>
+					</object>
+					<int key="connectionID">174</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">meetTabkeView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="1027537767"/>
+					</object>
+					<int key="connectionID">175</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">meetTableView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="1027537767"/>
+					</object>
+					<int key="connectionID">176</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">attackTableView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="38097277"/>
+					</object>
+					<int key="connectionID">177</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
 						<string key="label">delegate</string>
 						<reference key="source" ref="612892638"/>
 						<reference key="destination" ref="1001"/>
@@ -1038,6 +1085,14 @@
 						</object>
 					</object>
 					<int key="connectionID">159</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="38097277"/>
+						<reference key="destination" ref="1001"/>
+					</object>
+					<int key="connectionID">172</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -1151,12 +1206,12 @@
 						<reference key="object" ref="645072707"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="528968233"/>
 							<reference ref="52427306"/>
 							<reference ref="249863569"/>
 							<reference ref="300727092"/>
 							<reference ref="639883625"/>
 							<reference ref="144382919"/>
+							<reference ref="528968233"/>
 						</object>
 						<reference key="parent" ref="1046752836"/>
 					</object>
@@ -1655,7 +1710,7 @@
 				<reference key="dict.values" ref="1002"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">169</int>
+			<int key="maxID">177</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1700,15 +1755,23 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>action_array_controller</string>
+							<string>attackHeroinTextfield</string>
+							<string>attackTableView</string>
 							<string>attack_array_controller</string>
 							<string>execution_array_controller</string>
+							<string>meetHeroinrTextfield</string>
+							<string>meetTableView</string>
 							<string>meet_array_controller</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>NSArrayController</string>
+							<string>NSTextField</string>
+							<string>NSTableView</string>
 							<string>NSArrayController</string>
 							<string>NSArrayController</string>
+							<string>NSTextField</string>
+							<string>NSTableView</string>
 							<string>NSArrayController</string>
 						</object>
 					</object>
@@ -1717,8 +1780,12 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>action_array_controller</string>
+							<string>attackHeroinTextfield</string>
+							<string>attackTableView</string>
 							<string>attack_array_controller</string>
 							<string>execution_array_controller</string>
+							<string>meetHeroinrTextfield</string>
+							<string>meetTableView</string>
 							<string>meet_array_controller</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -1728,12 +1795,28 @@
 								<string key="candidateClassName">NSArrayController</string>
 							</object>
 							<object class="IBToOneOutletInfo">
+								<string key="name">attackHeroinTextfield</string>
+								<string key="candidateClassName">NSTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">attackTableView</string>
+								<string key="candidateClassName">NSTableView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
 								<string key="name">attack_array_controller</string>
 								<string key="candidateClassName">NSArrayController</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">execution_array_controller</string>
 								<string key="candidateClassName">NSArrayController</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">meetHeroinrTextfield</string>
+								<string key="candidateClassName">NSTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">meetTableView</string>
+								<string key="candidateClassName">NSTableView</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">meet_array_controller</string>
