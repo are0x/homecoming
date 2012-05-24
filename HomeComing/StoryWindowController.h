@@ -18,6 +18,8 @@
 }
 
 @property (assign) IBOutlet StoryView *view;
+@property (assign) IBOutlet NSTextField *textfield;
+@property (assign) IBOutlet NSImageView *image;
 
 // - (void) initWithDelegatee: (AppDelegate *)app;
 

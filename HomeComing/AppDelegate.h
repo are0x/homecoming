@@ -22,4 +22,5 @@
 -(void)CalcExecution;
 -(void)RunExecution;
 -(void)DisplayResultEnd;
+-(void)didCommandMenu;
 @end

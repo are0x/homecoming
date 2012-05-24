@@ -10,10 +10,21 @@
 #include "Utility.h"
 
 @implementation HeroineTableData
-@synthesize display_name;
 -(id)initWithHeroine:(Heroine)heroine{
-  data = heroine;
   display_name = StringToNSString(heroine.name);
+  data = heroine;
   return self;
 }
+-(void)setData:(NSString *)n data:(Heroine)d
+{
+  display_name = [n retain];
+  data = d;
+}
+-(NSString *)display_name{
+  return display_name;
+}
+-(Heroine)data{
+  return data;
+}
+
 @end

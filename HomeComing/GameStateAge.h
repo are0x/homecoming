@@ -8,6 +8,7 @@
 
 #include "Action.h"
 #include "Heroine.h"
+#include <vector>
 
 #ifndef first_GameStateAge_h
 #define first_GameStateAge_h
@@ -18,10 +19,10 @@ class GameStateAge
 {
 public:
   GameStateAge(){}
-  virtual void SetUp() = 0;
+  //virtual void SetUp() = 0;
   virtual GameStateAge *NextAge() = 0;
-  virtual std::vector<Heroine> GenerateEnableHeroine() = 0;
-  virtual std::vector<Action> GenerateEnableAction() = 0;
+  virtual std::vector<Heroine> GenerateEnableHeroine(std::vector<Heroine> &heroines) = 0;
+  virtual std::vector<Action> GenerateEnableAction(std::vector<Action> &actions) = 0;
 };
 
 #endif

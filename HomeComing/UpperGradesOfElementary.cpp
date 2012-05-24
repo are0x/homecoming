@@ -15,25 +15,19 @@ UpperGradesOfElementary::UpperGradesOfElementary()
 {
   
 }
-
-void UpperGradesOfElementary::SetUp()
-{
-  
-}
-
 GameStateAge * UpperGradesOfElementary::NextAge()
 {
   GameStateAge *ret;
   return ret;
 }
 
-vector<Heroine> UpperGradesOfElementary::GenerateEnableHeroine()
+vector<Heroine> UpperGradesOfElementary::GenerateEnableHeroine(vector<Heroine>  &heroines)
 {
   vector<Heroine> ret;
   return ret;
 }
 
-vector<Action> UpperGradesOfElementary::GenerateEnableAction()
+vector<Action> UpperGradesOfElementary::GenerateEnableAction(vector<Action> &actions)
 {
   vector<Action> ret;
   return ret;
