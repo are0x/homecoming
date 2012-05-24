@@ -1,0 +1,120 @@
+\documentclass{book}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{makeidx}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{ifthen}
+\usepackage[table]{xcolor}
+\usepackage{textcomp}
+\usepackage{alltt}
+\usepackage{ifpdf}
+\ifpdf
+\usepackage[pdftex,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue,
+            unicode
+           ]{hyperref}
+\else
+\usepackage[ps2pdf,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue,
+            unicode
+           ]{hyperref}
+\usepackage{pspicture}
+\fi
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+\usepackage{sectsty}
+\usepackage[titles]{tocloft}
+\usepackage{doxygen}
+\lstset{language=C++,inputencoding=utf8,basicstyle=\footnotesize,breaklines=true,breakatwhitespace=true,tabsize=4,numbers=left }
+\makeindex
+\setcounter{tocdepth}{3}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\familydefault}{\sfdefault}
+\hfuzz=15pt
+\setlength{\emergencystretch}{15pt}
+\hbadness=750
+\tolerance=750
+\begin{document}
+\hypersetup{pageanchor=false,citecolor=blue}
+\begin{titlepage}
+\vspace*{7cm}
+\begin{center}
+{\Large Home\-Coming }\\
+\vspace*{1cm}
+{\large 作成： Doxygen 1.8.0}\\
+\vspace*{0.5cm}
+{\small Thu May 24 2012 06:31:20}\\
+\end{center}
+\end{titlepage}
+\clearemptydoublepage
+\pagenumbering{roman}
+\tableofcontents
+\clearemptydoublepage
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true,citecolor=blue}
+\chapter{構成索引}
+\input{hierarchy}
+\chapter{構成索引}
+\input{annotated}
+\chapter{ファイル索引}
+\input{files}
+\chapter{クラス}
+\input{class_action}
+\input{interface_action_table_data}
+\input{interface_app_delegate}
+\input{interface_command_menu_controller}
+\input{class_game}
+\input{class_game_state_age}
+\input{class_hero}
+\input{class_heroine}
+\input{class_heroine_attr}
+\input{interface_heroine_table_data}
+\input{class_lower_grades_of_elementary}
+\input{struct_range_number}
+\input{class_school}
+\input{class_story}
+\input{interface_story_view}
+\input{interface_story_window_controller}
+\input{class_system}
+\input{class_upper_grades_of_elementary}
+\chapter{ファイル}
+\input{_action_8cpp}
+\input{_action_8h}
+\input{_action_table_data_8h}
+\input{_action_table_data_8mm}
+\input{_app_delegate_8h}
+\input{_app_delegate_8mm}
+\input{_command_menu_controller_8h}
+\input{_command_menu_controller_8mm}
+\input{_game_8cpp}
+\input{_game_8h}
+\input{_game_state_age_8h}
+\input{_hero_8h}
+\input{_heroine_8h}
+\input{_heroine_table_data_8h}
+\input{_heroine_table_data_8m}
+\input{_lower_grades_of_elementary_8cpp}
+\input{_lower_grades_of_elementary_8h}
+\input{main_8mm}
+\input{_school_8h}
+\input{_story_8hpp}
+\input{_story_view_8h}
+\input{_story_view_8mm}
+\input{_story_window_controller_8h}
+\input{_story_window_controller_8mm}
+\input{_system_8h}
+\input{_upper_grades_of_elementary_8cpp}
+\input{_upper_grades_of_elementary_8h}
+\input{_utility_8h}
+\printindex
+\end{document}

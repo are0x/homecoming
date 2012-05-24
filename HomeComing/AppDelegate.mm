@@ -23,6 +23,8 @@
   game = new Game();
   command_menu_controller	= [[CommandMenuController alloc] initWithDelegate:self];
   [command_menu_controller showWindow:self];
+  // [[[StoryWindowController alloc] initWithDelegate:self] showWindow:self];
+  // [[[StoryWindowController alloc] initWithWindowNibName: @"StoryWindowController"] showWindow:self];
 }
 -(void)NextState
 {
