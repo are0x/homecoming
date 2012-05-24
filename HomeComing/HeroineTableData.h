@@ -10,9 +10,11 @@
 #include "Heroine.h"
 
 @interface HeroineTableData : NSObject{
-  Heroine data;
   NSString *display_name;
+  Heroine data;
 };
-@property (retain) NSString *display_name;
 -(id)initWithHeroine:(Heroine)heroine;
+- (void) setData: (NSString*) n data: (Heroine) d;
+- (NSString *)display_name;
+- (Heroine)data;
 @end

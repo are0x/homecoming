@@ -26,6 +26,8 @@ Game::Game()
   GenerateHeroines();
   //最初は小学校
   age_of_state = new LowerGradesOfElementary();
+  enable_heroines = GenerateEnableHeroine();
+  enable_actions = GenerateEnableAction();
 }
 
 Game::~Game()
@@ -47,6 +49,8 @@ void Game::GenerateHeroines()
   cur_heroines.clear();
   for(int i=0;i<cur_hero.fatalpow;i++){
     Heroine t;
+    t.name = lastname_alldata[rand()%lastname_alldata.size()];
+    t.name += " "+firstname_alldata[rand()%firstname_alldata.size()];
     t.human = rand()%100+1;
     t.intel = rand()%10+1;
     t.property = rand()%100+1;
@@ -56,17 +60,20 @@ void Game::GenerateHeroines()
     t.lifepow = rand()%10+1;
     t.technicpow = rand()%10+1;
     t.appearOK = true;
+    t.age = -4+rand()%20;
     cur_heroines.push_back(t);
   }
 }
 vector<Heroine> Game::GenerateEnableHeroine()
 {
- return age_of_state->GenerateEnableHeroine();
+ return age_of_state->GenerateEnableHeroine(cur_heroines);
 }
 vector<Action> Game::GenerateEnableAction()
 {
- return age_of_state->GenerateEnableAction(); 
+ return age_of_state->GenerateEnableAction(action_alldata); 
 }
 void Game::NextState(){
   age_of_state = age_of_state->NextAge();
+  enable_actions = GenerateEnableAction();
+  enable_heroines = GenerateEnableHeroine();
 }

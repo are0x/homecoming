@@ -17,10 +17,10 @@
 class UpperGradesOfElementary : public GameStateAge{
 public:
   UpperGradesOfElementary();
-  void SetUp();
+  //void SetUp();
   GameStateAge *NextAge();
-  std::vector<Heroine> GenerateEnableHeroine();
-  std::vector<Action> GenerateEnableAction();
+  std::vector<Heroine> GenerateEnableHeroine(std::vector<Heroine> &heroines);
+  std::vector<Action> GenerateEnableAction(std::vector<Action> &actions);
 };
 
 
