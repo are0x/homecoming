@@ -10,6 +10,8 @@
 
 @implementation StoryWindowController
 @synthesize view;
+@synthesize textfield;
+@synthesize image;
 
 // -(id)initWithDelegate:(AppDelegate *)app{
 //   appdelegate = app;
