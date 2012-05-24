@@ -22,4 +22,6 @@
 -(id)initWithDelegate:(AppDelegate *)app;
 -(void)initActionList:(std::vector<Action>)actions;
 -(void)initMeetList:(std::vector<Heroine>)heroines;
+-(IBAction)attackButton :(id)sender;
+-(IBAction)undoAttackButton:(id)sender;
 @end

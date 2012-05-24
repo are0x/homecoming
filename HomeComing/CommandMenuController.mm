@@ -56,4 +56,23 @@ using namespace std;
   [meet_array_controller addObjects: tableData];
   [meet_array_controller setSelectionIndex:0];
 }
+-(void)tableViewSelectionDidChange:(NSNotification *)aNotification{
+ [aNotification object];
+  NSLog(@"tableViewSelectionDidChange");
+}
+-(IBAction)attackButton:(id)sender
+{
+  NSArray *ta = [meet_array_controller selectedObjects];
+  HeroineTableData *obj = [ta objectAtIndex:0];
+  [attack_array_controller addObject:obj];
+  [meet_array_controller removeObject:obj];
+}
+-(IBAction)undoAttackButton:(id)sender
+{
+  NSArray *ta = [attack_array_controller selectedObjects];
+  HeroineTableData *obj = [ta objectAtIndex:0];
+  [meet_array_controller addObject:obj];
+  [attack_array_controller removeObject:obj];
+}
+
 @end
