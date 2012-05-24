@@ -34,8 +34,8 @@ std::vector<Action> Action::loadActions(const char* path) {
       act.getParam(param_name) = RangeNumber(lb, ub);      
     }
     
-    std::string description;
-    ifs >> description;
+    std::string description(""), tmp;
+    while (std::getline(ifs, tmp) && tmp != "") description += tmp;
     act.description = description;
     
     res.push_back(act);

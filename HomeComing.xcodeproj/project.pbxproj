@@ -61,6 +61,7 @@
 		27C9A844156A78B90081E9D3 /* CommandMenuController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CommandMenuController.mm; sourceTree = "<group>"; };
 		27C9A84E156A7E5D0081E9D3 /* GameStateAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateAge.h; sourceTree = "<group>"; };
 		886178B0156D7E9B00A037C9 /* Action.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Action.cpp; sourceTree = "<group>"; };
+		886178D0156D987100A037C9 /* HomeComing copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HomeComing copy-Info.plist"; path = "/Users/choro3/Projects/HomeComing/HomeComing copy-Info.plist"; sourceTree = "<absolute>"; };
 		88862ED0156CC52A004F8BA7 /* StoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryView.h; sourceTree = "<group>"; };
 		88862ED1156CC52A004F8BA7 /* StoryView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StoryView.mm; sourceTree = "<group>"; };
 		88EFC944156CCBEF00051D95 /* Story.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Story.hpp; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 				2793FB08155D62780028EF15 /* HomeComing */,
 				2793FB01155D62780028EF15 /* Frameworks */,
 				2793FAFF155D62780028EF15 /* Products */,
+				886178D0156D987100A037C9 /* HomeComing copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
