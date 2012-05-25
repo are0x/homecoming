@@ -8,19 +8,20 @@
 
 #import <Cocoa/Cocoa.h>
 #import "StoryView.h"
+#import "AppDelegate.h"
 
-// @class AppDelegate;
+@class AppDelegate;
 
 @interface StoryWindowController : NSWindowController
 
 {
-  // AppDelegate* appdelegate;
+  AppDelegate* appdelegate;
 }
 
 @property (assign) IBOutlet StoryView *view;
 @property (assign) IBOutlet NSTextField *textfield;
 @property (assign) IBOutlet NSImageView *image;
 
-// - (void) initWithDelegatee: (AppDelegate *)app;
+- (id) initWithDelegatee: (AppDelegate *)app;
 
 @end

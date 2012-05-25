@@ -36,4 +36,5 @@
 -(void)initTextField:(Hero)hero;
 -(IBAction)attackButton :(id)sender;
 -(IBAction)undoAttackButton:(id)sender;
+-(IBAction)executionButton:(id)sender;
 @end

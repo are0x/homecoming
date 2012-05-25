@@ -36,7 +36,9 @@ using namespace std;
   int n = (int)actions.size();
   NSMutableArray *tableData = [[[NSMutableArray alloc] initWithCapacity: 0] retain];
   for(int i=0;i<n;i++){
-    ActionTableData *obj = [[ActionTableData alloc] initWithAction:actions[i]];
+    ActionTableData *obj = [[ActionTableData alloc] init];
+    [obj setData: StringToNSString(actions[i].name)
+            data: actions[i]];
     [tableData addObject: obj];
   }
   [action_array_controller addObjects: tableData];
@@ -50,7 +52,6 @@ using namespace std;
     [obj setData:StringToNSString(heroines[i].name)
             data:heroines[i]];
     [tableData addObject: obj];
-    NSLog(obj.display_name);
   }
   [meet_array_controller addObjects: tableData];
   [meet_array_controller setSelectionIndex:0];
@@ -99,5 +100,18 @@ using namespace std;
     [attackHeroinTextfield setStringValue:StringToNSString([obj data].ToStr())];
   }
 }
-
+-(IBAction)executionButton:(id)sender
+{
+  vector<Heroine> vh;
+  for (HeroineTableData *obj in attack_array_controller.arrangedObjects)
+  {
+    vh.push_back([obj data]);
+  }
+  vector<Action> va;
+  for (ActionTableData *obj in execution_array_controller.arrangedObjects)
+  {
+    va.push_back([obj data]);
+  }
+  [appdelegate RunExecution:va Heroines:vh];
+}
 @end

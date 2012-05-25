@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+using namespace std;
+
 @implementation AppDelegate
 
 - (void)dealloc
@@ -23,21 +25,19 @@
   game = new Game();
   command_menu_controller	= [[CommandMenuController alloc] initWithDelegate:self];
   [command_menu_controller showWindow:self];
-  // [[[StoryWindowController alloc] initWithDelegate:self] showWindow:self];
+  story_window_controller = [[StoryWindowController alloc] initWithDelegate:self];
+  //[[[StoryWindowController alloc] initWithDelegate:self] showWindow:self];
   // [[[StoryWindowController alloc] initWithWindowNibName: @"StoryWindowController"] showWindow:self];
 }
 -(void)NextState
 {
   game->NextState();
 }
--(void)CalcExecution
+-(void)RunExecution:(vector<Action>)actions Heroines:(vector<Heroine>)heroines
 {
-}
--(void)RunExecution
-{
-  //結果を計算
-  [self CalcExecution];
-  //結果を表示するwindowに切り替える
+  
+  //StoryWindowのメインみたいのを呼ぶ
+  cout<<"RunExecution"<<endl;
 }
 -(void)DisplayResultEnd
 {
