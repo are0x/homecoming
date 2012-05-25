@@ -76,6 +76,8 @@
 		88617929156FCA8B00A037C9 /* ConfigFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigFileLoader.h; sourceTree = "<group>"; };
 		8861792A156FCA8B00A037C9 /* Hero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hero.cpp; sourceTree = "<group>"; };
 		8861792B156FCA8B00A037C9 /* Heroine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Heroine.cpp; sourceTree = "<group>"; };
+		88617932156FD17700A037C9 /* FileLoaderUnittest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileLoaderUnittest.hpp; sourceTree = "<group>"; };
+		8861793315701CF000A037C9 /* ES.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ES.hpp; sourceTree = "<group>"; };
 		88862ED0156CC52A004F8BA7 /* StoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryView.h; sourceTree = "<group>"; };
 		88862ED1156CC52A004F8BA7 /* StoryView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StoryView.mm; sourceTree = "<group>"; };
 		88EFC944156CCBEF00051D95 /* Story.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Story.hpp; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		2793FB08155D62780028EF15 /* HomeComing */ = {
 			isa = PBXGroup;
 			children = (
+				8861793315701CF000A037C9 /* ES.hpp */,
 				88617923156FCA8B00A037C9 /* ActionFileLoader.h */,
 				88617924156FCA8B00A037C9 /* AgeOfHighSchool.cpp */,
 				88617925156FCA8B00A037C9 /* AgeOfHighSchool.h */,
@@ -186,6 +189,7 @@
 				2793FB0E155D62780028EF15 /* main.mm */,
 				2793FB10155D62780028EF15 /* HomeComing-Prefix.pch */,
 				2793FB11155D62780028EF15 /* Credits.rtf */,
+				88617932156FD17700A037C9 /* FileLoaderUnittest.hpp */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

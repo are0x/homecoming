@@ -13,8 +13,10 @@
 #include <string>
 #include <fstream>
 
+#include "ES.hpp"
+
 class ConfigFileLoader {  
-protected:
+public:
   
   struct S {
     std::string value;
@@ -32,9 +34,9 @@ protected:
   static void _pretty(S* es_tree, int depth);
   
 public:
-
+  // 
+  static ConfigFileLoader* load(const char* path);
   static void prettify(S* es_tree);
-  
 };
 
 #endif
