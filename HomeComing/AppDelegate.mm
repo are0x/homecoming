@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <string>
+#import <vector>
+#import "Utility.h"
 
 @implementation AppDelegate
 
@@ -21,10 +24,12 @@
   // Insert code here to initialize your application
   srand((unsigned int)time(NULL));
   game = new Game();
-  command_menu_controller	= [[CommandMenuController alloc] initWithDelegate:self];
-  [command_menu_controller showWindow:self];
+  // command_menu_controller	= [[CommandMenuController alloc] initWithDelegate:self];
+  // [command_menu_controller showWindow:self];
   // [[[StoryWindowController alloc] initWithDelegate:self] showWindow:self];
   // [[[StoryWindowController alloc] initWithWindowNibName: @"StoryWindowController"] showWindow:self];
+  swcontroller = [[StoryWindowController alloc] initWithWindowNibName:@"StoryWindowController"];
+  [swcontroller showWindow:self];
 }
 -(void)NextState
 {
@@ -50,5 +55,26 @@
 {
   [command_menu_controller initMeetList:game->enable_heroines];
   [command_menu_controller initActionList:game->enable_actions];
+}
+
+-(IBAction)turnOverPages:(id)sender {
+  
+  // sample text
+  static int idx = 0;
+  static std::vector<std::string> vs;
+  
+  if(idx == 0) {
+    vs.push_back("梨穂子はかわいいなあ！");    
+    vs.push_back("梨穂子はかわいいなあ！！");    
+    vs.push_back("梨穂子はかわいいなあ！！！");
+    vs.push_back("miyaaaaaaaaa");
+    vs.push_back("ダメ…ダメデス……");
+  }
+  
+  [[swcontroller textfield] setStringValue:StringToNSString(vs[idx])];
+  // NSLog([NSString stringWithCString:vs[idx].c_str() encoding:NSUTF8StringEncoding]);
+  idx = (idx + 1) % (int)vs.size();
+  
+  NSLog(@"Hello\n");
 }
 @end

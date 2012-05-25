@@ -17,6 +17,7 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>{
   Game *game;
   CommandMenuController *command_menu_controller;
+  StoryWindowController *swcontroller;
 }
 -(void)NextState;
 -(void)CalcExecution;

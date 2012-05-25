@@ -22,5 +22,6 @@
 @property (assign) IBOutlet NSImageView *image;
 
 // - (void) initWithDelegatee: (AppDelegate *)app;
+- (void)turnOverPages:(id)sender;
 
 @end

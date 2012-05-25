@@ -8,12 +8,38 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "HomeComing/AppDelegate.mm"
-         timestampString = "359486430.639914"
+         timestampString = "359569749.442979"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "26"
-         endingLineNumber = "26"
+         startingLineNumber = "29"
+         endingLineNumber = "29"
          landmarkName = "-applicationDidFinishLaunching:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "HomeComing/ConfigFileLoader.cpp"
+         timestampString = "359634943.690766"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "60"
+         endingLineNumber = "60"
+         landmarkName = "ConfigFileLoader::prettify(ConfigFileLoader::S *es_tree)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "HomeComing/ConfigFileLoader.cpp"
+         timestampString = "359634943.690766"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "59"
+         endingLineNumber = "59"
+         landmarkName = "ConfigFileLoader::prettify(ConfigFileLoader::S *es_tree)"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
