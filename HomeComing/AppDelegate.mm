@@ -35,9 +35,10 @@ using namespace std;
 }
 -(void)RunExecution:(vector<Action>)actions Heroines:(vector<Heroine>)heroines
 {
-  
   //StoryWindowのメインみたいのを呼ぶ
   cout<<"RunExecution"<<endl;
+  [command_menu_controller close];
+  [story_window_controller showWindow:self];
 }
 -(void)DisplayResultEnd
 {

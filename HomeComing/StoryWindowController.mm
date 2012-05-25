@@ -30,7 +30,7 @@
   return self;
 }
 
--(id)initWithDelegatee:(id)app
+-(id)initWithDelegate:(id)app
 {
   appdelegate = app;
   if ( ! (self = [super initWithWindowNibName: @"StoryWindowController"]) ) {

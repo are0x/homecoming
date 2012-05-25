@@ -22,6 +22,6 @@
 @property (assign) IBOutlet NSTextField *textfield;
 @property (assign) IBOutlet NSImageView *image;
 
-- (id) initWithDelegatee: (AppDelegate *)app;
+- (id) initWithDelegate: (AppDelegate *)app;
 
 @end
