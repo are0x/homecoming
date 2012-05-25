@@ -6,15 +6,17 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#include "Hero.h"
-#include "Heroine.h"
-#include "Action.h"
-#include "LowerGradesOfElementary.h"
-#include <vector>
-#include <string>
+
 
 #ifndef HomeComing_Game_h
 #define HomeComing_Game_h
+
+#include "Hero.h"
+#include "Heroine.h"
+#include "Action.h"
+#include "GameStateAge.h"
+#include <vector>
+#include <string>
 
 class Action;
 

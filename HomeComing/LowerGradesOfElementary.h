@@ -18,8 +18,8 @@ class LowerGradesOfElementary : public GameStateAge{
 public:
   LowerGradesOfElementary();
   GameStateAge *NextAge();
-  std::vector<Heroine> GenerateEnableHeroine(std::vector<Heroine> &heroines);
-  std::vector<Action> GenerateEnableAction(std::vector<Action> &actions);
+  std::vector<Heroine> GenerateEnableHeroine(Game *game);
+  std::vector<Action> GenerateEnableAction(Game *game);
 };
 
 

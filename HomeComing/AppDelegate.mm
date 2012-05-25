@@ -39,12 +39,15 @@ using namespace std;
   cout<<"RunExecution"<<endl;
   [command_menu_controller close];
   [story_window_controller showWindow:self];
+  //テストのためいきなりDisplayResultEndをよぶ
+  [self DisplayResultEnd];
 }
 -(void)DisplayResultEnd
 {
   [self NextState];
-  //[command_menu_controller initActionList:game->enable_actions];
-  //[command_menu_controller initMeetList:game->enable_heroines];
+  [command_menu_controller initActionList:game->enable_actions];
+  [command_menu_controller initMeetList:game->enable_heroines];
+  [story_window_controller close];
   [command_menu_controller showWindow:self];
 }
 -(void)didCommandMenu

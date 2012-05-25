@@ -11,6 +11,7 @@
 #include <cstdlib>
 #include <vector>
 #include "Utility.h"
+#include "LowerGradesOfElementary.h"
 
 using namespace std;
 
@@ -96,15 +97,16 @@ void Game::GrowHeroines()
     else if(rand()%100 <= 2) t.property -= 20;
     else if(rand()%100 > 50) t.property += 1;
     else if(rand()%100 < 25) t.property -= 1;
+    t.age += 3;
   }
 }
 vector<Heroine> Game::GenerateEnableHeroine()
 {
- return age_of_state->GenerateEnableHeroine(cur_heroines);
+ return age_of_state->GenerateEnableHeroine(this);
 }
 vector<Action> Game::GenerateEnableAction()
 {
- return age_of_state->GenerateEnableAction(action_alldata); 
+ return age_of_state->GenerateEnableAction(this); 
 }
 void Game::NextState(){
   GrowHeroines();
