@@ -23,10 +23,15 @@ public:
   int visual,intel,property,human;
   int actpow,lifepow,mindpow,technicpow,luck;
   
+  int talent_visual,talent_intel,talent_property,talent_luck;
+  int talent_lifepow,talent_technicpow;
+  
   std::vector<HeroineAttr> attrs;  
   int schoolid;
   int age;
   bool appearOK;
+  
+  std::string ToStr();
 };
 
 

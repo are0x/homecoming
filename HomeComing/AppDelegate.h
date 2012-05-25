@@ -11,17 +11,18 @@
 #import <cstdlib>
 #import "CommandMenuController.h"
 #import "StoryWindowController.h"
+#include <vector>
 
 @class CommandMenuController;
+@class StoryWindowController;
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>{
   Game *game;
   CommandMenuController *command_menu_controller;
-  StoryWindowController *swcontroller;
+  StoryWindowController *story_window_controller;
 }
 -(void)NextState;
--(void)CalcExecution;
--(void)RunExecution;
+-(void)RunExecution:(std::vector<Action>)actions Heroines:(std::vector<Heroine>)heroines;
 -(void)DisplayResultEnd;
 -(void)didCommandMenu;
 @end

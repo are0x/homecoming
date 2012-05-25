@@ -10,13 +10,22 @@
 #import "Utility.h"
 
 @implementation ActionTableData
-@synthesize display_name;
-
 -(id)initWithAction:(Action)act
 {
   data = act;
   display_name = StringToNSString(data.name);
   return self;
+}
+-(void)setData:(NSString *)n data:(Action)d
+{
+  display_name = [n retain];
+  data = d;
+}
+-(NSString *)display_name{
+  return display_name;
+}
+-(Action)data{
+  return data;
 }
 
 @end
