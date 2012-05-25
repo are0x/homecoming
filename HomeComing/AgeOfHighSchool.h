@@ -1,13 +1,13 @@
 //
-//  LowerGradesOfElementary.h
+//  AgeOfHighSchool.h
 //  HomeComing
 //
-//  Created by arai takahiro on 12/05/22.
+//  Created by arai takahiro on 12/05/25.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#ifndef HomeComing_LowerGradesOfElementary_h
-#define HomeComing_LowerGradesOfElementary_h
+#ifndef HomeComing_AgeOfHighSchool_h
+#define HomeComing_AgeOfHighSchool_h
 
 #include "GameStateAge.h"
 #include <vector>
@@ -15,9 +15,9 @@
 #include "Action.h"
 
 
-class LowerGradesOfElementary : public GameStateAge{
+class AgeOfHighSchool : public GameStateAge{
 public:
-  LowerGradesOfElementary();
+  AgeOfHighSchool();
   GameStateAge *NextAge();
   std::vector<Heroine> GenerateEnableHeroine(Game *game);
   std::vector<Action> GenerateEnableAction(Game *game);

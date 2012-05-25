@@ -30,13 +30,13 @@ vector<Heroine> UpperGradesOfElementary::GenerateEnableHeroine(Game *game)
   int n = (int)game->enable_heroines.size();
   for(int i=0;i<n;i++){
     Heroine &h = game->enable_heroines[i];
-    if(7<=h.age && h.age<=11) ret.push_back(h);
+    if(7<=h.age && h.age<=11 && h.appearOK) ret.push_back(h);
   }
   //[6]と新たにあえる
   n = (int)game->cur_heroines.size();
   for(int i=0;i<n;i++){
     Heroine &h = game->cur_heroines[i];
-    if(h.age == 6 && rand()%100+1 <= 5) ret.push_back(h);
+    if(h.age == 6 && rand()%100+1 <= 5 && h.appearOK) ret.push_back(h);
   }
   return ret;
 }

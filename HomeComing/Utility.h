@@ -48,6 +48,12 @@ static std::string NumToStr(int n){
   return ret;
 }
 
+//期待値　nyu 分散 sigma の正規分布U U(p<=a)を計算する関数の近似式
+static double CalcProbability(double a,double nyu,double sigma){
+  double x = (a-nyu)/sqrt(sigma);
+  return 1/(1+exp(-1.7*x));
+}
+
 static std::vector<std::string> loadNameDictionary(const char* path) {
   std::ifstream ifs(path);
   std::vector<std::string> res;
