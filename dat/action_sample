@@ -1,0 +1,270 @@
+(Action
+  (name _name)
+  (spend _spend)
+  (params (param _name _lb _ub) ...)
+  (description _desc)
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase _phase)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name ドリルをする)
+  (spend 1)
+  (params (param 知性	-2 2) ...)
+  (description "ドリルをします。")
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase 小学生)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+(Action
+  (name 公園に遊びに行く)
+  (spend 1)
+  (params (param 人間力	0 2) (params 行動力	1 2)...)
+  (description "公園で楽しいひと時を過ごします。")
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase 小学生)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name 親に反抗する)
+  (spend 2)
+  (params (param 行動力	1 3)(param 精神力  1 2) ...)
+  (description "親に反逆します。")
+  (cond
+    (params (param _name_ lb_ ub) ...)
+    (steady)
+    (phase 小学生)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name パーフェクトクローザーをプレーする。)
+  (spend 1)
+  (params (param 生命力	1 3)(param 行動力	1 2) ...)
+  (description "パーフェクトクローザーで遊びます。")
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase 小学生)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name 家のお手伝いをする)
+  (spend 1)
+  (params (param 資産	0 2 ) (param 技術	0 1)...)
+  (description "家のお手伝いをしてお母さんをウルトラハッピーにしよう。")
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase 小学生)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name イチゴ狩りに行く。)
+  (spend 1)
+  (params (param　知性	0 2)(param 天運  0 1) ...)
+  (description "狩りは狩りでもイチゴを狩るよ。")
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase 小学生)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name 数学を勉強する)
+  (spend 1)
+  (params (param 知性	0 3) (param 容姿  -2 2)...)
+  (description "あかりも数学の勉強とっても大好きだよ。")
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase 中学生)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name 部活動に行く)
+  (spend 1)
+  (params (param 容姿	-2 2)(param 技術  0 3) ...)
+  (description "部活動に行きます。")
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase 中学生)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name かつあげをする)
+  (spend 2)
+  (params (param 人間性	-2 1 )(param  資産  0 3) ...)
+  (description "簡単にお金をgetしよう!!")
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase 中学生)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name 　)
+  (spend _spend)
+  (params (param _name _lb _ub) ...)
+  (description _desc)
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase _phase)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name _name)
+  (spend _spend)
+  (params (param _name _lb _ub) ...)
+  (description _desc)
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase _phase)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name _name)
+  (spend _spend)
+  (params (param _name _lb _ub) ...)
+  (description _desc)
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase _phase)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name _name)
+  (spend _spend)
+  (params (param _name _lb _ub) ...)
+  (description _desc)
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase _phase)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name _name)
+  (spend _spend)
+  (params (param _name _lb _ub) ...)
+  (description _desc)
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase _phase)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name _name)
+  (spend _spend)
+  (params (param _name _lb _ub) ...)
+  (description _desc)
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase _phase)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name _name)
+  (spend _spend)
+  (params (param _name _lb _ub) ...)
+  (description _desc)
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase _phase)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+(Action
+  (name _name)
+  (spend _spend)
+  (params (param _name _lb _ub) ...)
+  (description _desc)
+  (cond
+    (params (param _name _lb _ub) ...)
+    (steady)
+    (phase _phase)
+    (prob _prob)
+    (attrs (attr _name) ...)
+    (history (name _name) ...)))
+
+
+
+

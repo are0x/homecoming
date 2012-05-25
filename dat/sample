@@ -1,0 +1,12 @@
+(Action
+  (name _name)
+  (spend _spend)
+  (params (param _name _lb _ub))
+  (description _desc)
+  (cond
+    (params (param _name _lb _ub))
+    (steady)
+    (phase _phase)
+    (prob _prob)
+    (attrs (attr _name))
+    (history (name _name))))
