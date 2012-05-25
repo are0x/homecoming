@@ -24,6 +24,7 @@ GameStateAge * UpperGradesOfElementary::NextAge()
 vector<Heroine> UpperGradesOfElementary::GenerateEnableHeroine(vector<Heroine>  &heroines)
 {
   vector<Heroine> ret;
+  //前同じ学校だった人はアタックしてない限り必ずいる。
   return ret;
 }
 

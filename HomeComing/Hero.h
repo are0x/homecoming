@@ -20,6 +20,8 @@ public:
   int talent_visual,talent_intel,talent_property,talent_luck;
   int talent_lifepow,talent_technicpow;
   std::string name;
+  
+  std::string ToStr();
 };
 
 #endif

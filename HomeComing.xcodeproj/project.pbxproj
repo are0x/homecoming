@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27696929156F18C200DC0EBA /* Heroine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27696928156F18C100DC0EBA /* Heroine.cpp */; };
+		27696938156F65C800DC0EBA /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27696937156F65C700DC0EBA /* Hero.cpp */; };
 		27907275156B7AAC00AE1D83 /* LowerGradesOfElementary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27907274156B7AAC00AE1D83 /* LowerGradesOfElementary.cpp */; };
 		2790727C156B873B00AE1D83 /* ActionTableData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2790727B156B873B00AE1D83 /* ActionTableData.mm */; };
 		27907283156B8FEC00AE1D83 /* HeroineTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 27907282156B8FEC00AE1D83 /* HeroineTableData.m */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		27696928156F18C100DC0EBA /* Heroine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Heroine.cpp; sourceTree = "<group>"; };
+		27696937156F65C700DC0EBA /* Hero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hero.cpp; sourceTree = "<group>"; };
 		27907272156B7A2900AE1D83 /* LowerGradesOfElementary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowerGradesOfElementary.h; sourceTree = "<group>"; };
 		27907274156B7AAC00AE1D83 /* LowerGradesOfElementary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LowerGradesOfElementary.cpp; sourceTree = "<group>"; };
 		2790727A156B873A00AE1D83 /* ActionTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionTableData.h; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				2793FB15155D62780028EF15 /* AppDelegate.mm */,
 				27C1968615693A58003C4D5F /* System.h */,
 				27C1968515693A4B003C4D5F /* Hero.h */,
+				27696937156F65C700DC0EBA /* Hero.cpp */,
 				27C9A84E156A7E5D0081E9D3 /* GameStateAge.h */,
 				27907272156B7A2900AE1D83 /* LowerGradesOfElementary.h */,
 				27907274156B7AAC00AE1D83 /* LowerGradesOfElementary.cpp */,
@@ -247,6 +250,7 @@
 				88EFC94F156CD79700051D95 /* StoryWindowController.mm in Sources */,
 				886178B1156D7E9B00A037C9 /* Action.cpp in Sources */,
 				27696929156F18C200DC0EBA /* Heroine.cpp in Sources */,
+				27696938156F65C800DC0EBA /* Hero.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

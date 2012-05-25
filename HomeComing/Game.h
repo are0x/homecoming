@@ -27,6 +27,8 @@ class Game{
   void GenerateHeroines();
   std::vector<Heroine> GenerateEnableHeroine();
   std::vector<Action> GenerateEnableAction();
+  
+  void GrowHeroines();
 public:
   std::vector<Hero> past_heroes;
   std::vector<Heroine> past_heroines;
