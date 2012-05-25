@@ -44,7 +44,7 @@ std::vector<Action> Action::loadActions(const char* path) {
   return res;
 }
 
-RangeNumber& Action::getParam(std::string param) {
+RangeNumber& ParameterList::getParam(std::string param) {
   if(param == "知性" || param == "intel") {
     return intel;
   } else if(param == "容姿" || param == "visual") {    

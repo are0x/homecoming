@@ -68,21 +68,29 @@ namespace choro3 {
 
   public:
 
+    ES& operator [](const int idx) {
+      return child[idx];
+    }
+
+    int length() const {
+      return (int)child.size();
+    }
+
     static std::vector<ES> load(std::istream& in) {
       std::vector<ES> res;
       while(in) res.push_back(ES::parse(in));
       return res;
     }
 
-    static void prettify(const ES& es, std::ostream& os = std::cout, int depth = 0) {
+    static void prettify(ES& es, std::ostream& os = std::cout, int depth = 0) {
       if(es.is_atom) {
         for(int i = 0; i < depth; i++) os << "  ";
         os << es.value << std::endl;
       } else {
         for(int i = 0; i < depth; i++) os << "  ";
-        os << "(" << es.child[0].value << std::endl;
-        for(int i = 1; i < (int)es.child.size(); i++)
-          prettify(es.child[i], os, depth + 1);
+        os << "(" << es[0].value << std::endl;
+        for(int i = 1; i < (int)es.length(); i++)
+          prettify(es[i], os, depth + 1);
         for(int i = 0; i < depth; i++) os << "  ";
         os << ")" << std::endl;
       }

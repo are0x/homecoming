@@ -24,7 +24,6 @@
 		886178B1156D7E9B00A037C9 /* Action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 886178B0156D7E9B00A037C9 /* Action.cpp */; };
 		8861792C156FCA8B00A037C9 /* AgeOfHighSchool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88617924156FCA8B00A037C9 /* AgeOfHighSchool.cpp */; };
 		8861792D156FCA8B00A037C9 /* AgeOfJuniorHighSchool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88617926156FCA8B00A037C9 /* AgeOfJuniorHighSchool.cpp */; };
-		8861792E156FCA8B00A037C9 /* ConfigFileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88617928156FCA8B00A037C9 /* ConfigFileLoader.cpp */; };
 		8861792F156FCA8B00A037C9 /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8861792A156FCA8B00A037C9 /* Hero.cpp */; };
 		88617930156FCA8B00A037C9 /* Heroine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8861792B156FCA8B00A037C9 /* Heroine.cpp */; };
 		88862ED2156CC52A004F8BA7 /* StoryView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88862ED1156CC52A004F8BA7 /* StoryView.mm */; };
@@ -72,11 +71,8 @@
 		88617925156FCA8B00A037C9 /* AgeOfHighSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeOfHighSchool.h; sourceTree = "<group>"; };
 		88617926156FCA8B00A037C9 /* AgeOfJuniorHighSchool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgeOfJuniorHighSchool.cpp; sourceTree = "<group>"; };
 		88617927156FCA8B00A037C9 /* AgeOfJuniorHighSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeOfJuniorHighSchool.h; sourceTree = "<group>"; };
-		88617928156FCA8B00A037C9 /* ConfigFileLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConfigFileLoader.cpp; sourceTree = "<group>"; };
-		88617929156FCA8B00A037C9 /* ConfigFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigFileLoader.h; sourceTree = "<group>"; };
 		8861792A156FCA8B00A037C9 /* Hero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hero.cpp; sourceTree = "<group>"; };
 		8861792B156FCA8B00A037C9 /* Heroine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Heroine.cpp; sourceTree = "<group>"; };
-		88617932156FD17700A037C9 /* FileLoaderUnittest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileLoaderUnittest.hpp; sourceTree = "<group>"; };
 		8861793315701CF000A037C9 /* ES.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ES.hpp; sourceTree = "<group>"; };
 		88862ED0156CC52A004F8BA7 /* StoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryView.h; sourceTree = "<group>"; };
 		88862ED1156CC52A004F8BA7 /* StoryView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StoryView.mm; sourceTree = "<group>"; };
@@ -142,8 +138,6 @@
 				88617925156FCA8B00A037C9 /* AgeOfHighSchool.h */,
 				88617926156FCA8B00A037C9 /* AgeOfJuniorHighSchool.cpp */,
 				88617927156FCA8B00A037C9 /* AgeOfJuniorHighSchool.h */,
-				88617928156FCA8B00A037C9 /* ConfigFileLoader.cpp */,
-				88617929156FCA8B00A037C9 /* ConfigFileLoader.h */,
 				8861792A156FCA8B00A037C9 /* Hero.cpp */,
 				8861792B156FCA8B00A037C9 /* Heroine.cpp */,
 				2793FB14155D62780028EF15 /* AppDelegate.h */,
@@ -189,7 +183,6 @@
 				2793FB0E155D62780028EF15 /* main.mm */,
 				2793FB10155D62780028EF15 /* HomeComing-Prefix.pch */,
 				2793FB11155D62780028EF15 /* Credits.rtf */,
-				88617932156FD17700A037C9 /* FileLoaderUnittest.hpp */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -272,7 +265,6 @@
 				886178B1156D7E9B00A037C9 /* Action.cpp in Sources */,
 				8861792C156FCA8B00A037C9 /* AgeOfHighSchool.cpp in Sources */,
 				8861792D156FCA8B00A037C9 /* AgeOfJuniorHighSchool.cpp in Sources */,
-				8861792E156FCA8B00A037C9 /* ConfigFileLoader.cpp in Sources */,
 				8861792F156FCA8B00A037C9 /* Hero.cpp in Sources */,
 				88617930156FCA8B00A037C9 /* Heroine.cpp in Sources */,
 			);
