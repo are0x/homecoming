@@ -41,11 +41,21 @@
   
   if ([theEvent type] == NSKeyDown) {
     NSLog(@"%d\n", [theEvent keyCode]);
+  } else {
+    NSLog(@"Mouse\n");
   }
   
   _storyIndex++;  
   
   [NSApp sendAction:@selector(turnOverPages:) to:target from:self];
+}
+
+- (BOOL) acceptsFirstResponder {
+  return YES;
+}
+
+- (BOOL) becomeFirstResponder {
+  return YES;
 }
 
 @end

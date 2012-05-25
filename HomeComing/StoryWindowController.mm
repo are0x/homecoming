@@ -13,20 +13,21 @@
 @synthesize textfield;
 @synthesize image;
 
-// -(id)initWithDelegate:(AppDelegate *)app{
-//   appdelegate = app;
-//   if ( ! (self = [super initWithWindowNibName: @"StoryWindowController"]) ) {
-// 		return nil;
-//   } // end if
-//   return self;
-// }
-
 - (id)initWithWindow:(NSWindow *)window
 {
   self = [super initWithWindow:window];
   if (self) {
-    // Initialization code here.
+    // Initialization code here.    
   }
+  return self;
+}
+
+-(id)initWithDelegate:(AppDelegate *)app
+{
+  appdelegate = app;
+  if ( ! (self = [super initWithWindowNibName: @"StoryWindowController"]) ) {
+    return nil;
+  } // end if
   return self;
 }
 
@@ -34,12 +35,16 @@
 {
   [super windowDidLoad];
     
-    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+  // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+  
+  // [view setAction:@selector(turnOverPages:)];
   [[self window] makeFirstResponder:view];
+  
+  NSLog(@"%s\n", [[self window] firstResponder] == view ? "YES" : "NO");
 }
 
 - (void)turnOverPages:(id)sender {
-  printf("caught the message\n");
+  NSLog(@"caught the message\n");
 }
 
 @end

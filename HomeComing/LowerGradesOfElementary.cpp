@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "LowerGradesOfElementary.h"
+#include "UpperGradesOfElementary.h"
 
 using namespace std;
 LowerGradesOfElementary::LowerGradesOfElementary(){
@@ -15,28 +16,26 @@ LowerGradesOfElementary::LowerGradesOfElementary(){
 }
 GameStateAge *LowerGradesOfElementary::NextAge(){
   GameStateAge *ret;
+  ret = new UpperGradesOfElementary();
   return ret;
 }
 
-vector<Heroine> LowerGradesOfElementary::GenerateEnableHeroine(vector<Heroine> &heroines)
+vector<Heroine> LowerGradesOfElementary::GenerateEnableHeroine(Game *game)
 {
   vector<Heroine> ret;
-  int n=(int)heroines.size();
+  int n=(int)game->cur_heroines.size();
   for(int i=0;i<n;i++){
-    cout<<"name:"<<heroines[i].name<<" age:"<<heroines[i].age<<endl;
-    if(6 == heroines[i].age && ( rand()%100 )+1 >= 50){
-      ret.push_back(heroines[i]);
+    Heroine &h = game->cur_heroines[i];
+    if(6 == h.age && ( rand()%100 )+1 >= 50){
+      ret.push_back(h);
     }
-    else if(4 <= heroines[i].age && heroines[i].age <= 12 && (rand()%100)+1 <= 5){
-      ret.push_back(heroines[i]);
+    else if(4 <= h.age && h.age <= 11 && (rand()%100)+1 <= 5){
+      ret.push_back(h);
     }
-  }
-  for(int i=0;i<ret.size();i++){
-    cout<<"name:"<<ret[i].name<<endl;
   }
   return ret;
 }
-vector<Action> LowerGradesOfElementary::GenerateEnableAction(vector<Action> &actions)
+vector<Action> LowerGradesOfElementary::GenerateEnableAction(Game *game)
 {
   vector<Action> ret;
   return ret;

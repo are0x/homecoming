@@ -14,7 +14,8 @@
   NSString *display_name;
 }
 -(id)initWithAction:(Action)act;
-@property (retain) NSString *display_name;
-
+- (void) setData: (NSString*) n data: (Action) d;
+- (NSString *)display_name;
+- (Action)data;
 
 @end
