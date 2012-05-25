@@ -42,6 +42,7 @@ void Game::InitHero(){
   cur_hero.luck = rand()%100+1;
   cur_hero.lifepow = rand()%10+1;
   cur_hero.technicpow = rand()%10+1;
+  cur_hero.mindpow = 20+rand()%30;
   cur_hero.fatalpow = 50 + cur_hero.luck/10-5;
 }
 void Game::GenerateHeroines()
@@ -59,6 +60,7 @@ void Game::GenerateHeroines()
     t.luck = rand()%100+1;
     t.lifepow = rand()%10+1;
     t.technicpow = rand()%10+1;
+    t.mindpow = 20+rand()%30;
     t.appearOK = true;
     t.age = -4+rand()%20;
     cur_heroines.push_back(t);

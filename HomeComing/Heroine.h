@@ -27,6 +27,8 @@ public:
   int schoolid;
   int age;
   bool appearOK;
+  
+  std::string ToStr();
 };
 
 

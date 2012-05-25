@@ -10,6 +10,7 @@
 #include <fstream>
 #include <vector>
 #include <iostream>
+#include <sstream>
 
 #ifndef HomeComing_Utility_h
 #define HomeComing_Utility_h
@@ -29,6 +30,22 @@ static std::string NSStringToString(NSString *str){
 
 static NSString * StringToNSString(std::string str){
   return [[[NSString alloc] initWithCString:str.c_str() encoding:NSUTF8StringEncoding] autorelease];
+}
+
+static int StringToNum(std::string &str){
+  std::stringstream ss;
+  ss<<str;
+  int ret;
+  ss>>ret;
+  return ret;
+}
+
+static std::string NumToStr(int n){
+  std::stringstream ss;
+  ss<<n;
+  std::string ret;
+  ss>>ret;
+  return ret;
 }
 
 static std::vector<std::string> loadNameDictionary(const char* path) {

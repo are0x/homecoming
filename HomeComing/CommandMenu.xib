@@ -878,7 +878,7 @@
 						<object class="NSTextField" id="181234910">
 							<reference key="NSNextResponder" ref="533637080"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{528, 235}, {137, 155}}</string>
+							<string key="NSFrame">{{522, 299}, {137, 155}}</string>
 							<reference key="NSSuperview" ref="533637080"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="121353156"/>
@@ -1053,6 +1053,14 @@
 						<reference key="destination" ref="38097277"/>
 					</object>
 					<int key="connectionID">177</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">heroTextfield</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="181234910"/>
+					</object>
+					<int key="connectionID">178</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -1710,7 +1718,7 @@
 				<reference key="dict.values" ref="1002"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">177</int>
+			<int key="maxID">178</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1759,6 +1767,7 @@
 							<string>attackTableView</string>
 							<string>attack_array_controller</string>
 							<string>execution_array_controller</string>
+							<string>heroTextfield</string>
 							<string>meetHeroinrTextfield</string>
 							<string>meetTableView</string>
 							<string>meet_array_controller</string>
@@ -1770,6 +1779,7 @@
 							<string>NSTableView</string>
 							<string>NSArrayController</string>
 							<string>NSArrayController</string>
+							<string>NSTextField</string>
 							<string>NSTextField</string>
 							<string>NSTableView</string>
 							<string>NSArrayController</string>
@@ -1784,6 +1794,7 @@
 							<string>attackTableView</string>
 							<string>attack_array_controller</string>
 							<string>execution_array_controller</string>
+							<string>heroTextfield</string>
 							<string>meetHeroinrTextfield</string>
 							<string>meetTableView</string>
 							<string>meet_array_controller</string>
@@ -1809,6 +1820,10 @@
 							<object class="IBToOneOutletInfo">
 								<string key="name">execution_array_controller</string>
 								<string key="candidateClassName">NSArrayController</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">heroTextfield</string>
+								<string key="candidateClassName">NSTextField</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">meetHeroinrTextfield</string>

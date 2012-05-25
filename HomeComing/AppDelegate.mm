@@ -50,5 +50,6 @@
 {
   [command_menu_controller initMeetList:game->enable_heroines];
   [command_menu_controller initActionList:game->enable_actions];
+  [command_menu_controller initTextField:game->cur_hero];
 }
 @end

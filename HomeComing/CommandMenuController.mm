@@ -40,8 +40,7 @@ using namespace std;
     [tableData addObject: obj];
   }
   [action_array_controller addObjects: tableData];
-  //[action_array_controller setSelectionIndex:0];
-  
+  [action_array_controller setSelectionIndex:0];
 }
 -(void)initMeetList:(std::vector<Heroine>)heroines{
   int n = (int)heroines.size();
@@ -56,13 +55,24 @@ using namespace std;
   [meet_array_controller addObjects: tableData];
   [meet_array_controller setSelectionIndex:0];
 }
+-(void)initTextField:(Hero)hero
+{
+  [meetHeroinrTextfield setStringValue:@""];
+  [attackHeroinTextfield setStringValue:@""];
+  [heroTextfield setStringValue:@""];
+}
 -(void)tableViewSelectionDidChange:(NSNotification *)aNotification{
   if([aNotification object] == meetTableView){
-    cout<<"meet"<<endl;
-    //[meetHeroinrTextfield setStringValue:];
+    NSArray *ta = [meet_array_controller selectedObjects];
+    HeroineTableData *obj = [ta objectAtIndex:0];
+    Heroine t = [obj data];
+    [meetHeroinrTextfield setStringValue:StringToNSString(t.ToStr())];
   }
   else{
-    cout<<"attack"<<endl;
+    NSArray *ta = [attack_array_controller selectedObjects];
+    HeroineTableData *obj = [ta objectAtIndex:0];
+    Heroine t = [obj data];
+    [attackHeroinTextfield setStringValue:StringToNSString(t.ToStr())];
   }
 }
 -(IBAction)attackButton:(id)sender
@@ -71,6 +81,11 @@ using namespace std;
   HeroineTableData *obj = [ta objectAtIndex:0];
   [attack_array_controller addObject:obj];
   [meet_array_controller removeObject:obj];
+  ta = [meet_array_controller selectedObjects];
+  obj = [ta objectAtIndex:0];
+  if(obj != nil){
+    [meetHeroinrTextfield setStringValue:StringToNSString([obj data].ToStr())];
+  }
 }
 -(IBAction)undoAttackButton:(id)sender
 {
@@ -78,6 +93,11 @@ using namespace std;
   HeroineTableData *obj = [ta objectAtIndex:0];
   [meet_array_controller addObject:obj];
   [attack_array_controller removeObject:obj];
+  ta = [attack_array_controller selectedObjects];
+  obj = [ta objectAtIndex:0];
+  if(obj != nil){
+    [attackHeroinTextfield setStringValue:StringToNSString([obj data].ToStr())];
+  }
 }
 
 @end
