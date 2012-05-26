@@ -43,6 +43,10 @@ using namespace std;
   }
   [action_array_controller addObjects: tableData];
   [action_array_controller setSelectionIndex:0];
+  NSArray *ta = [action_array_controller selectedObjects];
+  ActionTableData *obj = [ta objectAtIndex:0];
+  Action t = [obj data];
+  [actionTextField setStringValue:StringToNSString(t.ToStr())];
 }
 -(void)initMeetList:(std::vector<Heroine>)heroines{
   int n = (int)heroines.size();
@@ -55,6 +59,10 @@ using namespace std;
   }
   [meet_array_controller addObjects: tableData];
   [meet_array_controller setSelectionIndex:0];
+  NSArray *ta = [meet_array_controller selectedObjects];
+  HeroineTableData *obj = [ta objectAtIndex:0];
+  Heroine t = [obj data];
+  [meetHeroinrTextfield setStringValue:StringToNSString(t.ToStr())];
 }
 -(void)initTextField:(Hero)hero
 {
@@ -63,17 +71,24 @@ using namespace std;
   [heroTextfield setStringValue:StringToNSString(hero.ToStr())];
 }
 -(void)tableViewSelectionDidChange:(NSNotification *)aNotification{
-  if([aNotification object] == meetTableView){
+  id object = [aNotification object];
+  if(object == meetTableView){
     NSArray *ta = [meet_array_controller selectedObjects];
     HeroineTableData *obj = [ta objectAtIndex:0];
     Heroine t = [obj data];
     [meetHeroinrTextfield setStringValue:StringToNSString(t.ToStr())];
   }
-  else{
+  else if(object == attackTableView){
     NSArray *ta = [attack_array_controller selectedObjects];
     HeroineTableData *obj = [ta objectAtIndex:0];
     Heroine t = [obj data];
     [attackHeroinTextfield setStringValue:StringToNSString(t.ToStr())];
+  }
+  else if(object == actionTableView){
+    NSArray *ta = [action_array_controller selectedObjects];
+    ActionTableData *obj = [ta objectAtIndex:0];
+    Action t = [obj data];
+    [actionTextField setStringValue:StringToNSString(t.ToStr())];
   }
 }
 -(IBAction)attackButton:(id)sender
