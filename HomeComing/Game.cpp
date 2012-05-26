@@ -69,6 +69,8 @@ Game::Game()
   InitHero();
   //ヒロイン生成
   GenerateHeroines();
+  //元々彼女はいない
+  steady.name = "None";
   //最初は小学校
   age_of_state = new LowerGradesOfElementary();
   enable_heroines = GenerateEnableHeroine();

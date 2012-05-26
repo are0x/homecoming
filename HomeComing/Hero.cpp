@@ -29,32 +29,36 @@ string Hero::ToStr(){
 int Hero::GetParamater(string str)
 {
   int ret = 0;
-  if(name == "容姿"){
+  if(str == "容姿"){
     ret = visual;
   }
-  else if(name == "知性"){
+  else if(str == "知性"){
     ret = intel;
   }
-  else if(name == "資産"){
+  else if(str == "資産"){
     ret = property;
   }
-  else if(name == "人間性"){
+  else if(str == "人間性"){
     ret = human;
   }
-  else if(name == "技術"){
+  else if(str == "技術"){
     ret = technicpow;
   }
-  else if(name == "生命力"){
+  else if(str == "生命力"){
     ret = lifepow;
   }
-  else if(name == "精神力"){
+  else if(str == "精神力"){
     ret = mindpow;
   }
-  else if(name == "天運"){
+  else if(str == "天運"){
     ret = luck;
   }
-  else if(name == "行動力"){
+  else if(str == "行動力"){
     ret = actpow;
   }
+  else if(str == "運命力"){
+    ret = fatalpow;
+  }
   else throw ProgrammingException("主人公のパラメーター名がおかしい");
+  return ret;
 }

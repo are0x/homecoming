@@ -69,14 +69,14 @@ std::vector<Action> Action::loadActions(const char* path) {
 
 bool Action::IsEnable(Stage s, Game *game){
   string vs[10]={"知性","容姿","生命力","精神力","技術","人間性","資産","天運","行動力","運命力"};
-  if(s != rest.age) return false;
+  if(!rest.satisfyAge(s)) return false;
   if(rest.steady && game->steady.name == "None"){
     return false;
   }
   for(int i=0;i<10;i++){
     RangeNumber rval = rest.getParam(vs[i]);
     int hval = game->cur_hero.GetParamater(vs[i]);
-    if( (rval.low <= hval && hval <= rval.up ) ) return false;
+    if( !(rval.low <= hval && hval <= rval.up ) ) return false;
   }
   int n = (int)rest.attrs.size();
   for(int i=0;i<n;i++){
@@ -111,7 +111,7 @@ void ParameterList::setParam(const string &param,const RangeNumber &val) {
   } else if(param == "徳" || param == "toku") {
     toku = val;    
   } else if(param == "運命力") {
-
+    fatalpow = val;
   } else {
     std::cerr << "passed invalid parameter identifier " << param << " for the method getParam." << std::endl;
     throw "No such member variable";
@@ -140,7 +140,7 @@ const RangeNumber& ParameterList::getParam(const std::string& param)const {
   } else if(param == "徳" || param == "toku") {
     return toku;
   } else if(param == "運命力") {
-    ;
+    return fatalpow;
   } else {
     std::cerr << "passed invalid parameter identifier " << param << " for the method getParam." << std::endl;
     throw "No such member variable";
