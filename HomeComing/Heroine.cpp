@@ -23,5 +23,6 @@ string Heroine::ToStr()
   ret += "精神力:"+NumToStr(mindpow)+"\n";
   ret += "天運　:"+NumToStr(luck)+"\n";
   ret += "行動力:"+NumToStr(actpow)+"\n";
+  ret += "年齢　:"+NumToStr(age);
   return ret;
 }

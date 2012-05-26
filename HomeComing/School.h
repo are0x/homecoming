@@ -12,9 +12,13 @@
 #define HomeComing_School_h
 
 class School{
+public:
   std::string name;
   //関係するパラメーターリスト
+  std::vector<std::string> paramaters;
   //そのパラメータの平均値、標準偏差
+  std::vector<double> nyus;
+  std::vector<double> sigmas;
 };
 
 #endif

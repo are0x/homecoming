@@ -19,6 +19,40 @@ using namespace std;
 
 Game::Game()
 {
+  //全中学校ロード
+  {
+    School s1;
+    s1.name = "素敵学園";
+    s1.paramaters.push_back("容姿");
+    s1.nyus.push_back(20);
+    s1.sigmas.push_back(10);
+    juniorhighschool_alldata.push_back(s1);
+    s1.name = "天才学園";
+    s1.paramaters.push_back("知性");
+    s1.nyus.push_back(20);
+    s1.sigmas.push_back(10);
+    juniorhighschool_alldata.push_back(s1);
+    s1.name = "真性学園";
+    s1.paramaters.push_back("人間性");
+    s1.nyus.push_back(20);
+    s1.sigmas.push_back(10);
+    juniorhighschool_alldata.push_back(s1);
+    s1.name = "絢爛学園";
+    s1.paramaters.push_back("資産");
+    s1.nyus.push_back(80);
+    s1.sigmas.push_back(20);
+    juniorhighschool_alldata.push_back(s1);
+    s1.name = "英雄学園";
+    s1.paramaters.push_back("知性");
+    s1.nyus.push_back(10);
+    s1.sigmas.push_back(10);
+    s1.paramaters.push_back("容姿");
+    s1.nyus.push_back(10);
+    s1.sigmas.push_back(10);
+    juniorhighschool_alldata.push_back(s1);
+    s1.name ="荒廃学園";
+    juniorhighschool_alldata.push_back(s1);
+  }
   //全行動ロード
   {
     // test code for loading "Action" files. 

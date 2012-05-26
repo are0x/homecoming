@@ -21,6 +21,8 @@ public:
   GameStateAge *NextAge();
   std::vector<Heroine> GenerateEnableHeroine(Game *game);
   std::vector<Action> GenerateEnableAction(Game *game);
+  void SetSchool(School s);
+  School GetSchool();
 };
 
 
