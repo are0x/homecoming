@@ -18,7 +18,7 @@
 struct ParameterList {
   //変動の範囲
   RangeNumber visual,intel,human,property;
-  RangeNumber actpow,lifepow,mindpow,technicpow,luck;
+  RangeNumber actpow,lifepow,mindpow,technicpow,luck,fatalpow;
   RangeNumber toku;
   // パラメータ名とメンバ変数の対応を取る
   // ex:   act.getParam("知性") = RangeNumber(1, 2);  // act.intel に (1, 2) を設定
@@ -51,7 +51,7 @@ struct Action : ParameterList {
   
   bool IsEnable(Stage s,Game *game);
   bool operator<(const Action &act)const;
-  
+  std::string ToStr();
   
 };
 

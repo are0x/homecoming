@@ -25,9 +25,16 @@
   
   IBOutlet NSTextField *heroTextfield;
   
+  IBOutlet NSTextField *actionTextField;
+  
   IBOutlet NSTableView *meetTableView;
   
   IBOutlet NSTableView *attackTableView;
+  
+  IBOutlet NSTableView *actionTableView;
+  
+  IBOutlet NSTableView *executionTableView;
+  
   AppDelegate *appdelegate;
 }
 -(id)initWithDelegate:(AppDelegate *)app;
@@ -37,4 +44,6 @@
 -(IBAction)attackButton :(id)sender;
 -(IBAction)undoAttackButton:(id)sender;
 -(IBAction)executionButton:(id)sender;
+-(IBAction)actionButton:(id)sender;
+-(IBAction)undoActionButton:(id)sender;
 @end

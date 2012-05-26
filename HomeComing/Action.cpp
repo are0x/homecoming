@@ -10,6 +10,7 @@
 #include "Action.h"
 #include <fstream>
 #include <map>
+#include "Utility.h"
 
 using namespace std;
 
@@ -76,7 +77,7 @@ bool Action::IsEnable(Stage s, Game *game){
   for(int i=0;i<10;i++){
     RangeNumber rval = rest.getParam(vs[i]);
     int hval = game->cur_hero.GetParamater(vs[i]);
-    if( (rval.low <= hval && hval <= rval.up ) ) return false;
+    if( !(rval.low <= hval && hval <= rval.up ) ) return false;
   }
   int n = (int)rest.attrs.size();
   for(int i=0;i<n;i++){
@@ -87,6 +88,12 @@ bool Action::IsEnable(Stage s, Game *game){
     if(game->past_actions.find(rest.hist[i]) == game->past_actions.end()) return false;
   }
   return true;
+}
+
+string Action::ToStr(){
+  string ret= "必要行動力:"+NumToStr(consume_actpow)+"\n";
+  ret += description;
+  return ret;
 }
 
 void ParameterList::setParam(const string &param,const RangeNumber &val) {
@@ -111,7 +118,7 @@ void ParameterList::setParam(const string &param,const RangeNumber &val) {
   } else if(param == "徳" || param == "toku") {
     toku = val;    
   } else if(param == "運命力") {
-
+    fatalpow = val;
   } else {
     std::cerr << "passed invalid parameter identifier " << param << " for the method getParam." << std::endl;
     throw "No such member variable";
@@ -140,7 +147,7 @@ const RangeNumber& ParameterList::getParam(const std::string& param)const {
   } else if(param == "徳" || param == "toku") {
     return toku;
   } else if(param == "運命力") {
-    ;
+    return fatalpow;
   } else {
     std::cerr << "passed invalid parameter identifier " << param << " for the method getParam." << std::endl;
     throw "No such member variable";
