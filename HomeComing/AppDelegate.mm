@@ -23,6 +23,7 @@ using namespace std;
 	
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+  
   // Insert code here to initialize your application
   srand((unsigned int)time(NULL));
   game = new Game();

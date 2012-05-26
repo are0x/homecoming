@@ -18,6 +18,7 @@
 {
   AppDelegate* appdelegate;
   Story story;
+  int story_idx;
 }
 
 @property (assign) IBOutlet StoryView *view;
@@ -28,5 +29,6 @@
 - (id)initWithDelegate: (AppDelegate *)app;
 - (BOOL)loadStory: (std::vector<Action>) actions Heroines:(std::vector<Heroine>) heroines;
 - (IBAction)turnOverPages:(id)sender;
+- (void) update_param:(Hero)hero action:(Action) act;
 
 @end

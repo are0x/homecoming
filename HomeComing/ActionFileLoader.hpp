@@ -65,12 +65,11 @@ private:
     } else if (tag == "cond") {
         in_cond = true;
         MAP_CHILDREN(es_tree, act);
-        in_cond = false;
-      
+        in_cond = false;      
     } else if (tag == "steady") {
       act.rest.steady = true;
     } else if (tag == "phase") {
-      // todo : implement this      
+      act.rest.enableAge(toStage(es_tree[1].value()));
     } else if (tag == "prob") {
       MAP_FLOATVAL(es_tree, act.rest, prob);
     } else if (tag == "attrs") {
@@ -101,8 +100,11 @@ public:
       
       choro3::ES::prettify(s_tree[i]);
       
-      Action act;
+      // todo: be sure the field "rest.age" is equal to zero initially
+      Action act; // act.rest.age = NO_STAGE;
       ActionFileLoader::mapper(s_tree[i], act);
+      if (act.rest.age == NO_STAGE) { act.rest.age = STAGE_ALL; }
+      
       res.push_back(act);
     }
     

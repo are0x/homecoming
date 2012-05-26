@@ -21,12 +21,26 @@
 
 class Action;
 
-enum Stage {ELM1, ELM2, JHS, HS, UNV1, UNV2, WOK1, WOK2, WOK3, WOK4, WOK5};
+enum Stage {NO_STAGE = 0, ELM1 = 1, ELM2 = 2, JHS = 4, HS = 8, UNV1 = 16, UNV2 = 32,
+            WOK1 = 64, WOK2 = 128, WOK3 = 256, WOK4 = 512, WOK5 = 1024, WOK6 = 2048, WOK7 = 4096};
+
+static const int STAGE_ALL = (1<<20) - 1;
+
+static Stage toStage(std::string age_name) {
+  static const std::string aname[] = {"ELM1", "ELM2", "JHS", "HS", "UNV1", "UNV2",
+    "WOK1", "WOK2", "WOK3", "WOK4", "WOK5", "WOK6", "WOK7"};
+  for(int i = 0; i < 13; i++) {
+    if (aname[i] == age_name) {
+      return (Stage)(1<<i);
+    }
+  }
+  return NO_STAGE;
+}
 
 struct RangeNumber{
   int low,up;
   RangeNumber(int lb, int ub): low(lb), up(ub){}
-  RangeNumber(): low(0), up(0) {};
+  RangeNumber(): low(-INT_MAX / 3), up(INT_MAX / 3) {};
   bool operator<(const RangeNumber &r)const{
     if(r.low != low) return r.low < low;
     return r.up < up; 
@@ -74,6 +88,20 @@ static std::vector<std::string> loadNameDictionary(const char* path) {
   while(getline(ifs, s)) res.push_back(s);
   return res;
 }
+
+// [low, up] の一様分布
+static double uni(const RangeNumber& r) {
+  return ((double)rand() / RAND_MAX) * (r.up - r.low) + r.low;
+}
+
+/*
+static double norm(const RangeNumber& r) {
+  double x = ((double) rand() / RAND_MAX);
+  double exp = (double)(r.up + r.low) / 2;
+  double var = 1;
+  return (1. / sqrt(2 * exp * var)) * exp( -(x - exp) * (x - exp) / (2. * var * var));
+}*/
+
 
 class ProgrammingException : public std::domain_error {
 public:

@@ -7,6 +7,7 @@
 //
 
 #import "StoryWindowController.h"
+#import "Game.h"
 
 #import <vector>
 
@@ -38,7 +39,8 @@
 
   NSLog(@"[loadStory]");
   
-  
+  story = Story(actions, heroines);
+  story_idx = 0;
   
   return true;
 }
@@ -47,25 +49,34 @@
 {
   [super windowDidLoad];
     
-  // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
-  
-  [view setAction:@selector(turnOverPages:)];
-  [view setTarget:self];
-  // view = [[StoryView alloc] initWithFrame:[[self window] frame]];
-  // assert([[self window] makeFirstResponder:[self view]]);
-  // assert([[self view] becomeFirstResponder]);  
-  
-  NSLog(@"%s\n", [[self window] firstResponder] == view ? "YES" : "NO");
-  [[self window] setNextResponder:(NSResponder *)self];
-  // assert([[self window] nextResponder] == self);
+  // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.  
+}
 
+- (void) update_param:(Hero)hero action:(Action) act {
+
+  [textfield setStringValue:StringToNSString(act.name)];  
+  
 }
 
 - (IBAction)turnOverPages:(id)sender {
+  
+  printf("turnOverPages:\n");
+  
+  if (story_idx < (int)story.acts.size()) {
+    [self update_param: appdelegate->game->cur_hero action:story.acts[story_idx++]];
+  } else {
+    printf("close\n");
+    for(int i = 0; i < (int)story.heroines.size(); i++) {
+      
+    }
+    // closeStory();
+  }  
+  
   // NSLog(@"caught the message\n");
 }
 
 - (void)closeStory {
+  
 }
 
 @end
