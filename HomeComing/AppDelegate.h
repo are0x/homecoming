@@ -11,6 +11,7 @@
 #import <cstdlib>
 #import "CommandMenuController.h"
 #import "StoryWindowController.h"
+#import "ExaminationWindowController.h"
 #include <vector>
 
 @class CommandMenuController;
@@ -20,6 +21,7 @@
   Game *game;
   CommandMenuController *command_menu_controller;
   StoryWindowController *story_window_controller;
+  ExaminationWindowController * examination_window_controller;
 }
 -(void)NextState;
 -(void)RunExecution:(std::vector<Action>)actions Heroines:(std::vector<Heroine>)heroines;

@@ -29,6 +29,7 @@ using namespace std;
   command_menu_controller	= [[CommandMenuController alloc] initWithDelegate:self];
   [command_menu_controller showWindow:self];
   story_window_controller = [[StoryWindowController alloc] initWithDelegate:self];
+  examination_window_controller = [[ExaminationWindowController alloc] initWithDelegate:self];
   // [[[StoryWindowController alloc] initWithWindowNibName: @"StoryWindowController"] showWindow:self];
   // swcontroller = [[StoryWindowController alloc] initWithWindowNibName:@"StoryWindowController"];
   // [story_window_controller showWindow:self];

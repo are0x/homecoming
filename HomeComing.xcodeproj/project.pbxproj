@@ -11,6 +11,9 @@
 		2790727C156B873B00AE1D83 /* ActionTableData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2790727B156B873B00AE1D83 /* ActionTableData.mm */; };
 		27907283156B8FEC00AE1D83 /* HeroineTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 27907282156B8FEC00AE1D83 /* HeroineTableData.m */; };
 		27907297156CA5CD00AE1D83 /* UpperGradesOfElementary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27907296156CA5CC00AE1D83 /* UpperGradesOfElementary.cpp */; };
+		2790F459157115BD0072E88D /* ExaminationWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2790F458157115BA0072E88D /* ExaminationWindow.xib */; };
+		2790F45C157115E80072E88D /* ExaminationWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2790F45B157115E50072E88D /* ExaminationWindowController.mm */; };
+		2790F45F15711BCC0072E88D /* SchoolTableData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2790F45E15711BCB0072E88D /* SchoolTableData.mm */; };
 		2793FB03155D62780028EF15 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2793FB02155D62780028EF15 /* Cocoa.framework */; };
 		2793FB0D155D62780028EF15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2793FB0B155D62780028EF15 /* InfoPlist.strings */; };
 		2793FB0F155D62780028EF15 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2793FB0E155D62780028EF15 /* main.mm */; };
@@ -39,6 +42,11 @@
 		27907282156B8FEC00AE1D83 /* HeroineTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroineTableData.m; sourceTree = "<group>"; };
 		27907295156CA5B600AE1D83 /* UpperGradesOfElementary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpperGradesOfElementary.h; sourceTree = "<group>"; };
 		27907296156CA5CC00AE1D83 /* UpperGradesOfElementary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UpperGradesOfElementary.cpp; sourceTree = "<group>"; };
+		2790F458157115BA0072E88D /* ExaminationWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExaminationWindow.xib; sourceTree = "<group>"; };
+		2790F45A157115E30072E88D /* ExaminationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExaminationWindowController.h; sourceTree = "<group>"; };
+		2790F45B157115E50072E88D /* ExaminationWindowController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ExaminationWindowController.mm; sourceTree = "<group>"; };
+		2790F45D15711BC70072E88D /* SchoolTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolTableData.h; sourceTree = "<group>"; };
+		2790F45E15711BCB0072E88D /* SchoolTableData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SchoolTableData.mm; sourceTree = "<group>"; };
 		2793FAFE155D62780028EF15 /* HomeComing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeComing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2793FB02155D62780028EF15 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2793FB05155D62780028EF15 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -211,6 +219,11 @@
 				27C1968A15693BB0003C4D5F /* Utility.h */,
 				2790F44E1570B7B00072E88D /* Game */,
 				2793FB09155D62780028EF15 /* Supporting Files */,
+				2790F458157115BA0072E88D /* ExaminationWindow.xib */,
+				2790F45A157115E30072E88D /* ExaminationWindowController.h */,
+				2790F45B157115E50072E88D /* ExaminationWindowController.mm */,
+				2790F45D15711BC70072E88D /* SchoolTableData.h */,
+				2790F45E15711BCB0072E88D /* SchoolTableData.mm */,
 			);
 			path = HomeComing;
 			sourceTree = "<group>";
@@ -282,6 +295,7 @@
 				2793FB19155D62790028EF15 /* MainMenu.xib in Resources */,
 				27C1967F156931AA003C4D5F /* CommandMenu.xib in Resources */,
 				279E9CFD156E2D8700A0352B /* StoryWindowController.xib in Resources */,
+				2790F459157115BD0072E88D /* ExaminationWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +321,8 @@
 				8861792D156FCA8B00A037C9 /* AgeOfJuniorHighSchool.cpp in Sources */,
 				8861792F156FCA8B00A037C9 /* Hero.cpp in Sources */,
 				88617930156FCA8B00A037C9 /* Heroine.cpp in Sources */,
+				2790F45C157115E80072E88D /* ExaminationWindowController.mm in Sources */,
+				2790F45F15711BCC0072E88D /* SchoolTableData.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
