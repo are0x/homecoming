@@ -13,12 +13,12 @@
 
 #include "Hero.h"
 #include "Heroine.h"
-#include "Action.h"
-#include "GameStateAge.h"
 #include <vector>
 #include <string>
+#include "School.h"
 
 class Action;
+class GameStateAge;
 
 class Game{
   std::vector<Action> action_alldata;
@@ -32,6 +32,9 @@ class Game{
   
   void GrowHeroines();
 public:
+  std::vector<School> juniorhighschool_alldata;
+  std::vector<School> university_alldata;
+  
   std::vector<Hero> past_heroes;
   std::vector<Heroine> past_heroines;
   Hero cur_hero;

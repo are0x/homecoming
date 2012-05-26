@@ -40,3 +40,4 @@ vector<Action> LowerGradesOfElementary::GenerateEnableAction(Game *game)
   vector<Action> ret;
   return ret;
 }
+

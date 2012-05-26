@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "UpperGradesOfElementary.h"
+#include "AgeOfJuniorHighSchool.h"
 
 using namespace std;
 
@@ -18,6 +19,7 @@ UpperGradesOfElementary::UpperGradesOfElementary()
 GameStateAge * UpperGradesOfElementary::NextAge()
 {
   GameStateAge *ret;
+  //ret = new AgeOfJuniorHighSchool();
   return ret;
 }
 
