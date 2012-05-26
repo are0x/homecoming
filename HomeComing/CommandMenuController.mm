@@ -60,7 +60,7 @@ using namespace std;
 {
   [meetHeroinrTextfield setStringValue:@""];
   [attackHeroinTextfield setStringValue:@""];
-  [heroTextfield setStringValue:@""];
+  [heroTextfield setStringValue:StringToNSString(hero.ToStr())];
 }
 -(void)tableViewSelectionDidChange:(NSNotification *)aNotification{
   if([aNotification object] == meetTableView){
