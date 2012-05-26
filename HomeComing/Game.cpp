@@ -57,7 +57,10 @@ Game::Game()
   {
     // test code for loading "Action" files. 
     // todo: 
-    action_alldata = ActionFileLoader::load("../../../../../dat/action_sample");    
+    action_alldata = ActionFileLoader::load("../../../../../dat/action_sample");
+    /*for(int i=0;i<action_alldata.size();i++){
+      print_act(action_alldata[i]);
+    }*/
   }
   //名前辞書ロード
   firstname_alldata = loadNameDictionary("../../../../../dat/firstname_dic");

@@ -43,6 +43,9 @@ vector<Action> LowerGradesOfElementary::GenerateEnableAction(Game *game)
     Action &a = game->action_alldata[i];
     if(a.IsEnable(ELM1,game)) ret.push_back(a);
   }
+  for(int i=0;i<ret.size();i++){
+    print_act( ret[i] );
+  }
   return ret;
 }
 
