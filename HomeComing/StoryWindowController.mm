@@ -14,6 +14,7 @@
 @synthesize view;
 @synthesize textfield;
 @synthesize image;
+@synthesize param_field;
 
 - (id)initWithWindow:(NSWindow *)window
 {
@@ -34,7 +35,11 @@
 }
 
 - (BOOL)loadStory:(std::vector<Action>) actions Heroines:(std::vector<Heroine>) heroines {
+
   NSLog(@"[loadStory]");
+  
+  
+  
   return true;
 }
 
@@ -44,16 +49,23 @@
     
   // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
   
-  // [view setAction:@selector(turnOverPages:)];
+  [view setAction:@selector(turnOverPages:)];
+  [view setTarget:self];
   // view = [[StoryView alloc] initWithFrame:[[self window] frame]];
   // assert([[self window] makeFirstResponder:[self view]]);
-  // assert([[self view] becomeFirstResponder]);
+  // assert([[self view] becomeFirstResponder]);  
   
   NSLog(@"%s\n", [[self window] firstResponder] == view ? "YES" : "NO");
+  [[self window] setNextResponder:(NSResponder *)self];
+  // assert([[self window] nextResponder] == self);
+
 }
 
-- (void)turnOverPages:(id)sender {
-  NSLog(@"caught the message\n");
+- (IBAction)turnOverPages:(id)sender {
+  // NSLog(@"caught the message\n");
+}
+
+- (void)closeStory {
 }
 
 @end
