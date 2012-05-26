@@ -114,4 +114,28 @@ using namespace std;
   }
   [appdelegate RunExecution:va Heroines:vh];
 }
+-(IBAction)actionButton:(id)sender
+{
+  NSArray *ta = [action_array_controller selectedObjects];
+  ActionTableData *obj = [ta objectAtIndex:0];
+  [execution_array_controller addObject:obj];
+  [action_array_controller removeObject:obj];
+  ta = [action_array_controller selectedObjects];
+  obj = [ta objectAtIndex:0];
+  if(obj != nil){
+  [actionTextField setStringValue:StringToNSString([obj data].ToStr())];
+  } 
+}
+
+-(IBAction)undoActionButton:(id)sender{
+  NSArray *ta = [execution_array_controller selectedObjects];
+  ActionTableData *obj = [ta objectAtIndex:0];
+  [action_array_controller addObject:obj];
+  [execution_array_controller removeObject:obj];
+  ta = [action_array_controller selectedObjects];
+  obj = [ta objectAtIndex:0];
+  if(obj != nil){
+    [actionTextField setStringValue:StringToNSString([obj data].ToStr())];
+  }
+}
 @end

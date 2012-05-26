@@ -10,6 +10,7 @@
 #include "Action.h"
 #include <fstream>
 #include <map>
+#include "Utility.h"
 
 using namespace std;
 
@@ -87,6 +88,12 @@ bool Action::IsEnable(Stage s, Game *game){
     if(game->past_actions.find(rest.hist[i]) == game->past_actions.end()) return false;
   }
   return true;
+}
+
+string Action::ToStr(){
+  string ret= "必要行動力:"+NumToStr(consume_actpow)+"\n";
+  ret += description;
+  return ret;
 }
 
 void ParameterList::setParam(const string &param,const RangeNumber &val) {

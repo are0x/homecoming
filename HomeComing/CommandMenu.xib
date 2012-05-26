@@ -431,7 +431,7 @@
 											<object class="NSTextField" id="249863569">
 												<reference key="NSNextResponder" ref="645072707"/>
 												<int key="NSvFlags">268</int>
-												<string key="NSFrame">{{173, 8}, {137, 175}}</string>
+												<string key="NSFrame">{{173, 9}, {137, 175}}</string>
 												<reference key="NSSuperview" ref="645072707"/>
 												<reference key="NSNextKeyView" ref="181234910"/>
 												<bool key="NSEnabled">YES</bool>
@@ -1071,6 +1071,46 @@
 						<reference key="destination" ref="121353156"/>
 					</object>
 					<int key="connectionID">179</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">actionButton:</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="236397060"/>
+					</object>
+					<int key="connectionID">199</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">undoActionButton:</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="523384142"/>
+					</object>
+					<int key="connectionID">200</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">actionTextField</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="249863569"/>
+					</object>
+					<int key="connectionID">201</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">actionTableView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="308506281"/>
+					</object>
+					<int key="connectionID">202</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">executionTableView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="470048670"/>
+					</object>
+					<int key="connectionID">203</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -1760,7 +1800,7 @@
 				<reference key="dict.values" ref="1002"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">198</int>
+			<int key="maxID">203</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1772,12 +1812,16 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>actionButton:</string>
 							<string>attackButton:</string>
 							<string>executionButton:</string>
+							<string>undoActionButton:</string>
 							<string>undoAttackButton:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -1787,18 +1831,28 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>actionButton:</string>
 							<string>attackButton:</string>
 							<string>executionButton:</string>
+							<string>undoActionButton:</string>
 							<string>undoAttackButton:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBActionInfo">
+								<string key="name">actionButton:</string>
+								<string key="candidateClassName">id</string>
+							</object>
 							<object class="IBActionInfo">
 								<string key="name">attackButton:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
 								<string key="name">executionButton:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">undoActionButton:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
@@ -1811,6 +1865,8 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>actionTableView</string>
+							<string>actionTextField</string>
 							<string>action_array_controller</string>
 							<string>attackHeroinTextfield</string>
 							<string>attackTableView</string>
@@ -1823,6 +1879,8 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>NSTableView</string>
+							<string>NSTextField</string>
 							<string>NSArrayController</string>
 							<string>NSTextField</string>
 							<string>NSTableView</string>
@@ -1838,6 +1896,8 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>actionTableView</string>
+							<string>actionTextField</string>
 							<string>action_array_controller</string>
 							<string>attackHeroinTextfield</string>
 							<string>attackTableView</string>
@@ -1850,6 +1910,14 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">actionTableView</string>
+								<string key="candidateClassName">NSTableView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">actionTextField</string>
+								<string key="candidateClassName">NSTextField</string>
+							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">action_array_controller</string>
 								<string key="candidateClassName">NSArrayController</string>

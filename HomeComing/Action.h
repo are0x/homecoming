@@ -51,7 +51,7 @@ struct Action : ParameterList {
   
   bool IsEnable(Stage s,Game *game);
   bool operator<(const Action &act)const;
-  
+  std::string ToStr();
   
 };
 
