@@ -13,6 +13,7 @@
 #define HomeComing_Heroine_h
 
 class HeroineAttr{
+public:
   double appearancep;
   std::string name;
 };
@@ -32,6 +33,8 @@ public:
   bool appearOK;
   
   std::string ToStr();
+  int GetParamater(std::string &name);
+  bool HaveAttr(std::string name);
 };
 
 

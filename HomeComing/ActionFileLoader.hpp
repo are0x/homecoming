@@ -56,9 +56,9 @@ private:
     } else if (tag == "param") {
       RangeNumber rng = RangeNumber(atoi(es_tree[2].value().c_str()), atoi(es_tree[3].value().c_str()));
       if (in_cond) {
-        act.rest.getParam(es_tree[1].value()) = rng;
+        act.rest.setParam(es_tree[1].value(),rng);
       } else {
-        act.getParam(es_tree[1].value()) = rng;
+        act.setParam(es_tree[1].value(),rng);
       }
     } else if(tag == "description") {
       MAP_STRVAL(es_tree, act, description);
@@ -92,12 +92,15 @@ public:
   static std::vector<Action> load(const char* path) {
     
     std::ifstream ifs(path);
-    std::vector<choro3::ES> s_tree = choro3::ES::load(ifs);
+    std::vector<choro3::ES> s_tree = choro3::ES::load(ifs);        
     
-    printf("%d\n", (int)s_tree.size());
+    //printf("%d\n", (int)s_tree.size());
     
     std::vector<Action> res;
     for(int i = 0; i < (int)s_tree.size(); i++) {
+      
+      choro3::ES::prettify(s_tree[i]);
+      
       Action act;
       ActionFileLoader::mapper(s_tree[i], act);
       res.push_back(act);

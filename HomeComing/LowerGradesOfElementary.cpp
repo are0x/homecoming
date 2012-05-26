@@ -38,6 +38,11 @@ vector<Heroine> LowerGradesOfElementary::GenerateEnableHeroine(Game *game)
 vector<Action> LowerGradesOfElementary::GenerateEnableAction(Game *game)
 {
   vector<Action> ret;
+  int n = (int)game->action_alldata.size();
+  for(int i=0;i<n;i++){
+    Action &a = game->action_alldata[i];
+    if(a.IsEnable(ELM1,game)) ret.push_back(a);
+  }
   return ret;
 }
 

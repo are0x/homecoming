@@ -6,21 +6,34 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+
+
+#ifndef HomeComing_Utility_h
+#define HomeComing_Utility_h
+
 #include <string>
 #include <fstream>
 #include <vector>
 #include <iostream>
 #include <sstream>
-
-#ifndef HomeComing_Utility_h
-#define HomeComing_Utility_h
+#include <exception>
+#include <stdexcept>
 
 class Action;
+
+enum Stage {ELM1, ELM2, JHS, HS, UNV1, UNV2, WOK1, WOK2, WOK3, WOK4, WOK5};
 
 struct RangeNumber{
   int low,up;
   RangeNumber(int lb, int ub): low(lb), up(ub){}
   RangeNumber(): low(0), up(0) {};
+  bool operator<(const RangeNumber &r)const{
+    if(r.low != low) return r.low < low;
+    return r.up < up; 
+  }
+  bool operator != (const RangeNumber &r)const{
+    return r.low != low || r.up != r.up;
+  }
 };
 
 static std::string NSStringToString(NSString *str){
@@ -61,5 +74,11 @@ static std::vector<std::string> loadNameDictionary(const char* path) {
   while(getline(ifs, s)) res.push_back(s);
   return res;
 }
+
+class ProgrammingException : public std::domain_error {
+public:
+  ProgrammingException(const std::string& cause)
+  : std::domain_error("cause: " + cause) {}
+};
 
 #endif

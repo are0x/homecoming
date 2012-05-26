@@ -21,7 +21,6 @@ class Action;
 class GameStateAge;
 
 class Game{
-  std::vector<Action> action_alldata;
   std::vector<std::string> firstname_alldata;
   std::vector<std::string> lastname_alldata;
   
@@ -34,6 +33,7 @@ class Game{
 public:
   std::vector<School> juniorhighschool_alldata;
   std::vector<School> university_alldata;
+  std::vector<Action> action_alldata;
   
   std::vector<Hero> past_heroes;
   std::vector<Heroine> past_heroines;
