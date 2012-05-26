@@ -112,6 +112,10 @@
 		2790F44B1570B2640072E88D /* CommandMenu */ = {
 			isa = PBXGroup;
 			children = (
+				2790727A156B873A00AE1D83 /* ActionTableData.h */,
+				2790727B156B873B00AE1D83 /* ActionTableData.mm */,
+				27907281156B8FEB00AE1D83 /* HeroineTableData.h */,
+				27907282156B8FEC00AE1D83 /* HeroineTableData.m */,
 				27C1967E156931AA003C4D5F /* CommandMenu.xib */,
 				27C9A843156A78B90081E9D3 /* CommandMenuController.h */,
 				27C9A844156A78B90081E9D3 /* CommandMenuController.mm */,
@@ -192,10 +196,6 @@
 				27C1968F156A3372003C4D5F /* Heroine.h */,
 				8861792B156FCA8B00A037C9 /* Heroine.cpp */,
 				27C19692156A37C1003C4D5F /* School.h */,
-				2790727A156B873A00AE1D83 /* ActionTableData.h */,
-				27907281156B8FEB00AE1D83 /* HeroineTableData.h */,
-				27907282156B8FEC00AE1D83 /* HeroineTableData.m */,
-				2790727B156B873B00AE1D83 /* ActionTableData.mm */,
 				2793FB17155D62790028EF15 /* MainMenu.xib */,
 				27C1968915693B71003C4D5F /* Action.h */,
 				27C1968A15693BB0003C4D5F /* Utility.h */,
