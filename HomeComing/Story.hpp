@@ -9,6 +9,7 @@
 #ifndef HomeComing_Story_h
 #define HomeComing_Story_h
 
+/*
 #include <vector>
 #include <string>
 
@@ -24,5 +25,8 @@ public:
   std::string getText(int idx);
   std::string getImagePath(int idx);
 };
+ */
+
+
 
 #endif

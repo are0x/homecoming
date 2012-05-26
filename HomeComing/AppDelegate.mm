@@ -31,7 +31,7 @@ using namespace std;
   story_window_controller = [[StoryWindowController alloc] initWithDelegate:self];
   // [[[StoryWindowController alloc] initWithWindowNibName: @"StoryWindowController"] showWindow:self];
   // swcontroller = [[StoryWindowController alloc] initWithWindowNibName:@"StoryWindowController"];
-  [story_window_controller showWindow:self];
+  // [story_window_controller showWindow:self];
 }
 -(void)NextState
 {
@@ -61,6 +61,7 @@ using namespace std;
   [command_menu_controller initTextField:game->cur_hero];
 }
 
+/*
 -(IBAction)turnOverPages:(id)sender {
   
   // sample text
@@ -75,10 +76,12 @@ using namespace std;
     vs.push_back("ダメ…ダメデス……");
   }
   
-  [[story_window_controller textfield] setStringValue:StringToNSString(vs[idx])];
+  [[story_window_controller textfield] setStringValue:StringToNSString(vs[idx % vs.size()])];
   // NSLog([NSString stringWithCString:vs[idx].c_str() encoding:NSUTF8StringEncoding]);
-  idx = (idx + 1) % (int)vs.size();
+  idx = (idx + 1);
   
   NSLog(@"Hello\n");
 }
+ */ 
+
 @end

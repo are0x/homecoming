@@ -66,7 +66,7 @@
 		27C9A844156A78B90081E9D3 /* CommandMenuController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CommandMenuController.mm; sourceTree = "<group>"; };
 		27C9A84E156A7E5D0081E9D3 /* GameStateAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateAge.h; sourceTree = "<group>"; };
 		886178B0156D7E9B00A037C9 /* Action.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Action.cpp; sourceTree = "<group>"; };
-		88617923156FCA8B00A037C9 /* ActionFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionFileLoader.h; sourceTree = "<group>"; };
+		88617923156FCA8B00A037C9 /* ActionFileLoader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ActionFileLoader.hpp; sourceTree = "<group>"; };
 		88617924156FCA8B00A037C9 /* AgeOfHighSchool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgeOfHighSchool.cpp; sourceTree = "<group>"; };
 		88617925156FCA8B00A037C9 /* AgeOfHighSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeOfHighSchool.h; sourceTree = "<group>"; };
 		88617926156FCA8B00A037C9 /* AgeOfJuniorHighSchool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgeOfJuniorHighSchool.cpp; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				8861793315701CF000A037C9 /* ES.hpp */,
-				88617923156FCA8B00A037C9 /* ActionFileLoader.h */,
+				88617923156FCA8B00A037C9 /* ActionFileLoader.hpp */,
 				88617924156FCA8B00A037C9 /* AgeOfHighSchool.cpp */,
 				88617925156FCA8B00A037C9 /* AgeOfHighSchool.h */,
 				88617926156FCA8B00A037C9 /* AgeOfJuniorHighSchool.cpp */,

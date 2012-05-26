@@ -66,6 +66,8 @@ RangeNumber& ParameterList::getParam(std::string param) {
   } else if(param == "運命力") {
     ;
   } else {
+    std::cerr << "passed invalid parameter identifier " << param << " for the method getParam." << std::endl;
     throw "No such member variable";
   }
 }
+

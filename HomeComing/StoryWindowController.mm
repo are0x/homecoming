@@ -38,7 +38,9 @@
   // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
   
   // [view setAction:@selector(turnOverPages:)];
-  [[self window] makeFirstResponder:view];
+  // view = [[StoryView alloc] initWithFrame:[[self window] frame]];
+  // assert([[self window] makeFirstResponder:[self view]]);
+  // assert([[self view] becomeFirstResponder]);
   
   NSLog(@"%s\n", [[self window] firstResponder] == view ? "YES" : "NO");
 }

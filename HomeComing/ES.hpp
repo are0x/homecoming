@@ -17,18 +17,18 @@ namespace choro3 {
   void ignore_space(std::istream& in) {
     char c;
     while((c = in.get()) && isspace(c)) ;
-    in.putback(c);
+    if(!isspace(c)) in.putback(c);
   }
 
   // S式クラス
-  class ES {
+  class ES {    
   private:
 
     bool is_atom; // 式はアトム（シンボル・文字列・数値）か否か
-    std::string value; // アトムの場合の値
+    std::string _value; // アトムの場合の値
     std::vector<ES> child; // S式の要素
     
-    ES(std::string v): is_atom(true), value(v) {}
+    ES(std::string v): is_atom(true), _value(v) {}
     ES(): is_atom(false) {}
 
     // ストリームからアトムを一つ読み込む
@@ -40,8 +40,10 @@ namespace choro3 {
         while(in && (c = in.get()) && c != '"') atom += c;
       } else {
         in.putback(c);
-        while(in && (c = in.get()) && !isspace(c)) atom += c;        
+        while(in && (c = in.get()) && !(isspace(c) || c == ')')) atom += c;
       }
+      if(c != '"') in.putback(c);
+      ignore_space(in);
       // in >> atom;
       while(atom[atom.size() - 1] == ')') {
         in.putback(')');
@@ -51,9 +53,11 @@ namespace choro3 {
       return ES(atom);
     }
 
-    // 解析
+    // 
     static ES parse(std::istream& in) {
 
+      // printf("parse-------------------\n");
+      
       ignore_space(in);
 
       ES res;
@@ -71,20 +75,25 @@ namespace choro3 {
         }
         ignore_space(in);
       }
+      
+      ignore_space(in);
+      // printf("quit--------------------\n");
 
       return res;
     }
 
   public:
     
-    ES& operator [] (const int idx) const {
+    ES& operator [] (const int idx) {
       return child[idx];
     }
     
-    int length() const {
-      return child.size();
-    }
+    inline int length() const { return child.size(); }
 
+    inline bool atom() const { return is_atom; }
+    
+    inline std::string value() const { return _value; }
+    
     // 入力ストリームからS式を読み込む
     static std::vector<ES> load(std::istream& in) {
       std::vector<ES> res;
@@ -93,13 +102,13 @@ namespace choro3 {
     }
 
     // S式を整形して出力する
-    static void prettify(const ES& es, std::ostream& os = std::cout, int depth = 0) {
+    static void prettify(ES& es, std::ostream& os = std::cout, int depth = 0) {
       if(es.is_atom) {
         for(int i = 0; i < depth; i++) os << "  ";
-        os << es.value << std::endl;
+        os << es.value() << std::endl;
       } else {
         for(int i = 0; i < depth; i++) os << "  ";
-        os << "(" << es[0].value << std::endl;
+        os << "(" << es[0].value() << std::endl;
         for(int i = 1; i < es.length(); i++)
           prettify(es[i], os, depth + 1);
         for(int i = 0; i < depth; i++) os << "  ";
