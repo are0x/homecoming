@@ -18,7 +18,8 @@
 struct ParameterList {
   //変動の範囲
   RangeNumber visual,intel,human,property;
-  RangeNumber actpow,lifepow,mindpow,technicpow,luck;  
+  RangeNumber actpow,lifepow,mindpow,technicpow,luck;
+  RangeNumber toku;
   // パラメータ名とメンバ変数の対応を取る
   // ex:   act.getParam("知性") = RangeNumber(1, 2);  // act.intel に (1, 2) を設定
   void setParam(const std::string  &param,const RangeNumber &val);
@@ -33,7 +34,11 @@ struct Action : ParameterList {
     bool steady;
     std::vector<std::string> attrs, hist;
     double prob;
-    Stage age;
+    
+    int age;
+    inline void enableAge(Stage a) { age |= a; }
+    inline void disableAge(Stage a) { age &= ~a; }
+    inline bool satisfyAge(Stage a) { return (bool)(age & a); }
   };
   
   std::string name;
@@ -45,7 +50,9 @@ struct Action : ParameterList {
   static std::vector<Action> loadActions(const char* path);
   
   bool IsEnable(Stage s,Game *game);
-  bool operator<(const Action &act)const;  
+  bool operator<(const Action &act)const;
+  
+  
 };
 
 static void print_act(const Action& a) {

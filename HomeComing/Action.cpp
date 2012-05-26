@@ -108,6 +108,8 @@ void ParameterList::setParam(const string &param,const RangeNumber &val) {
     luck = val;
   } else if(param == "行動力" || param == "actpow") {
     actpow = val;
+  } else if(param == "徳" || param == "toku") {
+    toku = val;    
   } else if(param == "運命力") {
 
   } else {
@@ -135,6 +137,8 @@ const RangeNumber& ParameterList::getParam(const std::string& param)const {
     return luck;
   } else if(param == "行動力" || param == "actpow") {
     return actpow;
+  } else if(param == "徳" || param == "toku") {
+    return toku;
   } else if(param == "運命力") {
     ;
   } else {

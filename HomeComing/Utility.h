@@ -21,7 +21,21 @@
 
 class Action;
 
-enum Stage {ELM1, ELM2, JHS, HS, UNV1, UNV2, WOK1, WOK2, WOK3, WOK4, WOK5};
+enum Stage {NO_STAGE = 0, ELM1 = 1, ELM2 = 2, JHS = 4, HS = 8, UNV1 = 16, UNV2 = 32,
+            WOK1 = 64, WOK2 = 128, WOK3 = 256, WOK4 = 512, WOK5 = 1024, WOK6 = 2048, WOK7 = 4096};
+
+static const int STAGE_ALL = (1<<20) - 1;
+
+static Stage toStage(std::string age_name) {
+  static const std::string aname[] = {"ELM1", "ELM2", "JHS", "HS", "UNV1", "UNV2",
+    "WOK1", "WOK2", "WOK3", "WOK4", "WOK5", "WOK6", "WOK7"};
+  for(int i = 0; i < 13; i++) {
+    if (aname[i] == age_name) {
+      return (Stage)(1<<i);
+    }
+  }
+  return NO_STAGE;
+}
 
 struct RangeNumber{
   int low,up;
@@ -75,7 +89,6 @@ static std::vector<std::string> loadNameDictionary(const char* path) {
   return res;
 }
 
-<<<<<<< HEAD
 // [low, up] の一様分布
 static double uni(const RangeNumber& r) {
   return ((double)rand() / RAND_MAX) * (r.up - r.low) + r.low;
@@ -88,12 +101,12 @@ static double norm(const RangeNumber& r) {
   double var = 1;
   return (1. / sqrt(2 * exp * var)) * exp( -(x - exp) * (x - exp) / (2. * var * var));
 }*/
-=======
+
+
 class ProgrammingException : public std::domain_error {
 public:
   ProgrammingException(const std::string& cause)
   : std::domain_error("cause: " + cause) {}
 };
->>>>>>> acf2936c7f98a0b128ad99f2f9ff0c5eebd71270
 
 #endif
