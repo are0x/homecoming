@@ -49,7 +49,7 @@ namespace choro3 {
         in.putback(')');
         atom = atom.substr(0, atom.size() - 1);
       }
-      // printf("[%s]\n", atom.c_str());
+      //printf("[%s]\n", atom.c_str());
       return ES(atom);
     }
 

@@ -15,13 +15,13 @@
 #include "Heroine.h"
 #include <vector>
 #include <string>
+#include <set>
 #include "School.h"
 
 class Action;
 class GameStateAge;
 
 class Game{
-  std::vector<Action> action_alldata;
   std::vector<std::string> firstname_alldata;
   std::vector<std::string> lastname_alldata;
   
@@ -34,9 +34,12 @@ class Game{
 public:
   std::vector<School> juniorhighschool_alldata;
   std::vector<School> university_alldata;
+  std::vector<Action> action_alldata;
   
   std::vector<Hero> past_heroes;
   std::vector<Heroine> past_heroines;
+  
+  std::set<std::string> past_actions;
   Hero cur_hero;
   GameStateAge *age_of_state;
   std::vector<Heroine> cur_heroines;

@@ -6,21 +6,34 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+
+
+#ifndef HomeComing_Utility_h
+#define HomeComing_Utility_h
+
 #include <string>
 #include <fstream>
 #include <vector>
 #include <iostream>
 #include <sstream>
-
-#ifndef HomeComing_Utility_h
-#define HomeComing_Utility_h
+#include <exception>
+#include <stdexcept>
 
 class Action;
+
+enum Stage {ELM1, ELM2, JHS, HS, UNV1, UNV2, WOK1, WOK2, WOK3, WOK4, WOK5};
 
 struct RangeNumber{
   int low,up;
   RangeNumber(int lb, int ub): low(lb), up(ub){}
-  RangeNumber(): low(-1), up(INT_MAX / 3) {};
+  RangeNumber(): low(-INT_MAX / 3), up(INT_MAX / 3) {};
+  bool operator<(const RangeNumber &r)const{
+    if(r.low != low) return r.low < low;
+    return r.up < up; 
+  }
+  bool operator != (const RangeNumber &r)const{
+    return r.low != low || r.up != r.up;
+  }
 };
 
 static std::string NSStringToString(NSString *str){
@@ -62,6 +75,7 @@ static std::vector<std::string> loadNameDictionary(const char* path) {
   return res;
 }
 
+<<<<<<< HEAD
 // [low, up] の一様分布
 static double uni(const RangeNumber& r) {
   return ((double)rand() / RAND_MAX) * (r.up - r.low) + r.low;
@@ -74,5 +88,12 @@ static double norm(const RangeNumber& r) {
   double var = 1;
   return (1. / sqrt(2 * exp * var)) * exp( -(x - exp) * (x - exp) / (2. * var * var));
 }*/
+=======
+class ProgrammingException : public std::domain_error {
+public:
+  ProgrammingException(const std::string& cause)
+  : std::domain_error("cause: " + cause) {}
+};
+>>>>>>> acf2936c7f98a0b128ad99f2f9ff0c5eebd71270
 
 #endif

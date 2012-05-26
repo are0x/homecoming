@@ -15,3 +15,59 @@
   (description "簡単にお金をgetしよう!!")
   (cond
     (phase JHS)))
+    
+(Action
+  (name ドリルをする)
+  (spend 1)
+  (params (param 知性	-2 2) )
+  (description "ドリルをします。")
+  (cond
+    (phase ELM1)))
+
+
+(Action
+  (name 公園に遊びに行く)
+  (spend 1)
+  (params (param 人間性	0 2) (param 生命力 0 1))
+  (description "公園で楽しいひと時を過ごします。")
+  (cond
+    (phase ELM1)))
+
+(Action
+  (name 親に反抗する)
+  (spend 2)
+  (params (知性 0 3))
+  (description "親に反逆します。")
+  (cond
+    (phase ELM1)))
+
+
+
+(Action
+  (name パーフェクトクローザーをプレーする。)
+  (spend 1)
+  (params (param 生命力	1 3) )
+  (description "パーフェクトクローザーで遊びます。")
+  (cond
+    (phase ELM1)))
+
+
+
+(Action
+  (name 家のお手伝いをする)
+  (spend 1)
+  (params (param 資産 0 1 ) (param 技術 0 1))
+  (description "家のお手伝いをしてお母さんをウルトラハッピーにしよう。")
+  (cond
+    (phase ELM1)))
+
+
+
+(Action
+  (name イチゴ狩りに行く。)
+  (spend 1)
+  (params (param　知性	0 2)(param 天運  0 1))
+  (description "狩りは狩りでもイチゴを狩るよ。")
+  (cond
+    (phase ELM1)))
+

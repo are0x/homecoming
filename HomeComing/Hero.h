@@ -20,8 +20,10 @@ public:
   int talent_visual,talent_intel,talent_property,talent_luck;
   int talent_lifepow,talent_technicpow;
   std::string name;
+  int schoolid;
   
   std::string ToStr();
+  int GetParamater(std::string str);
 };
 
 #endif
