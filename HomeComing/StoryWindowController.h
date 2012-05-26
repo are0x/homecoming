@@ -9,6 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "StoryView.h"
 #import "AppDelegate.h"
+#import "Story.hpp"
 
 @class AppDelegate;
 
@@ -16,12 +17,17 @@
 
 {
   AppDelegate* appdelegate;
+  Story story;
 }
 
 @property (assign) IBOutlet StoryView *view;
 @property (assign) IBOutlet NSTextField *textfield;
 @property (assign) IBOutlet NSImageView *image;
 
-- (id) initWithDelegate: (AppDelegate *)app;
+- (id)initWithDelegate: (AppDelegate *)app;
+- (BOOL)loadStory: (std::vector<Action>) actions Heroines:(std::vector<Heroine>) heroines;
+- (void)turnOverPages:(id)sender;
+
+- (void)hogehogehoge:(id)sender;
 
 @end

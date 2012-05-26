@@ -8,29 +8,23 @@
 
 #import "StoryWindowController.h"
 
+#import <vector>
+
 @implementation StoryWindowController
 @synthesize view;
 @synthesize textfield;
 @synthesize image;
 
-// -(id)initWithDelegate:(AppDelegate *)app{
-//   appdelegate = app;
-//   if ( ! (self = [super initWithWindowNibName: @"StoryWindowController"]) ) {
-// 		return nil;
-//   } // end if
-//   return self;
-// }
-
 - (id)initWithWindow:(NSWindow *)window
 {
   self = [super initWithWindow:window];
   if (self) {
-    // Initialization code here.
+    // Initialization code here.    
   }
   return self;
 }
 
--(id)initWithDelegate:(id)app
+-(id)initWithDelegate:(AppDelegate *)app
 {
   appdelegate = app;
   if ( ! (self = [super initWithWindowNibName: @"StoryWindowController"]) ) {
@@ -39,16 +33,27 @@
   return self;
 }
 
+- (BOOL)loadStory:(std::vector<Action>) actions Heroines:(std::vector<Heroine>) heroines {
+  NSLog(@"[loadStory]");
+  return true;
+}
+
 - (void)windowDidLoad
 {
   [super windowDidLoad];
     
-    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
-  [[self window] makeFirstResponder:view];
+  // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+  
+  // [view setAction:@selector(turnOverPages:)];
+  // view = [[StoryView alloc] initWithFrame:[[self window] frame]];
+  // assert([[self window] makeFirstResponder:[self view]]);
+  // assert([[self view] becomeFirstResponder]);
+  
+  NSLog(@"%s\n", [[self window] firstResponder] == view ? "YES" : "NO");
 }
 
 - (void)turnOverPages:(id)sender {
-  printf("caught the message\n");
+  NSLog(@"caught the message\n");
 }
 
 @end

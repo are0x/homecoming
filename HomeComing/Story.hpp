@@ -9,6 +9,7 @@
 #ifndef HomeComing_Story_h
 #define HomeComing_Story_h
 
+/*
 #include <vector>
 #include <string>
 
@@ -23,6 +24,20 @@ public:
   // int prev();
   std::string getText(int idx);
   std::string getImagePath(int idx);
+};
+ */
+
+#include "Heroine.h"
+#include "Action.h"
+#include <vector>
+#include <string>
+
+class Story {
+private:
+public:
+  Story(std::vector<Action> acts, std::vector<Heroine> heroines) {    
+  }
+  Story(){}
 };
 
 #endif

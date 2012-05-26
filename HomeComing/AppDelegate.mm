@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <string>
+#import <vector>
+#import "Utility.h"
 
 using namespace std;
 
@@ -26,8 +29,9 @@ using namespace std;
   command_menu_controller	= [[CommandMenuController alloc] initWithDelegate:self];
   [command_menu_controller showWindow:self];
   story_window_controller = [[StoryWindowController alloc] initWithDelegate:self];
-  //[[[StoryWindowController alloc] initWithDelegate:self] showWindow:self];
   // [[[StoryWindowController alloc] initWithWindowNibName: @"StoryWindowController"] showWindow:self];
+  // swcontroller = [[StoryWindowController alloc] initWithWindowNibName:@"StoryWindowController"];
+  // [story_window_controller showWindow:self];
 }
 -(void)NextState
 {
@@ -39,8 +43,9 @@ using namespace std;
   cout<<"RunExecution"<<endl;
   [command_menu_controller close];
   [story_window_controller showWindow:self];
+  [story_window_controller loadStory:actions Heroines:heroines];
   //テストのためいきなりDisplayResultEndをよぶ
-  [self DisplayResultEnd];
+  // [self DisplayResultEnd];
 }
 -(void)DisplayResultEnd
 {
@@ -56,4 +61,28 @@ using namespace std;
   [command_menu_controller initActionList:game->enable_actions];
   [command_menu_controller initTextField:game->cur_hero];
 }
+
+/*
+-(IBAction)turnOverPages:(id)sender {
+  
+  // sample text
+  static int idx = 0;
+  static std::vector<std::string> vs;
+  
+  if(idx == 0) {
+    vs.push_back("梨穂子はかわいいなあ！");    
+    vs.push_back("梨穂子はかわいいなあ！！");    
+    vs.push_back("梨穂子はかわいいなあ！！！");
+    vs.push_back("miyaaaaaaaaa");
+    vs.push_back("ダメ…ダメデス……");
+  }
+  
+  [[story_window_controller textfield] setStringValue:StringToNSString(vs[idx % vs.size()])];
+  // NSLog([NSString stringWithCString:vs[idx].c_str() encoding:NSUTF8StringEncoding]);
+  idx = (idx + 1);
+  
+  NSLog(@"Hello\n");
+}
+ */ 
+
 @end

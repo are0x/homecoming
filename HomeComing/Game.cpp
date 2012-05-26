@@ -11,6 +11,8 @@
 #include <cstdlib>
 #include <vector>
 #include "Utility.h"
+#include "Action.h"
+#include "ActionFileLoader.hpp"
 #include "LowerGradesOfElementary.h"
 
 using namespace std;
@@ -52,6 +54,12 @@ Game::Game()
     juniorhighschool_alldata.push_back(s1);
   }
   //全行動ロード
+  {
+    // test code for loading "Action" files. 
+    // todo: 
+    vector<Action> acts = ActionFileLoader::load("../../../../../dat/action_sample");    
+    for (int i = 0; i < acts.size(); i++) print_act(acts[i]);
+  }
   //名前辞書ロード
   firstname_alldata = loadNameDictionary("../../../../../dat/firstname_dic");
   lastname_alldata = loadNameDictionary("../../../../../dat/lastname_dic");

@@ -10,7 +10,6 @@
 
 @implementation StoryView
 
-@synthesize storyIndex = _storyIndex;
 @synthesize action;
 @synthesize target;
 
@@ -18,7 +17,8 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code here.
+      // Initialization code here.
+      printf("Im View\n");
     }
     
     return self;
@@ -41,11 +41,20 @@
   
   if ([theEvent type] == NSKeyDown) {
     NSLog(@"%d\n", [theEvent keyCode]);
+  } else {
+    NSLog(@"Mouse\n");
   }
-  
-  _storyIndex++;  
-  
-  [NSApp sendAction:@selector(turnOverPages:) to:target from:self];
+    
+  printf("send=%d\n", [NSApp sendAction:@selector(turnOverPages:) to:target from:self]);
+}
+
+- (BOOL) acceptsFirstResponder {
+  // printf("accepts\n");
+  return YES;
+}
+
+- (BOOL) becomeFirstResponder {
+  return YES;
 }
 
 @end

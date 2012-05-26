@@ -9,4 +9,5 @@ dependencies: \
   /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/School.h \
   /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenuController.h \
   /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Action.h \
-  /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Utility.h
+  /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Utility.h \
+  /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Story.hpp

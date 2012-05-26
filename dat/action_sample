@@ -1,0 +1,18 @@
+
+(Action
+  (name 数学を勉強する)
+  (spend 1)
+  (params (param 知性 0 3) (param 容姿 -2 2))
+  (description "あかりも数学の勉強とっても大好きだよ。")
+  (cond
+    (phase JHS)
+    (prob 1.0)))
+
+(Action
+  (name かつあげをする)
+  (spend 2)
+  (params (param 人間性	-2 1 )(param  資産  0 3))
+  (description "簡単にお金をgetしよう!!")
+  (cond
+    (phase JHS)))
+

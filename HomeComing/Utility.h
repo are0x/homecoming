@@ -20,7 +20,7 @@ class Action;
 struct RangeNumber{
   int low,up;
   RangeNumber(int lb, int ub): low(lb), up(ub){}
-  RangeNumber() {};
+  RangeNumber(): low(0), up(0) {};
 };
 
 static std::string NSStringToString(NSString *str){

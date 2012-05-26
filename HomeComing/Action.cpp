@@ -34,8 +34,8 @@ std::vector<Action> Action::loadActions(const char* path) {
       act.getParam(param_name) = RangeNumber(lb, ub);      
     }
     
-    std::string description;
-    ifs >> description;
+    std::string description(""), tmp;
+    while (std::getline(ifs, tmp) && tmp != "") description += tmp;
     act.description = description;
     
     res.push_back(act);
@@ -44,7 +44,7 @@ std::vector<Action> Action::loadActions(const char* path) {
   return res;
 }
 
-RangeNumber& Action::getParam(std::string param) {
+RangeNumber& ParameterList::getParam(std::string param) {
   if(param == "知性" || param == "intel") {
     return intel;
   } else if(param == "容姿" || param == "visual") {    
@@ -66,6 +66,8 @@ RangeNumber& Action::getParam(std::string param) {
   } else if(param == "運命力") {
     ;
   } else {
+    std::cerr << "passed invalid parameter identifier " << param << " for the method getParam." << std::endl;
     throw "No such member variable";
   }
 }
+
