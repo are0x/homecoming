@@ -33,10 +33,19 @@ public:
 #include <string>
 
 class Story {
-private:
+private:  
 public:
-  Story(std::vector<Action> acts, std::vector<Heroine> heroines) {    
-  }
+  
+  /*
+  struct Page {    
+    struct DParam {};        
+  };
+   */
+  
+  std::vector<Action> acts;
+  std::vector<Heroine> heroines;
+  
+  Story(std::vector<Action> _acts, std::vector<Heroine> _heroines): acts(_acts), heroines(_heroines){}
   Story(){}
 };
 

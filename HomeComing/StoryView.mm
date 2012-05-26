@@ -18,7 +18,7 @@
     self = [super initWithFrame:frame];
     if (self) {
       // Initialization code here.
-      printf("Im View\n");
+      // printf("Im View\n");
     }
     
     return self;
@@ -43,8 +43,10 @@
     NSLog(@"%d\n", [theEvent keyCode]);
   } else {
     NSLog(@"Mouse\n");
-  }
-    
+  }  
+  
+  assert([self window] == [self nextResponder]);
+  
   printf("send=%d\n", [NSApp sendAction:@selector(turnOverPages:) to:target from:self]);
 }
 

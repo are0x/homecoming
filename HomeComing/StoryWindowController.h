@@ -23,11 +23,10 @@
 @property (assign) IBOutlet StoryView *view;
 @property (assign) IBOutlet NSTextField *textfield;
 @property (assign) IBOutlet NSImageView *image;
+@property (assign) IBOutlet NSTextField *param_field;
 
 - (id)initWithDelegate: (AppDelegate *)app;
 - (BOOL)loadStory: (std::vector<Action>) actions Heroines:(std::vector<Heroine>) heroines;
-- (void)turnOverPages:(id)sender;
-
-- (void)hogehogehoge:(id)sender;
+- (IBAction)turnOverPages:(id)sender;
 
 @end
