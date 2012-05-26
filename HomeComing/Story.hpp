@@ -27,6 +27,17 @@ public:
 };
  */
 
+#include "Heroine.h"
+#include "Action.h"
+#include <vector>
+#include <string>
 
+class Story {
+private:
+public:
+  Story(std::vector<Action> acts, std::vector<Heroine> heroines) {    
+  }
+  Story(){}
+};
 
 #endif

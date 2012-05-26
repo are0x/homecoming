@@ -49,7 +49,7 @@
 }
 
 - (BOOL) acceptsFirstResponder {
-  printf("accepts\n");
+  // printf("accepts\n");
   return YES;
 }
 

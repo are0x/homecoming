@@ -8,6 +8,8 @@
 
 #import "StoryWindowController.h"
 
+#import <vector>
+
 @implementation StoryWindowController
 @synthesize view;
 @synthesize textfield;
@@ -29,6 +31,11 @@
     return nil;
   } // end if
   return self;
+}
+
+- (BOOL)loadStory:(std::vector<Action>) actions Heroines:(std::vector<Heroine>) heroines {
+  NSLog(@"[loadStory]");
+  return true;
 }
 
 - (void)windowDidLoad

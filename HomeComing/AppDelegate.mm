@@ -43,8 +43,9 @@ using namespace std;
   cout<<"RunExecution"<<endl;
   [command_menu_controller close];
   [story_window_controller showWindow:self];
+  [story_window_controller loadStory:actions Heroines:heroines];
   //テストのためいきなりDisplayResultEndをよぶ
-  [self DisplayResultEnd];
+  // [self DisplayResultEnd];
 }
 -(void)DisplayResultEnd
 {
