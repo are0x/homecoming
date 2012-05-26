@@ -135,12 +135,30 @@
 		2790F44D1570B5AA0072E88D /* StoryWindow */ = {
 			isa = PBXGroup;
 			children = (
+				279E9CFC156E2D8700A0352B /* StoryWindowController.xib */,
 				88862ED0156CC52A004F8BA7 /* StoryView.h */,
 				88862ED1156CC52A004F8BA7 /* StoryView.mm */,
 				88EFC94C156CD79700051D95 /* StoryWindowController.h */,
 				88EFC94D156CD79700051D95 /* StoryWindowController.mm */,
 			);
 			name = StoryWindow;
+			sourceTree = "<group>";
+		};
+		2790F44E1570B7B00072E88D /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				27C1968515693A4B003C4D5F /* Hero.h */,
+				8861792A156FCA8B00A037C9 /* Hero.cpp */,
+				27C1968915693B71003C4D5F /* Action.h */,
+				886178B0156D7E9B00A037C9 /* Action.cpp */,
+				27C19691156A34F5003C4D5F /* Game.h */,
+				27C19693156A3B55003C4D5F /* Game.cpp */,
+				27C1968F156A3372003C4D5F /* Heroine.h */,
+				8861792B156FCA8B00A037C9 /* Heroine.cpp */,
+				27C19692156A37C1003C4D5F /* School.h */,
+				27C1968615693A58003C4D5F /* System.h */,
+			);
+			name = Game;
 			sourceTree = "<group>";
 		};
 		2793FAF3155D62780028EF15 = {
@@ -188,21 +206,11 @@
 				2790F44D1570B5AA0072E88D /* StoryWindow */,
 				2793FB14155D62780028EF15 /* AppDelegate.h */,
 				2793FB15155D62780028EF15 /* AppDelegate.mm */,
-				27C1968615693A58003C4D5F /* System.h */,
-				27C1968515693A4B003C4D5F /* Hero.h */,
-				8861792A156FCA8B00A037C9 /* Hero.cpp */,
-				27C19691156A34F5003C4D5F /* Game.h */,
-				27C19693156A3B55003C4D5F /* Game.cpp */,
-				27C1968F156A3372003C4D5F /* Heroine.h */,
-				8861792B156FCA8B00A037C9 /* Heroine.cpp */,
-				27C19692156A37C1003C4D5F /* School.h */,
 				2793FB17155D62790028EF15 /* MainMenu.xib */,
-				27C1968915693B71003C4D5F /* Action.h */,
 				27C1968A15693BB0003C4D5F /* Utility.h */,
-				2793FB09155D62780028EF15 /* Supporting Files */,
 				88EFC944156CCBEF00051D95 /* Story.hpp */,
-				886178B0156D7E9B00A037C9 /* Action.cpp */,
-				279E9CFC156E2D8700A0352B /* StoryWindowController.xib */,
+				2790F44E1570B7B00072E88D /* Game */,
+				2793FB09155D62780028EF15 /* Supporting Files */,
 			);
 			path = HomeComing;
 			sourceTree = "<group>";
