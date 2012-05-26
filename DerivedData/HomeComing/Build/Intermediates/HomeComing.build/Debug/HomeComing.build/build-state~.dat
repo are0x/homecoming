@@ -1,0 +1,383 @@
+THomeComing
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist HomeComing/HomeComing-Info.plist
+cProcessPCH++ /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch.pth HomeComing/HomeComing-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/AppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/main.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Game.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenuController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/LowerGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/ActionTableData.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HeroineTableData.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/UpperGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing normal x86_64
+cCopyStringsFile /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/InfoPlist.strings HomeComing/en.lproj/InfoPlist.strings
+cCpResource HomeComing/en.lproj/Credits.rtf DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/en.lproj/MainMenu.xib
+cCompileXIB /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenu.xib
+cTouch /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004F15048D00000000000000EE
+t1326777485
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E2F297C0000000000003430
+t1311713660
+s13360
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HomeComing.LinkFileList
+c000000004FBC85CA0000000000000555
+t1337755082
+s1365
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch.pth
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/CommandMenu.nib
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/ActionTableData.mm
+c000000004FBBC9350000000000000179
+t1337706805
+s377
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/AppDelegate.mm
+c000000004FBC715000000000000003D6
+t1337749840
+s982
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenu.xib
+c000000004FBBC9350000000000013780
+t1337706805
+s79744
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenuController.mm
+c000000004FBBC93500000000000005CF
+t1337706805
+s1487
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Game.cpp
+c000000004FBC85C90000000000000734
+t1337755081
+s1844
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HeroineTableData.m
+c000000004FBC73140000000000000186
+t1337750292
+s390
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HomeComing-Prefix.pch
+c000000004FBBC9350000000000000095
+t1337706805
+s149
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/LowerGradesOfElementary.cpp
+c000000004FBC70BE000000000000027F
+t1337749694
+s639
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/UpperGradesOfElementary.cpp
+c000000004FBC70060000000000000286
+t1337749510
+s646
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/en.lproj/Credits.rtf
+c000000004FBBC93500000000000001B4
+t1337706805
+s436
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/en.lproj/InfoPlist.strings
+c000000004FBBC935000000000000002D
+t1337706805
+s45
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/en.lproj/MainMenu.xib
+c000000004FBBC935000000000000139B
+t1337706805
+s5019
+
+N/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/main.mm
+c000000004FBBC9350000000000000102
+t1337706805
+s258
+
+NHomeComing/HomeComing-Info.plist
+c000000004FBBC935000000000000044A
+t1337706805
+s1098
+
+CBuild AST from /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/ActionTableData.mm
+r0
+
+CBuild AST from /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/AppDelegate.mm
+r0
+
+CBuild AST from /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenuController.mm
+r0
+
+CBuild AST from /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Game.cpp
+r0
+
+CBuild AST from /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HeroineTableData.m
+r0
+
+CBuild AST from /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/LowerGradesOfElementary.cpp
+r0
+
+CBuild AST from /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/UpperGradesOfElementary.cpp
+r0
+
+CBuild AST from /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/main.mm
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies68956d4abd6cb541^9b8d814abd6cb541^---0#1#0#--18"Check dependencies36"CC63793A-1368-4483-BC8E-AAEF9F283C7B-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/ActionTableData.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359447885.499605
+e359447885.898843
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/ActionTableData.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/ActionTableData.mm5803804dbd6cb541^8f1be64dbd6cb541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/ActionTableData.mm0000000000000000^2813"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o HomeComing/ActionTableData.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug -include /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.d -c /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/ActionTableData.mm -o /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/ActionTableData.o36"CD630D9D-F9E5-4642-8FFF-2B0729608788-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/AppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359447884.159626
+e359447885.017572
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/AppDelegate.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/AppDelegate.mm9cfa284cbd6cb541^878b044dbd6cb541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/AppDelegate.mm0000000000000000^2793"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o HomeComing/AppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug -include /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.d -c /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/AppDelegate.mm -o /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/AppDelegate.o36"2CD06BAC-9DE8-407B-9394-BA8A336CF439-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenuController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359447885.018921
+e359447885.498397
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenuController.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenuController.mmf0fa044dbd6cb541^dd977f4dbd6cb541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenuController.mm0000000000000000^2843"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o HomeComing/CommandMenuController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug -include /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.d -c /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenuController.mm -o /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/CommandMenuController.o36"F572E986-E2A1-4A96-9CAA-2A636C2079E0-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Game.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359447884.373251
+e359447885.249841
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Game.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Game.cppceaa5f4cbd6cb541^da00404dbd6cb541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Game.cpp0000000000000000^2760"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o HomeComing/Game.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug -include /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.d -c /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/Game.cpp -o /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/Game.o36"36217477-9A0B-4CA0-ACCE-16C3DCA61207-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HeroineTableData.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359447885.770089
+e359447886.350199
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HeroineTableData.m
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HeroineTableData.md941c54dbd6cb541^9ca8594ebd6cb541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HeroineTableData.m0000000000000000^2816"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o HomeComing/HeroineTableData.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug -include /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.d -c /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HeroineTableData.m -o /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HeroineTableData.o36"E6229F97-1F82-4AE0-9BB5-F4AA3E96CB5F-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/LowerGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359447885.251067
+e359447885.768888
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/LowerGradesOfElementary.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/LowerGradesOfElementary.cppf163404dbd6cb541^03ebc44dbd6cb541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/LowerGradesOfElementary.cpp0000000000000000^2855"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o HomeComing/LowerGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug -include /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.d -c /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/LowerGradesOfElementary.cpp -o /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/LowerGradesOfElementary.o36"FB497633-A009-474A-B064-9458954601BE-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/UpperGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359447885.902204
+e359447886.316712
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/UpperGradesOfElementary.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/UpperGradesOfElementary.cpp151be74dbd6cb541^d314514ebd6cb541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/UpperGradesOfElementary.cpp0000000000000000^2855"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o HomeComing/UpperGradesOfElementary.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug -include /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.d -c /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/UpperGradesOfElementary.cpp -o /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/UpperGradesOfElementary.o36"90E8EF1F-EFD7-4BC5-B00E-5EC1229940AC-
+
+CCompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/main.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359447884.159631
+e359447884.371994
+r1
+xCompileC
+xDerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/main.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/main.mmecfb284cbd6cb541^973b5f4cbd6cb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/main.mm0000000000000000^2758"CompileC DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o HomeComing/main.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug -include /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch -MMD -MT dependencies -MF /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.d -c /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/main.mm -o /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/main.o36"829EEEC7-38C7-470D-80A4-4788F2300B92-
+
+CCompileXIB /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenu.xib
+s359447886.464127
+e359447887.352346
+r1
+xCompileXIB
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenu.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenu.xibdbde764ebd6cb541^15375a4fbd6cb541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenu.xib0000000000000000^511"CompileXIB HomeComing/CommandMenu.xib    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/CommandMenu.nib /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/CommandMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk36"A5FC9830-729E-4985-93F9-57EE237280F0-
+
+CCompileXIB /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/en.lproj/MainMenu.xib
+s359447886.462668
+e359447887.218485
+r1
+xCompileXIB
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/en.lproj/MainMenu.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compiling /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/en.lproj/MainMenu.xib0281764ebd6cb541^e1ef374fbd6cb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/en.lproj/MainMenu.xib0000000000000000^529"CompileXIB HomeComing/en.lproj/MainMenu.xib    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/MainMenu.nib /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/en.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk36"302F9AFD-3082-4C70-9413-65D77EA5D78E-
+
+CCopyStringsFile /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/InfoPlist.strings HomeComing/en.lproj/InfoPlist.strings
+s359447886.455305
+e359447886.461341
+r1
+xCopyStringsFile
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/InfoPlist.strings
+xHomeComing/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy HomeComing/en.lproj/InfoPlist.stringsb9c1744ebd6cb541^a226764ebd6cb541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/en.lproj/InfoPlist.strings0000000000000000^480"CopyStringsFile DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/InfoPlist.strings HomeComing/en.lproj/InfoPlist.strings    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj -- HomeComing/en.lproj/InfoPlist.strings36"79EF10D3-EB14-47FB-93F8-835F1898D9C0-
+
+CCpResource HomeComing/en.lproj/Credits.rtf DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf
+s359447886.455309
+e359447886.461334
+r1
+xCpResource
+xHomeComing/en.lproj/Credits.rtf
+xDerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf52d5744ebd6cb541^4221764ebd6cb541^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf00f86c1adcffdf42^524"CpResource HomeComing/en.lproj/Credits.rtf DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/en.lproj/Credits.rtf /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Resources/en.lproj36"4B9C304F-89A3-4269-BF71-EEEB684A2DBB-
+
+CLd /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing normal x86_64
+s359447886.351887
+e359447886.451818
+r1
+xLd
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Link /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing90325a4ebd6cb541^7cb5734ebd6cb541^---0#0#0#--837"Ld DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing normal x86_64    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug -F/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug -filelist /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/Objects-normal/x86_64/HomeComing.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/MacOS/HomeComing36"2E65B4B7-CC43-4559-835B-36918AB92D44-
+
+CProcessInfoPlistFile /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist HomeComing/HomeComing-Info.plist
+s359447882.585131
+e359447882.596521
+r1
+xProcessInfoPlistFile
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist
+xHomeComing/HomeComing-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process HomeComing/HomeComing-Info.plist36e9964abd6cb541^01a6984abd6cb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HomeComing-Info.plist0000000000000000^554"ProcessInfoPlistFile DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist HomeComing/HomeComing-Info.plist    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    builtin-infoPlistUtility HomeComing/HomeComing-Info.plist -genpkginfo /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app/Contents/Info.plist36"F6DD3429-9647-4604-B509-E786423BD6A8-
+
+CProcessPCH++ /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch.pth HomeComing/HomeComing-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s359447882.599720
+e359447884.158173
+r1
+xProcessPCH++
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch.pth
+xHomeComing/HomeComing-Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile HomeComing/HomeComing-Prefix.pchcfa4994abd6cb541^887f284cbd6cb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HomeComing-Prefix.pch0000000000000000^2648"ProcessPCH++ DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch.pth HomeComing/HomeComing-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-generated-files.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-own-target-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-all-target-headers.hmap -iquote /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/HomeComing-project-headers.hmap -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/include -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources/x86_64 -I/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Intermediates/HomeComing.build/Debug/HomeComing.build/DerivedSources -F/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug -c /Users/sin/Desktop/iPhone/HomeComing/homecoming/HomeComing/HomeComing-Prefix.pch -o /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch.pth -MMD -MT dependencies -MF /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/PrecompiledHeaders/HomeComing-Prefix-aiujgrnepqrabpbrmejuvhpiwwuz/HomeComing-Prefix.pch.d36"23A54CCA-A115-40CD-8A68-0FE46224ED69-
+
+CProcessPCH++ /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Index/PrecompiledHeaders/HomeComing-Prefix-hgatgcvpqxfqkpeakvkeiodbbuak_ast/HomeComing-Prefix.pch.pth HomeComing/HomeComing-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app
+s359447887.355560
+e359447887.363716
+r1
+xTouch
+x/Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Touch /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app23145b4fbd6cb541^751e5d4fbd6cb541^---0#0#0#--249"Touch DerivedData/HomeComing/Build/Products/Debug/HomeComing.app    cd /Users/sin/Desktop/iPhone/HomeComing/homecoming    /usr/bin/touch -c /Users/sin/Desktop/iPhone/HomeComing/homecoming/DerivedData/HomeComing/Build/Products/Debug/HomeComing.app36"5A2DD463-FFAC-4E5D-9540-8B28EA090D92-
+
