@@ -15,6 +15,7 @@
 #include "Heroine.h"
 #include <vector>
 #include <string>
+#include <set>
 #include "School.h"
 
 class Action;
@@ -37,6 +38,8 @@ public:
   
   std::vector<Hero> past_heroes;
   std::vector<Heroine> past_heroines;
+  
+  std::set<std::string> past_actions;
   Hero cur_hero;
   GameStateAge *age_of_state;
   std::vector<Heroine> cur_heroines;

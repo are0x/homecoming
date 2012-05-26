@@ -21,6 +21,17 @@ bool Action::operator<(const Action &act)const{
     RangeNumber val = getParam(vs[i]);
     if(val != vala) return vala < val;
   }
+  for(int i=0;i<10;i++){
+    RangeNumber vala = act.rest.getParam(vs[i]);
+    RangeNumber val = rest.getParam(vs[i]);
+    if(val != vala) return vala < val;
+  }
+  if(act.rest.steady != rest.steady) return act.rest.steady < rest.steady;
+  if(act.rest.prob != rest.prob) return act.rest.prob < rest.prob;
+  if(act.rest.age != rest.age)return act.rest.age < rest.age;  
+  if(act.consume_actpow != consume_actpow) return act.consume_actpow < consume_actpow;
+  if(act.name != name) return act.name < name;
+  return act.description < description;
 }
 
 std::vector<Action> Action::loadActions(const char* path) {
@@ -67,9 +78,13 @@ bool Action::IsEnable(Stage s, Game *game){
     int hval = game->cur_hero.GetParamater(vs[i]);
     if( (rval.low <= hval && hval <= rval.up ) ) return false;
   }
-  int n = rest.attrs.size();
+  int n = (int)rest.attrs.size();
   for(int i=0;i<n;i++){
     if(!game->steady.HaveAttr( rest.attrs[i] ) ) return false;
+  }
+  n = (int)rest.hist.size();
+  for(int i=0;i<n;i++){
+    if(game->past_actions.find(rest.hist[i]) == game->past_actions.end()) return false;
   }
   return true;
 }

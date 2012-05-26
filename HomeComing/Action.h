@@ -45,8 +45,7 @@ struct Action : ParameterList {
   static std::vector<Action> loadActions(const char* path);
   
   bool IsEnable(Stage s,Game *game);
-  bool operator<(const Action &act)const;
-  
+  bool operator<(const Action &act)const;  
 };
 
 static void print_act(const Action& a) {
