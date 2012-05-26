@@ -125,6 +125,20 @@ void ParameterList::setParam(const string &param,const RangeNumber &val) {
   }
 }
 
+void ParameterList::clear() {
+  intel = RangeNumber(0, 0);
+  visual = RangeNumber(0, 0);
+  lifepow = RangeNumber(0, 0);
+  mindpow = RangeNumber(0, 0);
+  technicpow = RangeNumber(0, 0);
+  human = RangeNumber(0, 0);
+  property = RangeNumber(0, 0);
+  luck = RangeNumber(0, 0);
+  actpow = RangeNumber(0, 0);
+  toku = RangeNumber(0, 0);
+  fatalpow = RangeNumber(0, 0);
+}
+
 const RangeNumber& ParameterList::getParam(const std::string& param)const {
   if(param == "知性" || param == "intel") {
     return intel;

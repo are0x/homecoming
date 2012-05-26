@@ -11,6 +11,7 @@
 #ifndef HomeComing_Hero_h
 #define HomeComing_Hero_h
 
+class Action;
 
 class Hero{
 public:
@@ -25,6 +26,7 @@ public:
   
   std::string ToStr();
   int GetParamater(std::string str);
+  void update(Action& act);
 };
 
 #endif

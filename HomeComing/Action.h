@@ -15,6 +15,8 @@
 #include <vector>
 #include "Game.h"
 
+class Game;
+
 struct ParameterList {
   //変動の範囲
   RangeNumber visual,intel,human,property;
@@ -24,6 +26,7 @@ struct ParameterList {
   // ex:   act.getParam("知性") = RangeNumber(1, 2);  // act.intel に (1, 2) を設定
   void setParam(const std::string  &param,const RangeNumber &val);
   const RangeNumber &getParam(const std::string &param)const;
+  void clear();
 };
 
 struct Action : ParameterList {
@@ -35,10 +38,12 @@ struct Action : ParameterList {
     std::vector<std::string> attrs, hist;
     double prob;
     
-    int age;
+    int age;      
     inline void enableAge(Stage a) { age |= a; }
     inline void disableAge(Stage a) { age &= ~a; }
     inline bool satisfyAge(Stage a) { return (bool)(age & a); }
+    
+    Restriction(): steady(false), prob(1.0), age(0) {}
   };
   
   std::string name;
@@ -49,7 +54,7 @@ struct Action : ParameterList {
   // 
   static std::vector<Action> loadActions(const char* path);
   
-  bool IsEnable(Stage s,Game *game);
+  bool IsEnable(Stage s, Game *game);
   bool operator<(const Action &act)const;
   std::string ToStr();
   

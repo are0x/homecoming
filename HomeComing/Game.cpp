@@ -69,9 +69,9 @@ Game::Game()
   { 
     // test
     std::vector<Attribute> attrs = loadAttributes("../../../../../dat/attrs.tsv");
-    for(int i = 0; i < attrs.size(); i++) {
-      attrs[i].prettify();
-    }
+    // for(int i = 0; i < attrs.size(); i++) {
+      // attrs[i].prettify();
+    // }
   }
     
   //名前辞書ロード

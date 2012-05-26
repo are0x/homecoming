@@ -9,6 +9,7 @@
 #include <iostream>
 #include "Hero.h"
 #include "Utility.h"
+#include "Action.h"
 
 using namespace std;
 
@@ -62,3 +63,17 @@ int Hero::GetParamater(string str)
   else throw ProgrammingException("主人公のパラメーター名がおかしい");
   return ret;
 }
+
+void Hero::update(Action& act) {
+  visual += (int)uni(act.visual);
+  intel += (int)uni(act.intel);
+  property += (int)uni(act.property);
+  human += (int)uni(act.human);
+  technicpow += (int)uni(act.technicpow);
+  lifepow += (int)uni(act.lifepow);
+  mindpow += (int)uni(act.mindpow);
+  luck += (int)uni(act.luck);
+  actpow += (int)uni(act.actpow);
+  fatalpow += (int)uni(act.fatalpow);
+}
+
