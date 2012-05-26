@@ -1,4 +1,4 @@
-  #ifndef __choro3_ES_h
+#ifndef __choro3_ES_h
 #define __choro3_ES_h
 
 #include <cassert>
@@ -115,7 +115,7 @@ namespace choro3 {
         os << ")" << std::endl;
       }
     }
-  };  
+  };
 
 }
 

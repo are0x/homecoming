@@ -12,7 +12,6 @@
 #include "ES.hpp"
 #include "Action.h"
 #include "Utility.h"
-#include <cassert>
 
 // アクションの設定ファイルを読み込む
 

@@ -12,7 +12,9 @@
 #include <vector>
 #include "Utility.h"
 #include "Action.h"
+#include "Attribute.hpp"
 #include "ActionFileLoader.hpp"
+#include "AttributeFileLoader.hpp"
 #include "LowerGradesOfElementary.h"
 
 using namespace std;
@@ -62,6 +64,16 @@ Game::Game()
       print_act(action_alldata[i]);
     }*/
   }
+  
+  // ヒロイン属性ロード
+  { 
+    // test
+    std::vector<Attribute> attrs = loadAttributes("../../../../../dat/attrs.tsv");
+    for(int i = 0; i < attrs.size(); i++) {
+      attrs[i].prettify();
+    }
+  }
+    
   //名前辞書ロード
   firstname_alldata = loadNameDictionary("../../../../../dat/firstname_dic");
   lastname_alldata = loadNameDictionary("../../../../../dat/lastname_dic");
