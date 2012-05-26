@@ -119,6 +119,15 @@
 			name = CommandMenu;
 			sourceTree = "<group>";
 		};
+		2790F44C1570B4F70072E88D /* ConfigLoader */ = {
+			isa = PBXGroup;
+			children = (
+				8861793315701CF000A037C9 /* ES.hpp */,
+				88617923156FCA8B00A037C9 /* ActionFileLoader.hpp */,
+			);
+			name = ConfigLoader;
+			sourceTree = "<group>";
+		};
 		2793FAF3155D62780028EF15 = {
 			isa = PBXGroup;
 			children = (
@@ -158,19 +167,18 @@
 		2793FB08155D62780028EF15 /* HomeComing */ = {
 			isa = PBXGroup;
 			children = (
+				2790F44C1570B4F70072E88D /* ConfigLoader */,
 				2790F44B1570B2640072E88D /* CommandMenu */,
 				2790F4491570B05B0072E88D /* AgeOfGame */,
-				8861793315701CF000A037C9 /* ES.hpp */,
-				88617923156FCA8B00A037C9 /* ActionFileLoader.hpp */,
-				8861792A156FCA8B00A037C9 /* Hero.cpp */,
-				8861792B156FCA8B00A037C9 /* Heroine.cpp */,
+				2793FB15155D62780028EF15 /* AppDelegate.mm */,
 				2793FB14155D62780028EF15 /* AppDelegate.h */,
 				27C1968615693A58003C4D5F /* System.h */,
 				27C1968515693A4B003C4D5F /* Hero.h */,
-				2793FB15155D62780028EF15 /* AppDelegate.mm */,
+				8861792A156FCA8B00A037C9 /* Hero.cpp */,
 				27C19691156A34F5003C4D5F /* Game.h */,
 				27C19693156A3B55003C4D5F /* Game.cpp */,
 				27C1968F156A3372003C4D5F /* Heroine.h */,
+				8861792B156FCA8B00A037C9 /* Heroine.cpp */,
 				27C19692156A37C1003C4D5F /* School.h */,
 				2790727A156B873A00AE1D83 /* ActionTableData.h */,
 				27907281156B8FEB00AE1D83 /* HeroineTableData.h */,
