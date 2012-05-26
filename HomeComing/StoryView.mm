@@ -43,11 +43,10 @@
     NSLog(@"%d\n", [theEvent keyCode]);
   } else {
     NSLog(@"Mouse\n");
-  }  
+  }    
   
-  assert([self window] == [self nextResponder]);
-  
-  printf("send=%d\n", [NSApp sendAction:@selector(turnOverPages:) to:target from:self]);
+  [NSApp sendAction:@selector(turnOverPages:) to:target from:self];
+  // printf("send=%d\n", [NSApp sendAction:@selector(turnOverPages:) to:target from:self]);
 }
 
 - (BOOL) acceptsFirstResponder {

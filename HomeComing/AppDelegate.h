@@ -17,6 +17,7 @@
 @class StoryWindowController;
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>{
+  @public
   Game *game;
   CommandMenuController *command_menu_controller;
   StoryWindowController *story_window_controller;

@@ -16,12 +16,13 @@
 #import <string>
 
 class Story;
+@class StoryWindowController;
 
 @interface StoryView : NSView
 
 {
   id target;
-  SEL action;
+  SEL action;  
 }
 
 @property (assign, readwrite) id target;

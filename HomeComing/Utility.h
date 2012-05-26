@@ -20,7 +20,7 @@ class Action;
 struct RangeNumber{
   int low,up;
   RangeNumber(int lb, int ub): low(lb), up(ub){}
-  RangeNumber(): low(0), up(0) {};
+  RangeNumber(): low(-1), up(INT_MAX / 3) {};
 };
 
 static std::string NSStringToString(NSString *str){
@@ -61,5 +61,18 @@ static std::vector<std::string> loadNameDictionary(const char* path) {
   while(getline(ifs, s)) res.push_back(s);
   return res;
 }
+
+// [low, up] の一様分布
+static double uni(const RangeNumber& r) {
+  return ((double)rand() / RAND_MAX) * (r.up - r.low) + r.low;
+}
+
+/*
+static double norm(const RangeNumber& r) {
+  double x = ((double) rand() / RAND_MAX);
+  double exp = (double)(r.up + r.low) / 2;
+  double var = 1;
+  return (1. / sqrt(2 * exp * var)) * exp( -(x - exp) * (x - exp) / (2. * var * var));
+}*/
 
 #endif
