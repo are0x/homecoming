@@ -6,10 +6,13 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#include <string>
+
 
 #ifndef HomeComing_School_h
 #define HomeComing_School_h
+
+#include <string>
+#include <vector>
 
 class School{
 public:
