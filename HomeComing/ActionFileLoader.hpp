@@ -12,7 +12,6 @@
 #include "ES.hpp"
 #include "Action.h"
 #include "Utility.h"
-#include <cassert>
 
 // アクションの設定ファイルを読み込む
 
@@ -101,7 +100,7 @@ public:
       choro3::ES::prettify(s_tree[i]);
       
       // todo: be sure the field "rest.age" is equal to zero initially
-      Action act; // act.rest.age = NO_STAGE;
+      Action act; act.rest.age = NO_STAGE;
       ActionFileLoader::mapper(s_tree[i], act);
       if (act.rest.age == NO_STAGE) { act.rest.age = STAGE_ALL; }
       

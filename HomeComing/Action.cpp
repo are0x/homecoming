@@ -69,7 +69,7 @@ std::vector<Action> Action::loadActions(const char* path) {
 
 bool Action::IsEnable(Stage s, Game *game){
   string vs[10]={"知性","容姿","生命力","精神力","技術","人間性","資産","天運","行動力","運命力"};
-  if(s != rest.age) return false;
+  if(!rest.satisfyAge(s)) return false;
   if(rest.steady && game->steady.name == "None"){
     return false;
   }

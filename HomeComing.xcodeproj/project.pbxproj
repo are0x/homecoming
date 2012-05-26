@@ -73,6 +73,8 @@
 		27C9A843156A78B90081E9D3 /* CommandMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandMenuController.h; sourceTree = "<group>"; };
 		27C9A844156A78B90081E9D3 /* CommandMenuController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CommandMenuController.mm; sourceTree = "<group>"; };
 		27C9A84E156A7E5D0081E9D3 /* GameStateAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateAge.h; sourceTree = "<group>"; };
+		880B8465157130EF007B47B3 /* AttributeFileLoader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AttributeFileLoader.hpp; sourceTree = "<group>"; };
+		880B846715713127007B47B3 /* Attribute.hpp */ = {isa = PBXFileReference; path = Attribute.hpp; sourceTree = "<group>"; };
 		886178B0156D7E9B00A037C9 /* Action.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Action.cpp; sourceTree = "<group>"; };
 		88617923156FCA8B00A037C9 /* ActionFileLoader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ActionFileLoader.hpp; sourceTree = "<group>"; };
 		88617924156FCA8B00A037C9 /* AgeOfHighSchool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgeOfHighSchool.cpp; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			children = (
 				8861793315701CF000A037C9 /* ES.hpp */,
 				88617923156FCA8B00A037C9 /* ActionFileLoader.hpp */,
+				880B8465157130EF007B47B3 /* AttributeFileLoader.hpp */,
 			);
 			name = ConfigLoader;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				27C1968F156A3372003C4D5F /* Heroine.h */,
 				27C19692156A37C1003C4D5F /* School.h */,
 				27C1968615693A58003C4D5F /* System.h */,
+				880B846715713127007B47B3 /* Attribute.hpp */,
 			);
 			name = Game;
 			sourceTree = "<group>";
