@@ -128,6 +128,17 @@
 			name = ConfigLoader;
 			sourceTree = "<group>";
 		};
+		2790F44D1570B5AA0072E88D /* StoryWindow */ = {
+			isa = PBXGroup;
+			children = (
+				88862ED0156CC52A004F8BA7 /* StoryView.h */,
+				88862ED1156CC52A004F8BA7 /* StoryView.mm */,
+				88EFC94C156CD79700051D95 /* StoryWindowController.h */,
+				88EFC94D156CD79700051D95 /* StoryWindowController.mm */,
+			);
+			name = StoryWindow;
+			sourceTree = "<group>";
+		};
 		2793FAF3155D62780028EF15 = {
 			isa = PBXGroup;
 			children = (
@@ -170,8 +181,9 @@
 				2790F44C1570B4F70072E88D /* ConfigLoader */,
 				2790F44B1570B2640072E88D /* CommandMenu */,
 				2790F4491570B05B0072E88D /* AgeOfGame */,
-				2793FB15155D62780028EF15 /* AppDelegate.mm */,
+				2790F44D1570B5AA0072E88D /* StoryWindow */,
 				2793FB14155D62780028EF15 /* AppDelegate.h */,
+				2793FB15155D62780028EF15 /* AppDelegate.mm */,
 				27C1968615693A58003C4D5F /* System.h */,
 				27C1968515693A4B003C4D5F /* Hero.h */,
 				8861792A156FCA8B00A037C9 /* Hero.cpp */,
@@ -188,11 +200,7 @@
 				27C1968915693B71003C4D5F /* Action.h */,
 				27C1968A15693BB0003C4D5F /* Utility.h */,
 				2793FB09155D62780028EF15 /* Supporting Files */,
-				88862ED0156CC52A004F8BA7 /* StoryView.h */,
-				88862ED1156CC52A004F8BA7 /* StoryView.mm */,
 				88EFC944156CCBEF00051D95 /* Story.hpp */,
-				88EFC94C156CD79700051D95 /* StoryWindowController.h */,
-				88EFC94D156CD79700051D95 /* StoryWindowController.mm */,
 				886178B0156D7E9B00A037C9 /* Action.cpp */,
 				279E9CFC156E2D8700A0352B /* StoryWindowController.xib */,
 			);
